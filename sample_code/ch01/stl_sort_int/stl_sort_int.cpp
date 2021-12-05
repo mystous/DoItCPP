@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <algorithm>
 #include <string>
 
@@ -19,7 +19,7 @@ int main(void) {
   int array[10] = { 7, 8, 2, 5, 3, 9, 0, 4, 1, 6 };
 
   sort(array, array + 10);
-  print_out_array("Á¤·Ä ÈÄ: ", array);
+  print_out_array("ì •ë ¬ í›„: ", array);
 
   return 0;
 }
