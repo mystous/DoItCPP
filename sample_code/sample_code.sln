@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ch01", "ch01", "{5EFFB161-C50E-46EB-BB58-662F10C00863}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ch04", "ch04", "{100B1C5A-47F0-4A68-8A26-D89C8F17235B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "stl_sort_int", "ch01\stl_sort_int\stl_sort_int.vcxproj", "{EDE1EC78-A59C-4DE8-A9A0-4751E7EE7630}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "adative_cruise_controller_modeling", "ch04\adative_cruise_controller_modeling\adative_cruise_controller_modeling.vcxproj", "{6060DEB7-F4C4-431A-B10B-98550DF850DD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "stl_sort_car", "ch01\stl_sort_car\stl_sort_car.vcxproj", "{AF941797-5245-430E-90B4-B953BE59F4C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDE1EC78-A59C-4DE8-A9A0-4751E7EE7630}.Debug|x64.ActiveCfg = Debug|x64
+		{EDE1EC78-A59C-4DE8-A9A0-4751E7EE7630}.Debug|x64.Build.0 = Debug|x64
+		{EDE1EC78-A59C-4DE8-A9A0-4751E7EE7630}.Debug|x86.ActiveCfg = Debug|Win32
+		{EDE1EC78-A59C-4DE8-A9A0-4751E7EE7630}.Debug|x86.Build.0 = Debug|Win32
+		{EDE1EC78-A59C-4DE8-A9A0-4751E7EE7630}.Release|x64.ActiveCfg = Release|x64
+		{EDE1EC78-A59C-4DE8-A9A0-4751E7EE7630}.Release|x64.Build.0 = Release|x64
+		{EDE1EC78-A59C-4DE8-A9A0-4751E7EE7630}.Release|x86.ActiveCfg = Release|Win32
+		{EDE1EC78-A59C-4DE8-A9A0-4751E7EE7630}.Release|x86.Build.0 = Release|Win32
+		{6060DEB7-F4C4-431A-B10B-98550DF850DD}.Debug|x64.ActiveCfg = Debug|x64
+		{6060DEB7-F4C4-431A-B10B-98550DF850DD}.Debug|x64.Build.0 = Debug|x64
+		{6060DEB7-F4C4-431A-B10B-98550DF850DD}.Debug|x86.ActiveCfg = Debug|Win32
+		{6060DEB7-F4C4-431A-B10B-98550DF850DD}.Debug|x86.Build.0 = Debug|Win32
+		{6060DEB7-F4C4-431A-B10B-98550DF850DD}.Release|x64.ActiveCfg = Release|x64
+		{6060DEB7-F4C4-431A-B10B-98550DF850DD}.Release|x64.Build.0 = Release|x64
+		{6060DEB7-F4C4-431A-B10B-98550DF850DD}.Release|x86.ActiveCfg = Release|Win32
+		{6060DEB7-F4C4-431A-B10B-98550DF850DD}.Release|x86.Build.0 = Release|Win32
+		{AF941797-5245-430E-90B4-B953BE59F4C4}.Debug|x64.ActiveCfg = Debug|x64
+		{AF941797-5245-430E-90B4-B953BE59F4C4}.Debug|x64.Build.0 = Debug|x64
+		{AF941797-5245-430E-90B4-B953BE59F4C4}.Debug|x86.ActiveCfg = Debug|Win32
+		{AF941797-5245-430E-90B4-B953BE59F4C4}.Debug|x86.Build.0 = Debug|Win32
+		{AF941797-5245-430E-90B4-B953BE59F4C4}.Release|x64.ActiveCfg = Release|x64
+		{AF941797-5245-430E-90B4-B953BE59F4C4}.Release|x64.Build.0 = Release|x64
+		{AF941797-5245-430E-90B4-B953BE59F4C4}.Release|x86.ActiveCfg = Release|Win32
+		{AF941797-5245-430E-90B4-B953BE59F4C4}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EDE1EC78-A59C-4DE8-A9A0-4751E7EE7630} = {5EFFB161-C50E-46EB-BB58-662F10C00863}
+		{6060DEB7-F4C4-431A-B10B-98550DF850DD} = {100B1C5A-47F0-4A68-8A26-D89C8F17235B}
+		{AF941797-5245-430E-90B4-B953BE59F4C4} = {5EFFB161-C50E-46EB-BB58-662F10C00863}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EDB484EF-311D-4757-ADD0-55B578187B53}
+	EndGlobalSection
+EndGlobal
