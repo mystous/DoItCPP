@@ -4,8 +4,8 @@
 
 using namespace std;
 
-void print_out_array(string pre, int(&array)[10]) {
-
+void print_out_array(string pre, int(&array)[10]) 
+{
   cout << pre;
 
   for (int i = 0; i < 10; ++i) {
