@@ -7,8 +7,6 @@
 #endif
 #include <cstdlib>
 
-using namespace std;
-
 const int dummy = 0;
 
 class Engine {

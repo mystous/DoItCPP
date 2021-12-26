@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "adative_cruise_controller_m
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "stl_sort_car", "ch01\stl_sort_car\stl_sort_car.vcxproj", "{AF941797-5245-430E-90B4-B953BE59F4C4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "strategy_pattern", "ch01\strategy_pattern\strategy_pattern.vcxproj", "{6013412F-978F-444A-885A-BDA8CB00015F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -45,6 +47,14 @@ Global
 		{AF941797-5245-430E-90B4-B953BE59F4C4}.Release|x64.Build.0 = Release|x64
 		{AF941797-5245-430E-90B4-B953BE59F4C4}.Release|x86.ActiveCfg = Release|Win32
 		{AF941797-5245-430E-90B4-B953BE59F4C4}.Release|x86.Build.0 = Release|Win32
+		{6013412F-978F-444A-885A-BDA8CB00015F}.Debug|x64.ActiveCfg = Debug|x64
+		{6013412F-978F-444A-885A-BDA8CB00015F}.Debug|x64.Build.0 = Debug|x64
+		{6013412F-978F-444A-885A-BDA8CB00015F}.Debug|x86.ActiveCfg = Debug|Win32
+		{6013412F-978F-444A-885A-BDA8CB00015F}.Debug|x86.Build.0 = Debug|Win32
+		{6013412F-978F-444A-885A-BDA8CB00015F}.Release|x64.ActiveCfg = Release|x64
+		{6013412F-978F-444A-885A-BDA8CB00015F}.Release|x64.Build.0 = Release|x64
+		{6013412F-978F-444A-885A-BDA8CB00015F}.Release|x86.ActiveCfg = Release|Win32
+		{6013412F-978F-444A-885A-BDA8CB00015F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +63,7 @@ Global
 		{EDE1EC78-A59C-4DE8-A9A0-4751E7EE7630} = {5EFFB161-C50E-46EB-BB58-662F10C00863}
 		{6060DEB7-F4C4-431A-B10B-98550DF850DD} = {100B1C5A-47F0-4A68-8A26-D89C8F17235B}
 		{AF941797-5245-430E-90B4-B953BE59F4C4} = {5EFFB161-C50E-46EB-BB58-662F10C00863}
+		{6013412F-978F-444A-885A-BDA8CB00015F} = {5EFFB161-C50E-46EB-BB58-662F10C00863}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EDB484EF-311D-4757-ADD0-55B578187B53}
