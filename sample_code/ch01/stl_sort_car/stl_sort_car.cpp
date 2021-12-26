@@ -3,42 +3,40 @@
 #include <map>
 #include <algorithm>
 
-using namespace std;
+std::map<std::string, int> color_priority;
+std::map<std::string, int> model_priority;
 
-map<string, int> color_priority;
-map<string, int> model_priority;
+const std::string white_color("흰색");
+const std::string blue_color("파란색");
+const std::string red_color("빨간색");
+const std::string gray_color("회색");
 
-const string white_color("흰색");
-const string blue_color("파란색");
-const string red_color("빨간색");
-const string gray_color("회색");
+const std::string grace_model("고급 모델");
+const std::string soft_model("부드러운 모델");
+const std::string young_model("젋은 모델");
+const std::string generation_model("세대 모델");
+const std::string beautiful_model("미적 모델");
 
-const string grace_model("고급 모델");
-const string soft_model("부드러운 모델");
-const string young_model("젋은 모델");
-const string generation_model("세대 모델");
-const string beautiful_model("미적 모델");
-
-const string new_gen_brand("신식 회사");
-const string elec_brand("전기 발명가");
+const std::string new_gen_brand("신식 회사");
+const std::string elec_brand("전기 발명가");
 
 class car_model {
 public:
-  car_model(string brand, string model, string color) 
+  car_model(std::string brand, std::string model, std::string color)
     : brand_name(brand), model_name(model), color_name(color)
   {};
 
-  string get_brand() { return brand_name; };
-  string get_model() { return model_name; };
-  string get_color() { return color_name; };
+  std::string get_brand() { return brand_name; };
+  std::string get_model() { return model_name; };
+  std::string get_color() { return color_name; };
 
 private:
-  string brand_name;
-  string model_name;
-  string color_name;
+  std::string brand_name;
+  std::string model_name;
+  std::string color_name;
 };
 
-void init_car_list(vector<car_model>& car_list)
+void init_car_list(std::vector<car_model>& car_list)
 {
   car_list.push_back(car_model(new_gen_brand, beautiful_model, white_color));
   car_list.push_back(car_model(new_gen_brand, grace_model, white_color));
@@ -64,15 +62,15 @@ void init_model_priority()
   model_priority[beautiful_model] = 3;
 }
 
-void print_car_list(vector<car_model>& car_list)
+void print_car_list(std::vector<car_model>& car_list)
 {
   for (auto& car : car_list) {
-    cout << "[" << car.get_brand() << "] 회사의 "
+    std::cout << "[" << car.get_brand() << "] 회사의 "
       << "\"" << car.get_model() << "\" 은 "
       << "'" << car.get_color() << "'입니다."
-      << endl;
+      << std::endl;
   }
-  cout << endl;
+  std::cout << std::endl;
 }
 
 bool compare_color(car_model car_1, car_model car_2)
@@ -86,20 +84,20 @@ bool compare_model(car_model car_1, car_model car_2)
 }
 int main(void)
 {
-  vector<car_model> car_list;
+  std::vector<car_model> car_list;
 
   init_color_priority();
   init_model_priority();
   init_car_list(car_list);
   print_car_list(car_list);
 
-  sort(car_list.begin(), car_list.end(), compare_color);
+  std::sort(car_list.begin(), car_list.end(), compare_color);
   print_car_list(car_list);
 
-  sort(car_list.begin(), car_list.end(), compare_model);
+  std::sort(car_list.begin(), car_list.end(), compare_model);
   print_car_list(car_list);
 
-  sort(car_list.begin(), car_list.end(), compare_color);
+  std::sort(car_list.begin(), car_list.end(), compare_color);
   print_car_list(car_list);
     
   return 0;
