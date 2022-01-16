@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{6013412f-978f-444a-885a-bda8cb00015f}</ProjectGuid>
-    <RootNamespace>strategypattern</RootNamespace>
+    <ProjectGuid>{cce12a99-27a9-444b-a36a-bfe8a7faa4ff}</ProjectGuid>
+    <RootNamespace>rangebasedfor</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -141,7 +141,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="strategy_pattern.cpp" />
+    <ClCompile Include="range_based_for.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

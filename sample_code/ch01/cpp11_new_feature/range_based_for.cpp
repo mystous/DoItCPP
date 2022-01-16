@@ -1,4 +1,4 @@
-ï»¿#include <iostream>
+#include <iostream>
 #include <algorithm>
 #include <string>
 
@@ -19,7 +19,20 @@ int main(void)
   int array[10] = { 7, 8, 2, 5, 3, 9, 0, 4, 1, 6 };
 
   sort(array, array + 10);
-  print_out_array("ì •ë ¬ í›„: ", array);
+  
+  // for ±¸¹® È°¿ë ¹è¿­ Ãâ·Â
+  cout << "Á¤·Ä ÈÄ: ";
+  for (int i = 0; i < 10; ++i) {
+    cout << array[i] << " , ";
+  }
+  cout << endl;
+
+  // ¹üÀ§ ±â¹Ý for ±¸¹® È°¿ë ¹è¿­ Ãâ·Â
+  cout << "Á¤·Ä ÈÄ: ";
+  for ( auto &value : array) {
+    cout << value << " , ";
+  }
+  cout << endl;
 
   return 0;
 }

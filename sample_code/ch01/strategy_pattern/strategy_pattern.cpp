@@ -1,5 +1,7 @@
 #include <iostream>
 
+using namespace std;
+
 class engine {
 public:
   virtual void start_engine() = 0;
@@ -8,24 +10,24 @@ public:
 
 class gs_engine : public engine {
 public:
-  void what_is_your_type() override { std::cout << "가솔린 엔진" << std::endl; };
+  void what_is_your_type() override { cout << "가솔린 엔진" << endl; };
   void start_engine() override { what_is_your_type(); };
 };
 
 class elec_engine : public engine {
 public:
-  void what_is_your_type() override { std::cout << "전기 엔진 "; };
+  void what_is_your_type() override { cout << "전기 엔진 "; };
   void start_engine() override { 
     what_is_your_type();
     start_motor(); 
   }
 private:
-  void start_motor() { std::cout << ": 모터 구동" << std::endl; };
+  void start_motor() { cout << ": 모터 구동" << endl; };
 };
 
 class lpg_engine : public engine {
 public:
-  void what_is_your_type() override { std::cout << "LPG 엔진" << std::endl; };
+  void what_is_your_type() override { cout << "LPG 엔진" << endl; };
   void start_engine() override { what_is_your_type(); };
 };
 
