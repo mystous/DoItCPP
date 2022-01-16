@@ -46,15 +46,6 @@ void init_color_priority()
   color_priority[gray_color] = 2;
 }
 
-void init_model_priority()
-{
-  model_priority[grace_model] = 1;
-  model_priority[soft_model] = 5;
-  model_priority[young_model] = 2;
-  model_priority[generation_model] = 4;
-  model_priority[beautiful_model] = 3;
-}
-
 void print_car_list(vector<car_model>& car_list)
 {
   for (auto& car : car_list) {
@@ -71,10 +62,6 @@ bool compare_color(car_model car_1, car_model car_2)
   return color_priority[car_1.get_color()] < color_priority[car_2.get_color()];
 }
 
-bool compare_model(car_model car_1, car_model car_2)
-{
-  return model_priority[car_1.get_model()] < model_priority[car_2.get_model()];
-}
 int main(void)
 {
   vector<car_model> car_list{ {new_gen_brand, beautiful_model, white_color},
@@ -84,16 +71,12 @@ int main(void)
                               {elec_brand, young_model, blue_color} };
 
   init_color_priority();
-  init_model_priority();
   print_car_list(car_list);
 
   sort(car_list.begin(), car_list.end(), compare_color);
-  print_car_list(car_list);
-
-  sort(car_list.begin(), car_list.end(), compare_model);
-  print_car_list(car_list);
-
-  sort(car_list.begin(), car_list.end(), compare_color);
+  sort(car_list.begin(), car_list.end(), [](car_model car_1, car_model car_2) 
+    { return color_priority[car_1.get_color()] < color_priority[car_2.get_color()]; }
+  );
   print_car_list(car_list);
     
   return 0;
