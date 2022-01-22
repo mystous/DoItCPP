@@ -2,7 +2,7 @@
 #include <vector>
 #include <map>
 #include <algorithm>
-
+  
 using namespace std;
 
 map<string, int> color_priority;
@@ -78,6 +78,6 @@ int main(void)
     { return color_priority[car_1.get_color()] < color_priority[car_2.get_color()]; }
   );
   print_car_list(car_list);
-    
+
   return 0;
 }

@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "range_based_for", "ch01\cpp
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lambda_expressions", "ch01\cpp11_new_feature\lambda_expressions\lambda_expressions.vcxproj", "{605A30A0-93A1-4F3D-A627-EBA583DBBF62}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "modules", "ch01\cpp11_new_feature\modules\modules.vcxproj", "{7740EB4B-4561-4966-8758-ACF3F1AAD51E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -77,6 +79,14 @@ Global
 		{605A30A0-93A1-4F3D-A627-EBA583DBBF62}.Release|x64.Build.0 = Release|x64
 		{605A30A0-93A1-4F3D-A627-EBA583DBBF62}.Release|x86.ActiveCfg = Release|Win32
 		{605A30A0-93A1-4F3D-A627-EBA583DBBF62}.Release|x86.Build.0 = Release|Win32
+		{7740EB4B-4561-4966-8758-ACF3F1AAD51E}.Debug|x64.ActiveCfg = Debug|x64
+		{7740EB4B-4561-4966-8758-ACF3F1AAD51E}.Debug|x64.Build.0 = Debug|x64
+		{7740EB4B-4561-4966-8758-ACF3F1AAD51E}.Debug|x86.ActiveCfg = Debug|Win32
+		{7740EB4B-4561-4966-8758-ACF3F1AAD51E}.Debug|x86.Build.0 = Debug|Win32
+		{7740EB4B-4561-4966-8758-ACF3F1AAD51E}.Release|x64.ActiveCfg = Release|x64
+		{7740EB4B-4561-4966-8758-ACF3F1AAD51E}.Release|x64.Build.0 = Release|x64
+		{7740EB4B-4561-4966-8758-ACF3F1AAD51E}.Release|x86.ActiveCfg = Release|Win32
+		{7740EB4B-4561-4966-8758-ACF3F1AAD51E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -89,6 +99,7 @@ Global
 		{495F4407-291C-4A1F-8396-7280D9629F04} = {5EFFB161-C50E-46EB-BB58-662F10C00863}
 		{CCE12A99-27A9-444B-A36A-BFE8A7FAA4FF} = {495F4407-291C-4A1F-8396-7280D9629F04}
 		{605A30A0-93A1-4F3D-A627-EBA583DBBF62} = {495F4407-291C-4A1F-8396-7280D9629F04}
+		{7740EB4B-4561-4966-8758-ACF3F1AAD51E} = {495F4407-291C-4A1F-8396-7280D9629F04}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EDB484EF-311D-4757-ADD0-55B578187B53}
