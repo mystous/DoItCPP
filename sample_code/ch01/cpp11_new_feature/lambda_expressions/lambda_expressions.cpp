@@ -25,8 +25,8 @@ const string elec_brand("전기 발명가");
 class car_model {
 public:
   car_model(string brand, string model, string color)
-    : brand_name(brand), model_name(model), color_name(color)
-  {};
+    : brand_name(brand), model_name(model), color_name(color) {
+  };
 
   string get_brand() { return brand_name; };
   string get_model() { return model_name; };
@@ -38,16 +38,14 @@ private:
   string color_name;
 };
 
-void init_color_priority()
-{
+void init_color_priority() {
   color_priority[white_color] = 1;
   color_priority[blue_color] = 3;
   color_priority[red_color] = 4;
   color_priority[gray_color] = 2;
 }
 
-void print_car_list(vector<car_model>& car_list)
-{
+void print_car_list(vector<car_model>& car_list) {
   for (auto& car : car_list) {
     cout << "[" << car.get_brand() << "] 회사의 "
       << "\"" << car.get_model() << "\" 은 "
@@ -57,13 +55,11 @@ void print_car_list(vector<car_model>& car_list)
   cout << endl;
 }
 
-bool compare_color(car_model car_1, car_model car_2)
-{
+bool compare_color(car_model car_1, car_model car_2) {
   return color_priority[car_1.get_color()] < color_priority[car_2.get_color()];
 }
 
-int main(void)
-{
+int main(void) {
   vector<car_model> car_list{ {new_gen_brand, beautiful_model, white_color},
                               {new_gen_brand, grace_model, white_color},
                               {new_gen_brand, generation_model, gray_color},
