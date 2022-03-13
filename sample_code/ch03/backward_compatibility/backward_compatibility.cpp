@@ -7,8 +7,11 @@ using namespace std;
 class file_reader_original {
 public:
   static int read_header();
+  static file_reader_original* get_reader_instance();
   virtual void read_contents() = 0;
 };
+
+  
 
 int file_reader_original::read_header() {
   // v1.0 이라고 가정
@@ -37,20 +40,14 @@ void file_reader_v0200::read_contents() {
 }
 
 int main(void) {
+
   file_reader_original* reader = nullptr;
 
-  switch (file_reader_original::read_header()) {
-  case 1:
-    reader = new file_reader_v0100();
-    break;
-  case 2:
-  default:
-    reader = new file_reader_v0200();
-    break;
+  reader = file_reader_original::get_reader_instance();
+  if (nullptr != reader) {
+    reader->read_contents();
+    delete reader;
   }
 
-  reader->read_contents();
-
-  delete reader;
   return 0;
 }
