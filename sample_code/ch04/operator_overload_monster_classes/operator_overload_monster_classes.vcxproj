@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{b2a1dcb9-ca10-42fb-bb8b-f8c78816878b}</ProjectGuid>
-    <RootNamespace>backwardcompatibility</RootNamespace>
+    <ProjectGuid>{307551e5-760d-4252-b416-37a7930fda6a}</ProjectGuid>
+    <RootNamespace>operatoroverloadmonsterclasses</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -141,7 +141,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="backward_compatibility.cpp" />
+    <ClCompile Include="operator_overload_monster_classes.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
