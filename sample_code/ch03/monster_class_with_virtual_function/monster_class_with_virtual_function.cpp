@@ -5,6 +5,7 @@ class character {
 public:
   character() : hp(100), power(100)
   {};
+  void get_damage(int _damage) {};
 
 protected:
   int hp;
@@ -21,7 +22,6 @@ public:
 class monster {
 public:
   monster() {};
-  void get_damage(int _damage) {};
   void attack(player target_player) {};
   virtual void attack_special(player target_player);
 };

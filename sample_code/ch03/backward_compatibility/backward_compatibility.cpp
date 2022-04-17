@@ -7,7 +7,7 @@ using namespace std;
 class file_reader_original {
 public:
   static int read_header();
-  static file_reader_original* get_reader_instance();
+  static file_reader_original* get_reader_instance() { return nullptr;  };
   virtual void read_contents() = 0;
 };
 
