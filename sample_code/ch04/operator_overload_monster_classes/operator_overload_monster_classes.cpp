@@ -40,7 +40,7 @@ void monster::attack_special(player target_player) {
 class monster_c : public monster, public character {
 public:
   //상속받은 함수 오버라이딩
-  void attack_special(player target_player);
+  void attack_special(player target_player) override;
   monster_c operator+(monster_c &operand);
   monster_c operator+(player& operand);
   void set_level(int level_value) { level = level_value; };

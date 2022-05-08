@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{15a206e8-d979-4be4-8daf-5337786dc8f2}</ProjectGuid>
-    <RootNamespace>managedatastructurewithencapsulation</RootNamespace>
+    <ProjectGuid>{31cac970-98b9-4679-b2de-7b31ed970446}</ProjectGuid>
+    <RootNamespace>purevirtualfunction</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -141,7 +141,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="manage_data_structure_with_encapsulation.cpp" />
+    <ClCompile Include="pure_virtual_function.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -27,8 +27,8 @@ public:
 //class monster_a : public monster, character {
 class monster_a : public monster {
 public:
-  monster_a() {
-  //monster_a() : monster_a(10, 10) {
+  //monster_a() {
+   monster_a() : monster_a(10, 10) {
     //cout << this << " monster_a 클래스 생성자" << endl;
     cout << "monster_a 클래스 생성자" << endl;
     //monster_a(10, 10);
