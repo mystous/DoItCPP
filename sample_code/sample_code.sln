@@ -49,6 +49,14 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "manage_data_structure_with_
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "virtual_destructor", "ch04\virtual_destructor\virtual_destructor.vcxproj", "{E9AB00CF-7136-4AAA-B9A9-59A12ED64376}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "monster_find_route", "ch04\monster_find_route\monster_find_route.vcxproj", "{6D21F32F-89EE-4F76-8530-4AB65D57978E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "monster_find_route_with_interface", "ch04\monster_find_route_with_interface\monster_find_route_with_interface.vcxproj", "{B5A1B8D9-1666-49DE-9201-123BDE6D95F4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "linear_algebra_static_class_members", "ch04\linear_algebra_static_class_members\linear_algebra_static_class_members.vcxproj", "{88F16EA5-158B-4762-9ED3-1B36DAC52B3D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "monster_factory_static_class_members", "ch04\monster_factory_static_class_members\monster_factory_static_class_members.vcxproj", "{7CEAF92A-2221-40DA-9F4F-16758EDA52A9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -209,6 +217,38 @@ Global
 		{E9AB00CF-7136-4AAA-B9A9-59A12ED64376}.Release|x64.Build.0 = Release|x64
 		{E9AB00CF-7136-4AAA-B9A9-59A12ED64376}.Release|x86.ActiveCfg = Release|Win32
 		{E9AB00CF-7136-4AAA-B9A9-59A12ED64376}.Release|x86.Build.0 = Release|Win32
+		{6D21F32F-89EE-4F76-8530-4AB65D57978E}.Debug|x64.ActiveCfg = Debug|x64
+		{6D21F32F-89EE-4F76-8530-4AB65D57978E}.Debug|x64.Build.0 = Debug|x64
+		{6D21F32F-89EE-4F76-8530-4AB65D57978E}.Debug|x86.ActiveCfg = Debug|Win32
+		{6D21F32F-89EE-4F76-8530-4AB65D57978E}.Debug|x86.Build.0 = Debug|Win32
+		{6D21F32F-89EE-4F76-8530-4AB65D57978E}.Release|x64.ActiveCfg = Release|x64
+		{6D21F32F-89EE-4F76-8530-4AB65D57978E}.Release|x64.Build.0 = Release|x64
+		{6D21F32F-89EE-4F76-8530-4AB65D57978E}.Release|x86.ActiveCfg = Release|Win32
+		{6D21F32F-89EE-4F76-8530-4AB65D57978E}.Release|x86.Build.0 = Release|Win32
+		{B5A1B8D9-1666-49DE-9201-123BDE6D95F4}.Debug|x64.ActiveCfg = Debug|x64
+		{B5A1B8D9-1666-49DE-9201-123BDE6D95F4}.Debug|x64.Build.0 = Debug|x64
+		{B5A1B8D9-1666-49DE-9201-123BDE6D95F4}.Debug|x86.ActiveCfg = Debug|Win32
+		{B5A1B8D9-1666-49DE-9201-123BDE6D95F4}.Debug|x86.Build.0 = Debug|Win32
+		{B5A1B8D9-1666-49DE-9201-123BDE6D95F4}.Release|x64.ActiveCfg = Release|x64
+		{B5A1B8D9-1666-49DE-9201-123BDE6D95F4}.Release|x64.Build.0 = Release|x64
+		{B5A1B8D9-1666-49DE-9201-123BDE6D95F4}.Release|x86.ActiveCfg = Release|Win32
+		{B5A1B8D9-1666-49DE-9201-123BDE6D95F4}.Release|x86.Build.0 = Release|Win32
+		{88F16EA5-158B-4762-9ED3-1B36DAC52B3D}.Debug|x64.ActiveCfg = Debug|x64
+		{88F16EA5-158B-4762-9ED3-1B36DAC52B3D}.Debug|x64.Build.0 = Debug|x64
+		{88F16EA5-158B-4762-9ED3-1B36DAC52B3D}.Debug|x86.ActiveCfg = Debug|Win32
+		{88F16EA5-158B-4762-9ED3-1B36DAC52B3D}.Debug|x86.Build.0 = Debug|Win32
+		{88F16EA5-158B-4762-9ED3-1B36DAC52B3D}.Release|x64.ActiveCfg = Release|x64
+		{88F16EA5-158B-4762-9ED3-1B36DAC52B3D}.Release|x64.Build.0 = Release|x64
+		{88F16EA5-158B-4762-9ED3-1B36DAC52B3D}.Release|x86.ActiveCfg = Release|Win32
+		{88F16EA5-158B-4762-9ED3-1B36DAC52B3D}.Release|x86.Build.0 = Release|Win32
+		{7CEAF92A-2221-40DA-9F4F-16758EDA52A9}.Debug|x64.ActiveCfg = Debug|x64
+		{7CEAF92A-2221-40DA-9F4F-16758EDA52A9}.Debug|x64.Build.0 = Debug|x64
+		{7CEAF92A-2221-40DA-9F4F-16758EDA52A9}.Debug|x86.ActiveCfg = Debug|Win32
+		{7CEAF92A-2221-40DA-9F4F-16758EDA52A9}.Debug|x86.Build.0 = Debug|Win32
+		{7CEAF92A-2221-40DA-9F4F-16758EDA52A9}.Release|x64.ActiveCfg = Release|x64
+		{7CEAF92A-2221-40DA-9F4F-16758EDA52A9}.Release|x64.Build.0 = Release|x64
+		{7CEAF92A-2221-40DA-9F4F-16758EDA52A9}.Release|x86.ActiveCfg = Release|Win32
+		{7CEAF92A-2221-40DA-9F4F-16758EDA52A9}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -234,6 +274,10 @@ Global
 		{31CAC970-98B9-4679-B2DE-7B31ED970446} = {B802DB75-06A1-4B5C-9588-00B6CDDD5E0A}
 		{436943BA-7170-4FED-97E8-DE4142ABB460} = {B802DB75-06A1-4B5C-9588-00B6CDDD5E0A}
 		{E9AB00CF-7136-4AAA-B9A9-59A12ED64376} = {B802DB75-06A1-4B5C-9588-00B6CDDD5E0A}
+		{6D21F32F-89EE-4F76-8530-4AB65D57978E} = {B802DB75-06A1-4B5C-9588-00B6CDDD5E0A}
+		{B5A1B8D9-1666-49DE-9201-123BDE6D95F4} = {B802DB75-06A1-4B5C-9588-00B6CDDD5E0A}
+		{88F16EA5-158B-4762-9ED3-1B36DAC52B3D} = {B802DB75-06A1-4B5C-9588-00B6CDDD5E0A}
+		{7CEAF92A-2221-40DA-9F4F-16758EDA52A9} = {B802DB75-06A1-4B5C-9588-00B6CDDD5E0A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EDB484EF-311D-4757-ADD0-55B578187B53}
