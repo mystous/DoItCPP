@@ -4,8 +4,7 @@
 
 using namespace std;
 
-void print_out_array(string pre, int(&array)[10])
-{
+void print_out_array(string pre, int(&array)[10]) {
   cout << pre;
 
   for (int i = 0; i < 10; ++i) {
@@ -14,8 +13,7 @@ void print_out_array(string pre, int(&array)[10])
   cout << endl;
 }
 
-int main(void)
-{
+int main(void) {
   int array[10] = { 7, 8, 2, 5, 3, 9, 0, 4, 1, 6 };
 
   sort(array, array + 10);

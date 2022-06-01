@@ -1,20 +1,20 @@
-### 문제1 객체 지향 프로그래밍 이외 프로그래밍 패러다임
+### 문제 1. 객체 지향 프로그래밍 이외 프로그래밍 패러다임
 객체 지향 프로그래밍은 실제 세상을 기술하기 적합한 프로그래밍 패러다임입니다. 객체 지향 프로그래밍 이외에도 다양한 프로그래밍 패러다임이 존재 합니다. 그 중에서 ‘비구조적 프로그래밍’, ‘절차적(구조적) 프로그래밍’과 ‘함수형 프로그래밍’에 대해서 설명, 장/담점을 비교하고 각 패러다임에 대표적인 프로그래밍 언어가 어떤 것인지 기술해 보세요.
 
-정답 위치: https://github.com/mystous/DoItCPP/ch4/solution_01.md
-### 문제2 객체 지향 프로그래밍 특징 4가지
+정답 위치: https://github.com/mystous/DoItCPP/ch03/solution_01.md
+### 문제 2. 객체 지향 프로그래밍 특징 4가지
 객체 지향 프로그래밍은 ‘추상화’, ‘캡슐화’, ‘상속성’과 ‘다형성’ 4가지 특징을 가지고 있습니다. 4가지 특징에 대해서 각각 설명해 보세요.
 
-정답 위치: https://github.com/mystous/DoItCPP/ch4/solution_02.md
-### 문제3 SOLID원칙
+정답 위치: https://github.com/mystous/DoItCPP/ch03/solution_02.md
+### 문제 3. SOLID원칙
 객체 지향 프로그래밍설계 원칙중에 SOLID가 있습니다. SOLID는 설계 원칙 5가지의 첫글자를 따서 만든 제목입니다. 각 알파벳이 의미하는 원칙에 대해서 설명하고 객체 지향 특징 4가지 중 어떤 특징이 적용되어 있는지 기술해 보세요.
 
-정답 위치: https://github.com/mystous/DoItCPP/ch4/solution_03.md
-### 문제4 객체 지향 설계 #1
+정답 위치: https://github.com/mystous/DoItCPP/ch03/solution_03.md
+### 문제 4. 객체 지향 설계 #1
 객체 지향 프로그래밍의 ‘추상화’, ‘캡슐화’, ‘상속성’과 ‘다형성’ 4가지 특징과 SOLID원칙을 활용하여 야구팀의 선수와 코치를 설계하고 설계된 내용을 UML의 클래스 다이어그램으로 그려보세요.
 
-정답 위치: https://github.com/mystous/DoItCPP/ch4/solution_04.md
-### 문제5 객체 지향 설계 #2
+정답 위치: https://github.com/mystous/DoItCPP/ch03/solution_04.md
+### 문제 5. 객체 지향 설계 #2
 
 객체 지향 프로그래밍의 ‘추상화’, ‘캡슐화’, ‘상속성’과 ‘다형성’ 4가지 특징과 SOLID원칙을 활용하여 음료수 자판기를 설계하고 설계된 내용을 UML의 클래스 다이어그램으로 그려보세요.
-정답 위치: https://github.com/mystous/DoItCPP/ch4/solution_05.md
+정답 위치: https://github.com/mystous/DoItCPP/ch03/solution_05.md

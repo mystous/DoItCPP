@@ -1,15 +1,15 @@
-# Do It! C++ ÀÔ¹® Coding Convention
-**Do It! C++ ÀÔ¹®**¿¡¼­ »ç¿ëµÈ ¿¹Á¦ ¼Ò½º ÄÚµå¿¡ Àû¿ëµÈ Conding ConventionÀ» ¼³¸íÇÏ´Â ÆäÀÌÁö ÀÔ´Ï´Ù.
+# Do It! C++ ìž…ë¬¸ Coding Convention
+**Do It! C++ ìž…ë¬¸**ì—ì„œ ì‚¬ìš©ëœ ì˜ˆì œ ì†ŒìŠ¤ ì½”ë“œì— ì ìš©ëœ Conding Conventionì„ ì„¤ëª…í•˜ëŠ” íŽ˜ì´ì§€ ìž…ë‹ˆë‹¤.
 ## Naming Rule
-º»¼­¿¡¼­ ÀÛ¼ºµÈ ¿¹Á¦ ¼Ò½º ÄÚµå´Â STLÈ°¿ëÀÌ ¸¹±â ¶§¹®¿¡ STL Naming RuleÀ» µû¸¨´Ï´Ù.
+ë³¸ì„œì—ì„œ ìž‘ì„±ëœ ì˜ˆì œ ì†ŒìŠ¤ ì½”ë“œëŠ” C++ í‘œì¤€ ë¼ì´ë¸ŒëŸ¬ë¦¬í™œìš©ì´ ë§Žê¸° ë•Œë¬¸ì— C++ í‘œì¤€ ë¼ì´ë¸ŒëŸ¬ë¦¬ Naming Ruleì„ ë”°ë¦…ë‹ˆë‹¤.
 
-STLÀº Naming RuleÀ» ***snake_case***¸¦ »ç¿ëÇÕ´Ï´Ù. µû¶ó¼­ º»¼­¿¡¼­µµ ¸ðµç ¿¹Á¦ ÄÚµå¿¡¼­´Â ***snake_case***¸¦ »ç¿ëÇÕ´Ï´Ù. ±×¸®°í »ó¼ö ¸ÅÅ©·Î µî C¾ð¾î ±ÔÄ¢À» »ç¿ëÇÑ °æ¿ì ***SCREAMING_SNAKE_CASE***¸¦ »ç¿ëÇÕ´Ï´Ù.
+C++ í‘œì¤€ ë¼ì´ë¸ŒëŸ¬ë¦¬ì€ Naming Ruleì„ ***snake_case***ë¥¼ ì‚¬ìš©í•©ë‹ˆë‹¤. ë”°ë¼ì„œ ë³¸ì„œì—ì„œë„ ëª¨ë“  ì˜ˆì œ ì½”ë“œì—ì„œëŠ” ***snake_case***ë¥¼ ì‚¬ìš©í•©ë‹ˆë‹¤. ê·¸ë¦¬ê³  ìƒìˆ˜ ë§¤í¬ë¡œ ë“± Cì–¸ì–´ ê·œì¹™ì„ ì‚¬ìš©í•œ ê²½ìš° ***SCREAMING_SNAKE_CASE***ë¥¼ ì‚¬ìš©í•©ë‹ˆë‹¤.
 ### *snake_case*
 
-- ¿¹Á¦
+- ì˜ˆì œ
 ~~~cpp
-const string new_gen_brand("½Å½Ä È¸»ç");
-const string elec_brand("Àü±â ¹ß¸í°¡");
+const string new_gen_brand("ì‹ ì‹ íšŒì‚¬");
+const string elec_brand("ì „ê¸° ë°œëª…ê°€");
 
 class car_model {
 public:
@@ -29,8 +29,8 @@ private:
 ~~~
 ### *SCREAMING_SNAKE_CASE*
 
-- ¿¹Á¦
+- ì˜ˆì œ
 ~~~cpp
-#define NEW_GEN_BRAND   "½Å½Ä È¸»ç"
-#define ELEC_BRAND      "Àü±â ¹ß¸í°¡"
+#define NEW_GEN_BRAND   "ì‹ ì‹ íšŒì‚¬"
+#define ELEC_BRAND      "ì „ê¸° ë°œëª…ê°€"
 ~~~
