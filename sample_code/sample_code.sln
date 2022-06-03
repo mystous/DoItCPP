@@ -57,6 +57,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "linear_algebra_static_class
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "monster_factory_static_class_members", "ch04\monster_factory_static_class_members\monster_factory_static_class_members.vcxproj", "{7CEAF92A-2221-40DA-9F4F-16758EDA52A9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "template_method_monster", "ch04\template_method_monster\template_method_monster.vcxproj", "{AC65DF27-92AC-4C17-9A8E-1FE8C7FEFC2B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -249,6 +251,14 @@ Global
 		{7CEAF92A-2221-40DA-9F4F-16758EDA52A9}.Release|x64.Build.0 = Release|x64
 		{7CEAF92A-2221-40DA-9F4F-16758EDA52A9}.Release|x86.ActiveCfg = Release|Win32
 		{7CEAF92A-2221-40DA-9F4F-16758EDA52A9}.Release|x86.Build.0 = Release|Win32
+		{AC65DF27-92AC-4C17-9A8E-1FE8C7FEFC2B}.Debug|x64.ActiveCfg = Debug|x64
+		{AC65DF27-92AC-4C17-9A8E-1FE8C7FEFC2B}.Debug|x64.Build.0 = Debug|x64
+		{AC65DF27-92AC-4C17-9A8E-1FE8C7FEFC2B}.Debug|x86.ActiveCfg = Debug|Win32
+		{AC65DF27-92AC-4C17-9A8E-1FE8C7FEFC2B}.Debug|x86.Build.0 = Debug|Win32
+		{AC65DF27-92AC-4C17-9A8E-1FE8C7FEFC2B}.Release|x64.ActiveCfg = Release|x64
+		{AC65DF27-92AC-4C17-9A8E-1FE8C7FEFC2B}.Release|x64.Build.0 = Release|x64
+		{AC65DF27-92AC-4C17-9A8E-1FE8C7FEFC2B}.Release|x86.ActiveCfg = Release|Win32
+		{AC65DF27-92AC-4C17-9A8E-1FE8C7FEFC2B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -278,6 +288,7 @@ Global
 		{B5A1B8D9-1666-49DE-9201-123BDE6D95F4} = {B802DB75-06A1-4B5C-9588-00B6CDDD5E0A}
 		{88F16EA5-158B-4762-9ED3-1B36DAC52B3D} = {B802DB75-06A1-4B5C-9588-00B6CDDD5E0A}
 		{7CEAF92A-2221-40DA-9F4F-16758EDA52A9} = {B802DB75-06A1-4B5C-9588-00B6CDDD5E0A}
+		{AC65DF27-92AC-4C17-9A8E-1FE8C7FEFC2B} = {B802DB75-06A1-4B5C-9588-00B6CDDD5E0A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EDB484EF-311D-4757-ADD0-55B578187B53}
