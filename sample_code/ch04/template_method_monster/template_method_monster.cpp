@@ -54,8 +54,8 @@ private:
 };
 
 int monster::calculate_distance(player& target_player) {
-  return (int)sqrt(pow(target_player.get_location(true) - monster_body.get_location(true), 2) + 
-              pow(target_player.get_location(false) - monster_body.get_location(false), 2));
+  return (int)sqrt(pow(target_player.get_location(true) - monster_body.get_location(true), 2) +
+    pow(target_player.get_location(false) - monster_body.get_location(false), 2));
 }
 
 //Monster factory
@@ -225,7 +225,7 @@ void monster_routine(monster* mon, player target_player) {
 
 void moster_factory::create_monster(const int terrain_type, int count) {
   monster* mon = nullptr;
-  
+
   for (int i = 0; i < count; ++i) {
     mon = moster_factory::create_monster(terrain_type);
     mon->set_location(dis(gen), dis(gen));
