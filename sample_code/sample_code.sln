@@ -71,6 +71,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UNICODE", "ch02\UNICODE\UNI
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sizeof_data_types", "ch02\sizeof_data_types\sizeof_data_types.vcxproj", "{15DF1E6E-E9B2-4772-9D33-DBD9176B5B7D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "print_floating_point", "ch02\print_floating_point\print_floating_point.vcxproj", "{F8C0F72E-249E-493F-8722-20708F58D2D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -311,6 +313,14 @@ Global
 		{15DF1E6E-E9B2-4772-9D33-DBD9176B5B7D}.Release|x64.Build.0 = Release|x64
 		{15DF1E6E-E9B2-4772-9D33-DBD9176B5B7D}.Release|x86.ActiveCfg = Release|Win32
 		{15DF1E6E-E9B2-4772-9D33-DBD9176B5B7D}.Release|x86.Build.0 = Release|Win32
+		{F8C0F72E-249E-493F-8722-20708F58D2D8}.Debug|x64.ActiveCfg = Debug|x64
+		{F8C0F72E-249E-493F-8722-20708F58D2D8}.Debug|x64.Build.0 = Debug|x64
+		{F8C0F72E-249E-493F-8722-20708F58D2D8}.Debug|x86.ActiveCfg = Debug|Win32
+		{F8C0F72E-249E-493F-8722-20708F58D2D8}.Debug|x86.Build.0 = Debug|Win32
+		{F8C0F72E-249E-493F-8722-20708F58D2D8}.Release|x64.ActiveCfg = Release|x64
+		{F8C0F72E-249E-493F-8722-20708F58D2D8}.Release|x64.Build.0 = Release|x64
+		{F8C0F72E-249E-493F-8722-20708F58D2D8}.Release|x86.ActiveCfg = Release|Win32
+		{F8C0F72E-249E-493F-8722-20708F58D2D8}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -346,6 +356,7 @@ Global
 		{D87AE299-8957-4793-AF99-C9782996866A} = {4EB77F45-E2D6-4CBC-9795-4AADD327A058}
 		{C0F0F828-D408-40E7-982D-8C32E53F5A81} = {4EB77F45-E2D6-4CBC-9795-4AADD327A058}
 		{15DF1E6E-E9B2-4772-9D33-DBD9176B5B7D} = {4EB77F45-E2D6-4CBC-9795-4AADD327A058}
+		{F8C0F72E-249E-493F-8722-20708F58D2D8} = {4EB77F45-E2D6-4CBC-9795-4AADD327A058}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EDB484EF-311D-4757-ADD0-55B578187B53}
