@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{ac65df27-92ac-4c17-9a8e-1fe8c7fefc2b}</ProjectGuid>
+    <ProjectGuid>{673ef3dd-2fc7-44c6-a1f5-17d8807f0c90}</ProjectGuid>
     <RootNamespace>templatemethodmonster</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>

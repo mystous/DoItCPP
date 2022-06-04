@@ -77,6 +77,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "precision_of_floating_point
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "local_variable", "ch02\local_variable\local_variable.vcxproj", "{8278575C-250A-4AA3-ACD3-9CF1A8D97D1E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "template_method_monster", "ch04\template_method_monster\template_method_monster.vcxproj", "{673EF3DD-2FC7-44C6-A1F5-17D8807F0C90}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -341,6 +343,14 @@ Global
 		{8278575C-250A-4AA3-ACD3-9CF1A8D97D1E}.Release|x64.Build.0 = Release|x64
 		{8278575C-250A-4AA3-ACD3-9CF1A8D97D1E}.Release|x86.ActiveCfg = Release|Win32
 		{8278575C-250A-4AA3-ACD3-9CF1A8D97D1E}.Release|x86.Build.0 = Release|Win32
+		{673EF3DD-2FC7-44C6-A1F5-17D8807F0C90}.Debug|x64.ActiveCfg = Debug|x64
+		{673EF3DD-2FC7-44C6-A1F5-17D8807F0C90}.Debug|x64.Build.0 = Debug|x64
+		{673EF3DD-2FC7-44C6-A1F5-17D8807F0C90}.Debug|x86.ActiveCfg = Debug|Win32
+		{673EF3DD-2FC7-44C6-A1F5-17D8807F0C90}.Debug|x86.Build.0 = Debug|Win32
+		{673EF3DD-2FC7-44C6-A1F5-17D8807F0C90}.Release|x64.ActiveCfg = Release|x64
+		{673EF3DD-2FC7-44C6-A1F5-17D8807F0C90}.Release|x64.Build.0 = Release|x64
+		{673EF3DD-2FC7-44C6-A1F5-17D8807F0C90}.Release|x86.ActiveCfg = Release|Win32
+		{673EF3DD-2FC7-44C6-A1F5-17D8807F0C90}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -379,6 +389,7 @@ Global
 		{F8C0F72E-249E-493F-8722-20708F58D2D8} = {4EB77F45-E2D6-4CBC-9795-4AADD327A058}
 		{632ED83B-D7EB-47F6-9968-97837FAC1640} = {4EB77F45-E2D6-4CBC-9795-4AADD327A058}
 		{8278575C-250A-4AA3-ACD3-9CF1A8D97D1E} = {4EB77F45-E2D6-4CBC-9795-4AADD327A058}
+		{673EF3DD-2FC7-44C6-A1F5-17D8807F0C90} = {B802DB75-06A1-4B5C-9588-00B6CDDD5E0A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EDB484EF-311D-4757-ADD0-55B578187B53}
