@@ -75,6 +75,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "print_floating_point", "ch0
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "precision_of_floating_point", "ch02\precision_of_floating_point\precision_of_floating_point.vcxproj", "{632ED83B-D7EB-47F6-9968-97837FAC1640}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "local_variable", "ch02\local_variable\local_variable.vcxproj", "{8278575C-250A-4AA3-ACD3-9CF1A8D97D1E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -331,6 +333,14 @@ Global
 		{632ED83B-D7EB-47F6-9968-97837FAC1640}.Release|x64.Build.0 = Release|x64
 		{632ED83B-D7EB-47F6-9968-97837FAC1640}.Release|x86.ActiveCfg = Release|Win32
 		{632ED83B-D7EB-47F6-9968-97837FAC1640}.Release|x86.Build.0 = Release|Win32
+		{8278575C-250A-4AA3-ACD3-9CF1A8D97D1E}.Debug|x64.ActiveCfg = Debug|x64
+		{8278575C-250A-4AA3-ACD3-9CF1A8D97D1E}.Debug|x64.Build.0 = Debug|x64
+		{8278575C-250A-4AA3-ACD3-9CF1A8D97D1E}.Debug|x86.ActiveCfg = Debug|Win32
+		{8278575C-250A-4AA3-ACD3-9CF1A8D97D1E}.Debug|x86.Build.0 = Debug|Win32
+		{8278575C-250A-4AA3-ACD3-9CF1A8D97D1E}.Release|x64.ActiveCfg = Release|x64
+		{8278575C-250A-4AA3-ACD3-9CF1A8D97D1E}.Release|x64.Build.0 = Release|x64
+		{8278575C-250A-4AA3-ACD3-9CF1A8D97D1E}.Release|x86.ActiveCfg = Release|Win32
+		{8278575C-250A-4AA3-ACD3-9CF1A8D97D1E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -368,6 +378,7 @@ Global
 		{15DF1E6E-E9B2-4772-9D33-DBD9176B5B7D} = {4EB77F45-E2D6-4CBC-9795-4AADD327A058}
 		{F8C0F72E-249E-493F-8722-20708F58D2D8} = {4EB77F45-E2D6-4CBC-9795-4AADD327A058}
 		{632ED83B-D7EB-47F6-9968-97837FAC1640} = {4EB77F45-E2D6-4CBC-9795-4AADD327A058}
+		{8278575C-250A-4AA3-ACD3-9CF1A8D97D1E} = {4EB77F45-E2D6-4CBC-9795-4AADD327A058}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EDB484EF-311D-4757-ADD0-55B578187B53}
