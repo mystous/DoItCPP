@@ -239,10 +239,10 @@ int main() {
   target_player_dummy.set_location(dis(gen), dis(gen));
   monster_factory::initialize_monster();
 
-  mon_count = moster_factory::get_monster_count();
+  mon_count = monster_factory::get_monster_count();
   for (i = 0; i < mon_count; ++i) {
     cout << endl;
-    monster_routine(moster_factory::get_monster(i), target_player_dummy);
+    monster_routine(monster_factory::get_monster(i), target_player_dummy);
   }
 
   monster_factory::destroy_monster();
