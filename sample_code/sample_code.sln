@@ -103,6 +103,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bitwise_XOR", "ch02\bitwise
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bitwise_shift", "ch02\bitwise_shift\bitwise_shift.vcxproj", "{578CA0D8-7EEF-47EF-850B-FEFBF19D60F8}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "if_vs_ternary_operator_1", "ch02\if_vs_ternary_operator_1\if_vs_ternary_operator_1.vcxproj", "{41D45040-8C13-4375-9FC6-02F5201FF784}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -471,6 +473,14 @@ Global
 		{578CA0D8-7EEF-47EF-850B-FEFBF19D60F8}.Release|x64.Build.0 = Release|x64
 		{578CA0D8-7EEF-47EF-850B-FEFBF19D60F8}.Release|x86.ActiveCfg = Release|Win32
 		{578CA0D8-7EEF-47EF-850B-FEFBF19D60F8}.Release|x86.Build.0 = Release|Win32
+		{41D45040-8C13-4375-9FC6-02F5201FF784}.Debug|x64.ActiveCfg = Debug|x64
+		{41D45040-8C13-4375-9FC6-02F5201FF784}.Debug|x64.Build.0 = Debug|x64
+		{41D45040-8C13-4375-9FC6-02F5201FF784}.Debug|x86.ActiveCfg = Debug|Win32
+		{41D45040-8C13-4375-9FC6-02F5201FF784}.Debug|x86.Build.0 = Debug|Win32
+		{41D45040-8C13-4375-9FC6-02F5201FF784}.Release|x64.ActiveCfg = Release|x64
+		{41D45040-8C13-4375-9FC6-02F5201FF784}.Release|x64.Build.0 = Release|x64
+		{41D45040-8C13-4375-9FC6-02F5201FF784}.Release|x86.ActiveCfg = Release|Win32
+		{41D45040-8C13-4375-9FC6-02F5201FF784}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -522,6 +532,7 @@ Global
 		{B9AB426B-1371-46E5-BD2D-090668509CF4} = {4EB77F45-E2D6-4CBC-9795-4AADD327A058}
 		{B3A3E634-37D5-40CE-AC7B-7D4EF53B5F66} = {4EB77F45-E2D6-4CBC-9795-4AADD327A058}
 		{578CA0D8-7EEF-47EF-850B-FEFBF19D60F8} = {4EB77F45-E2D6-4CBC-9795-4AADD327A058}
+		{41D45040-8C13-4375-9FC6-02F5201FF784} = {4EB77F45-E2D6-4CBC-9795-4AADD327A058}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EDB484EF-311D-4757-ADD0-55B578187B53}
