@@ -8,4 +8,6 @@ int main()
 
     value = ~value;
     cout << hex << value << endl;
+
+    return 0;
 }
