@@ -83,6 +83,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Liskov_substitution_princip
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "global_and_local_variables", "ch02\global_and_local_variables\global_and_local_variables.vcxproj", "{0E266AB3-FC25-4179-A7A7-0F68FE0BE40E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "implicit_cast", "ch02\implicit_cast\implicit_cast.vcxproj", "{A7415981-5A3E-4A9B-8553-62788956DCA1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -371,6 +373,14 @@ Global
 		{0E266AB3-FC25-4179-A7A7-0F68FE0BE40E}.Release|x64.Build.0 = Release|x64
 		{0E266AB3-FC25-4179-A7A7-0F68FE0BE40E}.Release|x86.ActiveCfg = Release|Win32
 		{0E266AB3-FC25-4179-A7A7-0F68FE0BE40E}.Release|x86.Build.0 = Release|Win32
+		{A7415981-5A3E-4A9B-8553-62788956DCA1}.Debug|x64.ActiveCfg = Debug|x64
+		{A7415981-5A3E-4A9B-8553-62788956DCA1}.Debug|x64.Build.0 = Debug|x64
+		{A7415981-5A3E-4A9B-8553-62788956DCA1}.Debug|x86.ActiveCfg = Debug|Win32
+		{A7415981-5A3E-4A9B-8553-62788956DCA1}.Debug|x86.Build.0 = Debug|Win32
+		{A7415981-5A3E-4A9B-8553-62788956DCA1}.Release|x64.ActiveCfg = Release|x64
+		{A7415981-5A3E-4A9B-8553-62788956DCA1}.Release|x64.Build.0 = Release|x64
+		{A7415981-5A3E-4A9B-8553-62788956DCA1}.Release|x86.ActiveCfg = Release|Win32
+		{A7415981-5A3E-4A9B-8553-62788956DCA1}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -412,6 +422,7 @@ Global
 		{673EF3DD-2FC7-44C6-A1F5-17D8807F0C90} = {B802DB75-06A1-4B5C-9588-00B6CDDD5E0A}
 		{6855B4B6-6E4B-4022-BB44-F03B4D6B43C7} = {B802DB75-06A1-4B5C-9588-00B6CDDD5E0A}
 		{0E266AB3-FC25-4179-A7A7-0F68FE0BE40E} = {4EB77F45-E2D6-4CBC-9795-4AADD327A058}
+		{A7415981-5A3E-4A9B-8553-62788956DCA1} = {4EB77F45-E2D6-4CBC-9795-4AADD327A058}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EDB484EF-311D-4757-ADD0-55B578187B53}
