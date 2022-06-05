@@ -59,7 +59,7 @@ int monster::calculate_distance(player& target_player) {
 }
 
 //Monster factory
-class moster_factory
+class monster_factory
 {
 public:
   static void create_monster(const int terrain_type, int count);
@@ -74,8 +74,8 @@ private:
   static int mon_count;
 };
 
-list<monster*> moster_factory::mon_list = {};
-int moster_factory::mon_count = 0;
+list<monster*> monster_factory::mon_list = {};
+int monster_factory::mon_count = 0;
 
 //몬스터 A는 추상 클래스 Monster 클래스로부터 상속
 class monster_a : public monster {
@@ -173,11 +173,11 @@ void monster_c::check_target(player& target_player) {
   attack_special(target_player);
 }
 
-int moster_factory::get_monster_count() {
+int monster_factory::get_monster_count() {
   return mon_count;
 }
 
-monster* moster_factory::get_monster(int index) {
+monster* monster_factory::get_monster(int index) {
   monster* new_mon = nullptr;
   auto item = mon_list.begin();
   advance(item, index);
@@ -186,13 +186,13 @@ monster* moster_factory::get_monster(int index) {
   return new_mon;
 }
 
-void moster_factory::initialize_monster() {
+void monster_factory::initialize_monster() {
   create_monster(forest_terrain, 2);
   create_monster(cyber_terrain, 3);
   create_monster(urban_terrain, 1);
 }
 
-monster* moster_factory::create_monster(const int terrain_type) {
+monster* monster_factory::create_monster(const int terrain_type) {
   monster* new_mon = nullptr;
   switch (terrain_type) {
   case forest_terrain:
@@ -211,7 +211,7 @@ monster* moster_factory::create_monster(const int terrain_type) {
   return new_mon;
 }
 
-void moster_factory::destroy_monster() {
+void monster_factory::destroy_monster() {
   for (auto mon : mon_list) {
     delete mon;
   }
@@ -223,11 +223,11 @@ void monster_routine(monster* mon, player target_player) {
   mon->check_target(target_player);
 }
 
-void moster_factory::create_monster(const int terrain_type, int count) {
+void monster_factory::create_monster(const int terrain_type, int count) {
   monster* mon = nullptr;
 
   for (int i = 0; i < count; ++i) {
-    mon = moster_factory::create_monster(terrain_type);
+    mon = monster_factory::create_monster(terrain_type);
     mon->set_location(dis(gen), dis(gen));
   }
 }
@@ -237,7 +237,7 @@ int main() {
   player target_player_dummy;
 
   target_player_dummy.set_location(dis(gen), dis(gen));
-  moster_factory::initialize_monster();
+  monster_factory::initialize_monster();
 
   mon_count = moster_factory::get_monster_count();
   for (i = 0; i < mon_count; ++i) {
@@ -245,7 +245,7 @@ int main() {
     monster_routine(moster_factory::get_monster(i), target_player_dummy);
   }
 
-  moster_factory::destroy_monster();
+  monster_factory::destroy_monster();
 
   return 0;
 }
