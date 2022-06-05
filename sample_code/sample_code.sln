@@ -111,6 +111,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "conditional_branches_if_1",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "conditional_branches_if_2", "ch02\conditional_branches_if_2\conditional_branches_if_2.vcxproj", "{DDBBA73A-D696-4981-8E62-53C3F33036C5}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "conditional_branches_switch_1", "ch02\conditional_branches_switch_1\conditional_branches_switch_1.vcxproj", "{AC6B6F5E-B31D-4643-A070-F18B0423DEB2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -511,6 +513,14 @@ Global
 		{DDBBA73A-D696-4981-8E62-53C3F33036C5}.Release|x64.Build.0 = Release|x64
 		{DDBBA73A-D696-4981-8E62-53C3F33036C5}.Release|x86.ActiveCfg = Release|Win32
 		{DDBBA73A-D696-4981-8E62-53C3F33036C5}.Release|x86.Build.0 = Release|Win32
+		{AC6B6F5E-B31D-4643-A070-F18B0423DEB2}.Debug|x64.ActiveCfg = Debug|x64
+		{AC6B6F5E-B31D-4643-A070-F18B0423DEB2}.Debug|x64.Build.0 = Debug|x64
+		{AC6B6F5E-B31D-4643-A070-F18B0423DEB2}.Debug|x86.ActiveCfg = Debug|Win32
+		{AC6B6F5E-B31D-4643-A070-F18B0423DEB2}.Debug|x86.Build.0 = Debug|Win32
+		{AC6B6F5E-B31D-4643-A070-F18B0423DEB2}.Release|x64.ActiveCfg = Release|x64
+		{AC6B6F5E-B31D-4643-A070-F18B0423DEB2}.Release|x64.Build.0 = Release|x64
+		{AC6B6F5E-B31D-4643-A070-F18B0423DEB2}.Release|x86.ActiveCfg = Release|Win32
+		{AC6B6F5E-B31D-4643-A070-F18B0423DEB2}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -566,6 +576,7 @@ Global
 		{110CC19B-16C1-4E35-9230-F630B2B23B1C} = {4EB77F45-E2D6-4CBC-9795-4AADD327A058}
 		{F2A36F66-022B-49F0-8A5A-D6FE84E7B667} = {4EB77F45-E2D6-4CBC-9795-4AADD327A058}
 		{DDBBA73A-D696-4981-8E62-53C3F33036C5} = {4EB77F45-E2D6-4CBC-9795-4AADD327A058}
+		{AC6B6F5E-B31D-4643-A070-F18B0423DEB2} = {4EB77F45-E2D6-4CBC-9795-4AADD327A058}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EDB484EF-311D-4757-ADD0-55B578187B53}
