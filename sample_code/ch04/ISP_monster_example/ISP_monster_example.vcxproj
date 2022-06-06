@@ -143,6 +143,9 @@
   <ItemGroup>
     <ClCompile Include="ISP_monster_example.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="ISP_class_diagram.cd" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
