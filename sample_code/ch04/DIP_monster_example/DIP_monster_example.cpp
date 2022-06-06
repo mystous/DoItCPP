@@ -1,5 +1,6 @@
 #include <iostream>
 #include <list>
+#include <random>
 
 #include "interface.h"
 #include "monster_class.h"
@@ -7,6 +8,7 @@
 #include "terrain_class.h"
 
 using namespace std;
+
 
 void monster_routine(monster* mon, player target_player) {
   mon->attach_target(&target_player);
@@ -17,6 +19,10 @@ void monster_routine(monster* mon, player target_player) {
 int main() {
   int mon_count, i;
   player target_player_dummy;
+
+  random_device rd;
+  mt19937 gen(rd());
+  uniform_int_distribution<int> dis(0, 99);
 
   target_player_dummy.set_location(dis(gen), dis(gen));
   character_factory::create_terrain();

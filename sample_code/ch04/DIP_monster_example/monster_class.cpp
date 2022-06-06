@@ -1,13 +1,41 @@
 #include "monster_class.h"
 #include "base_classes.h"
 #include "terrain_class.h"
+#include <random>
+
+using namespace std;
+
+list<monster*> character_factory::mon_list = {};
+list<npc_object*> character_factory::npc_list = {};
+int character_factory::mon_count = 0;
+void* character_factory::terrain_inst[] = { nullptr, };
+
+random_device rd;
+mt19937 gen(rd());
+uniform_int_distribution<int> dis(0, 99);
+uniform_int_distribution<int> select(0, 2);
 
 int monster::calculate_distance(int x, int y) {
   return (int)sqrt(pow(x - get_location(true), 2) + pow(y - get_location(false), 2));
 }
 
+void monster::depence_strike_back(void* target_player) {
+  player* target_player_inst = (player*)target_player;
+  IWeapon* weapon = (IWeapon*)target_player_inst->get_weapon();
+  if (nullptr == weapon) {
+    return;
+  }
+
+  if (weapon->is_bullet_empty()) {
+    weapon->reload_bullet();
+  }
+
+  weapon->shoot_weapon(this);
+}
+
 void monster_a::attack_special(void* target_player) {
   cout << "인텡글 공격 : 데미지 - 15 hp" << endl;
+  depence_strike_back(target_player);
 }
 
 void monster_a::find_route(int x, int y) {
@@ -35,6 +63,7 @@ void monster_a::check_target(void* target_player) {
 
 void monster_b::attack_special(void* target_player) {
   cout << "가상 공격 : 데미지 - 0 hp" << endl;
+  depence_strike_back(target_player);
 }
 
 void monster_b::find_route(int x, int y) {
@@ -44,7 +73,7 @@ void monster_b::find_route(int x, int y) {
 bool monster_b::attach_target(void* target_player) {
   player* target = (player*)target_player;
   if (calculate_distance(target->get_location(true), target->get_location(false)) > 30) {
-    this->target_player = target_player;
+    this->target_player = (character*)target_player;
     cout << "위치 추적을 통해서 찾아 가기" << endl;
     return true;
   }
@@ -62,6 +91,7 @@ void monster_b::check_target(void* target_player) {
 
 void monster_c::attack_special(void* target_player) {
   cout << "강력 뇌전 공격 : 데미지 - 100 hp" << endl;
+  depence_strike_back(target_player);
 }
 
 void monster_c::find_route(int x, int y) {
@@ -69,7 +99,7 @@ void monster_c::find_route(int x, int y) {
 }
 
 bool monster_c::attach_target(void* target_player) {
-  this->target_player = target_player;
+  this->target_player = (character*)target_player;
   cout << "눈에 띄면 무조건 따라감" << endl;
   return true;
 }
@@ -163,8 +193,3 @@ void character_factory::create_monster(const int terrain_type, int count) {
     mon->set_location(dis(gen), dis(gen));
   }
 }
-
-extern class character;
-extern class character_factory;
-
-
