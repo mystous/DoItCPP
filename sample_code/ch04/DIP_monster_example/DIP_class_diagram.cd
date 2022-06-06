@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="character" Collapsed="true">
+    <Position X="24.25" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAACAAAAAAAAEgAAAAAABAAAAAAAA=</HashCode>
+      <FileName>base_classes.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="monster">
+    <Position X="19.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAQAYAAwAAAAAAAAAIAAAAAAAAEAAAAAAAgAAg=</HashCode>
+      <FileName>monster_class.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="target_player" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="monster_a" Collapsed="true">
+    <Position X="17.25" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAQAgAAAAAAAAQACAAAAAAAAAAAA=</HashCode>
+      <FileName>monster_class.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="monster_b" Collapsed="true">
+    <Position X="19.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAQAgAAAAAAAAQACAAAAAAAAAAAA=</HashCode>
+      <FileName>monster_class.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="monster_c" Collapsed="true">
+    <Position X="21.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAQAgAAAAAAAAQACAAAAAAAAAAAA=</HashCode>
+      <FileName>monster_class.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="character_factory" Collapsed="true">
+    <Position X="25" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAEAQAAQAAAAAAIBAAACAAAAAAUAAAAAAgECEAAAAA=</HashCode>
+      <FileName>monster_class.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="player">
+    <Position X="16.75" Y="17.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAwAgAAAAgAkIAKAAAAASAAAAAAAAgAAA=</HashCode>
+      <FileName>player_class.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="riding_object" />
+      <Field Name="weapon" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="npc_object" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAwAAAAAAgAAIAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>player_class.h</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="car" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.5" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAIAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>riding_object.h</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="horse" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.5" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAIAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>riding_object.h</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="motor_cycle" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.5" Y="20.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAIAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>riding_object.h</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="terrain" Collapsed="true">
+    <Position X="24.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAGAACAAAAAAAAAABAABEAAAAAEAAAAAAMAgAAAAAA=</HashCode>
+      <FileName>terrain_class.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="forest_terrain" Collapsed="true">
+    <Position X="22.25" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAA=</HashCode>
+      <FileName>terrain_class.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cyber_terrain" Collapsed="true">
+    <Position X="24.5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAIAAAAAA=</HashCode>
+      <FileName>terrain_class.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="urban_terrain" Collapsed="true">
+    <Position X="26.75" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAA=</HashCode>
+      <FileName>terrain_class.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="gun" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.25" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>weapon.h</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="machine_gun" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.25" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>weapon.h</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="arrow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.25" Y="20.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>weapon.h</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="IRoute" Collapsed="true">
+    <Position X="17.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAIAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>interface.h</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IAttack" Collapsed="true">
+    <Position X="17.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAQAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>interface.h</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IWeapon">
+    <Position X="14.25" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>interface.h</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IRiding_object">
+    <Position X="20.5" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAIAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>interface.h</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>

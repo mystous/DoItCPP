@@ -22,6 +22,7 @@ int monster::calculate_distance(int x, int y) {
 void monster::depence_strike_back(void* target_player) {
   player* target_player_inst = (player*)target_player;
   IWeapon* weapon = (IWeapon*)target_player_inst->get_weapon();
+  IRiding_object* riding_object = (IRiding_object*)target_player_inst->get_riding_object();
   if (nullptr == weapon) {
     return;
   }
@@ -29,8 +30,12 @@ void monster::depence_strike_back(void* target_player) {
   if (weapon->is_bullet_empty()) {
     weapon->reload_bullet();
   }
-
   weapon->shoot_weapon(this);
+
+  if (riding_object->check_energy() > 10) {
+    riding_object->set_destination(get_location(true) + 30, get_location(false) + 30);
+    riding_object->run_to_destination();
+  }
 }
 
 void monster_a::attack_special(void* target_player) {

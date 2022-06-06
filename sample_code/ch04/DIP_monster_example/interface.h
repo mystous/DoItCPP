@@ -20,7 +20,6 @@ __interface IWeapon {
 
 __interface IRiding_object {
   virtual int check_energy() = 0;
-  virtual int check_max_loading() = 0;
   virtual void set_destination(int x, int y) = 0;
   virtual void run_to_destination() = 0;
 };
