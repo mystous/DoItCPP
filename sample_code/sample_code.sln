@@ -115,6 +115,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "conditional_branches_switch
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "conditional_branches_switch_2", "ch02\conditional_branches_switch_2\conditional_branches_switch_2.vcxproj", "{DB5C046A-39FE-42BA-9744-3A929601159D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ISP_monster_example", "ch04\ISP_monster_example\ISP_monster_example.vcxproj", "{389159EF-E9B7-45CC-87CC-A7A173C76E77}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -531,6 +533,14 @@ Global
 		{DB5C046A-39FE-42BA-9744-3A929601159D}.Release|x64.Build.0 = Release|x64
 		{DB5C046A-39FE-42BA-9744-3A929601159D}.Release|x86.ActiveCfg = Release|Win32
 		{DB5C046A-39FE-42BA-9744-3A929601159D}.Release|x86.Build.0 = Release|Win32
+		{389159EF-E9B7-45CC-87CC-A7A173C76E77}.Debug|x64.ActiveCfg = Debug|x64
+		{389159EF-E9B7-45CC-87CC-A7A173C76E77}.Debug|x64.Build.0 = Debug|x64
+		{389159EF-E9B7-45CC-87CC-A7A173C76E77}.Debug|x86.ActiveCfg = Debug|Win32
+		{389159EF-E9B7-45CC-87CC-A7A173C76E77}.Debug|x86.Build.0 = Debug|Win32
+		{389159EF-E9B7-45CC-87CC-A7A173C76E77}.Release|x64.ActiveCfg = Release|x64
+		{389159EF-E9B7-45CC-87CC-A7A173C76E77}.Release|x64.Build.0 = Release|x64
+		{389159EF-E9B7-45CC-87CC-A7A173C76E77}.Release|x86.ActiveCfg = Release|Win32
+		{389159EF-E9B7-45CC-87CC-A7A173C76E77}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -588,6 +598,7 @@ Global
 		{DDBBA73A-D696-4981-8E62-53C3F33036C5} = {4EB77F45-E2D6-4CBC-9795-4AADD327A058}
 		{AC6B6F5E-B31D-4643-A070-F18B0423DEB2} = {4EB77F45-E2D6-4CBC-9795-4AADD327A058}
 		{DB5C046A-39FE-42BA-9744-3A929601159D} = {4EB77F45-E2D6-4CBC-9795-4AADD327A058}
+		{389159EF-E9B7-45CC-87CC-A7A173C76E77} = {B802DB75-06A1-4B5C-9588-00B6CDDD5E0A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EDB484EF-311D-4757-ADD0-55B578187B53}
