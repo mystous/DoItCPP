@@ -2,6 +2,9 @@
 #include "interface.h"
 #include "base_classes.h"
 #include "player_class.h"
+#include <list>
+
+using namespace std;
 
 //Monster 인터페이스
 class monster : public IRoute, public IAttack {
@@ -12,6 +15,7 @@ public:
 
 protected:
   int calculate_distance(int x, int y);
+  void depence_strike_back(void* target_player);
   character* target_player = nullptr;
   int monster_type;
   character monster_body;
@@ -81,7 +85,3 @@ private:
   static void* terrain_inst[3];
 };
 
-list<monster*> character_factory::mon_list = {};
-list<npc_object*> character_factory::npc_list = {};
-int character_factory::mon_count = 0;
-void* character_factory::terrain_inst[] = { nullptr, };
