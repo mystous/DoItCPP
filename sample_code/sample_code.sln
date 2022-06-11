@@ -137,6 +137,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "new_and_delete_in_array", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dynamic_memory_allocation_at_the_bakery", "ch02\dynamic_memory_allocation_at_the_bakery\dynamic_memory_allocation_at_the_bakery.vcxproj", "{553B8FAA-CD40-49B4-97C6-298ECBBF4E93}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "function", "ch02\function\function.vcxproj", "{0A6A909A-EF43-4A5D-A6B6-D546BB453312}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -641,6 +643,14 @@ Global
 		{553B8FAA-CD40-49B4-97C6-298ECBBF4E93}.Release|x64.Build.0 = Release|x64
 		{553B8FAA-CD40-49B4-97C6-298ECBBF4E93}.Release|x86.ActiveCfg = Release|Win32
 		{553B8FAA-CD40-49B4-97C6-298ECBBF4E93}.Release|x86.Build.0 = Release|Win32
+		{0A6A909A-EF43-4A5D-A6B6-D546BB453312}.Debug|x64.ActiveCfg = Debug|x64
+		{0A6A909A-EF43-4A5D-A6B6-D546BB453312}.Debug|x64.Build.0 = Debug|x64
+		{0A6A909A-EF43-4A5D-A6B6-D546BB453312}.Debug|x86.ActiveCfg = Debug|Win32
+		{0A6A909A-EF43-4A5D-A6B6-D546BB453312}.Debug|x86.Build.0 = Debug|Win32
+		{0A6A909A-EF43-4A5D-A6B6-D546BB453312}.Release|x64.ActiveCfg = Release|x64
+		{0A6A909A-EF43-4A5D-A6B6-D546BB453312}.Release|x64.Build.0 = Release|x64
+		{0A6A909A-EF43-4A5D-A6B6-D546BB453312}.Release|x86.ActiveCfg = Release|Win32
+		{0A6A909A-EF43-4A5D-A6B6-D546BB453312}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -709,6 +719,7 @@ Global
 		{B508363D-D749-4A00-90D2-78092E3776B3} = {4EB77F45-E2D6-4CBC-9795-4AADD327A058}
 		{73F0C9A0-7319-4176-A30A-8B1265FF2D5A} = {4EB77F45-E2D6-4CBC-9795-4AADD327A058}
 		{553B8FAA-CD40-49B4-97C6-298ECBBF4E93} = {4EB77F45-E2D6-4CBC-9795-4AADD327A058}
+		{0A6A909A-EF43-4A5D-A6B6-D546BB453312} = {4EB77F45-E2D6-4CBC-9795-4AADD327A058}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EDB484EF-311D-4757-ADD0-55B578187B53}
