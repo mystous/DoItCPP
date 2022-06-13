@@ -165,6 +165,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "exception_stack_unwinding_1
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "exception_stack_unwinding_2", "ch02\exception_stack_unwinding_2\exception_stack_unwinding_2.vcxproj", "{4BE99CA0-5D5A-40DD-AA39-29CF79D6BC46}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "exception_set_terminate", "ch02\exception_set_terminate\exception_set_terminate.vcxproj", "{3F3FCDF0-853F-4AE0-884C-04DF36AE7310}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -781,6 +783,14 @@ Global
 		{4BE99CA0-5D5A-40DD-AA39-29CF79D6BC46}.Release|x64.Build.0 = Release|x64
 		{4BE99CA0-5D5A-40DD-AA39-29CF79D6BC46}.Release|x86.ActiveCfg = Release|Win32
 		{4BE99CA0-5D5A-40DD-AA39-29CF79D6BC46}.Release|x86.Build.0 = Release|Win32
+		{3F3FCDF0-853F-4AE0-884C-04DF36AE7310}.Debug|x64.ActiveCfg = Debug|x64
+		{3F3FCDF0-853F-4AE0-884C-04DF36AE7310}.Debug|x64.Build.0 = Debug|x64
+		{3F3FCDF0-853F-4AE0-884C-04DF36AE7310}.Debug|x86.ActiveCfg = Debug|Win32
+		{3F3FCDF0-853F-4AE0-884C-04DF36AE7310}.Debug|x86.Build.0 = Debug|Win32
+		{3F3FCDF0-853F-4AE0-884C-04DF36AE7310}.Release|x64.ActiveCfg = Release|x64
+		{3F3FCDF0-853F-4AE0-884C-04DF36AE7310}.Release|x64.Build.0 = Release|x64
+		{3F3FCDF0-853F-4AE0-884C-04DF36AE7310}.Release|x86.ActiveCfg = Release|Win32
+		{3F3FCDF0-853F-4AE0-884C-04DF36AE7310}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -863,6 +873,7 @@ Global
 		{60DC0995-5BC9-4760-B18C-98B635A4C81A} = {4EB77F45-E2D6-4CBC-9795-4AADD327A058}
 		{82D02986-2858-4882-BA6D-84E62D3F2536} = {4EB77F45-E2D6-4CBC-9795-4AADD327A058}
 		{4BE99CA0-5D5A-40DD-AA39-29CF79D6BC46} = {4EB77F45-E2D6-4CBC-9795-4AADD327A058}
+		{3F3FCDF0-853F-4AE0-884C-04DF36AE7310} = {4EB77F45-E2D6-4CBC-9795-4AADD327A058}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EDB484EF-311D-4757-ADD0-55B578187B53}
