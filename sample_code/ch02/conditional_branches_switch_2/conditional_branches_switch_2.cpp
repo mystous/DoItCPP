@@ -6,14 +6,11 @@ int main()
 {
     int input_number;
 
-    cout << "0 ~ 5 정수 입력: ";
+    cout << "1 ~ 5 정수 입력: ";
     cin >> input_number;
 
     switch (input_number)
     {
-    case 0:
-        cout << "입력한 수는 0 입니다." << endl;
-
     case 1:
         cout << "입력한 수는 1 입니다." << endl;
 
@@ -30,7 +27,7 @@ int main()
         cout << "입력한 수는 5 입니다." << endl;
 
     default:
-        cout << "입력한 수는 0 ~ 5 범위 밖입니다." << endl;
+        cout << "입력한 수는 1 ~ 5 범위 밖입니다." << endl;
     }
 
     return 0;
