@@ -46,8 +46,13 @@ int main() {
     // 어떤 일 하기
   }
 
-  map<int, array<int, 4>>::iterator iter3;
-  for (iter3 = auto_type_example.begin(); iter3 != auto_type_example.end(); iter++) {
+  //map<int, array<int, 4>>::iterator iter3;
+  //for (iter3 = auto_type_example.begin(); iter3 != auto_type_example.end(); iter++) {
+  //  // 어떤 일 하기
+  //}
+
+  auto iter3 = auto_type_example.begin();
+  for ( ; iter3 != auto_type_example.end(); iter++) {
     // 어떤 일 하기
   }
 
