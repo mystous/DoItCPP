@@ -175,6 +175,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "auto_data_type", "ch06\auto
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "auto_type_applied_before", "ch06\auto_type_applied_before\auto_type_applied_before.vcxproj", "{8D028498-0322-40C2-B548-2F9D18A8A41D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mathematical_constants", "ch06\mathematical_constants\mathematical_constants.vcxproj", "{2A360710-7059-401F-AB55-097406EE731E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -823,6 +825,14 @@ Global
 		{8D028498-0322-40C2-B548-2F9D18A8A41D}.Release|x64.Build.0 = Release|x64
 		{8D028498-0322-40C2-B548-2F9D18A8A41D}.Release|x86.ActiveCfg = Release|Win32
 		{8D028498-0322-40C2-B548-2F9D18A8A41D}.Release|x86.Build.0 = Release|Win32
+		{2A360710-7059-401F-AB55-097406EE731E}.Debug|x64.ActiveCfg = Debug|x64
+		{2A360710-7059-401F-AB55-097406EE731E}.Debug|x64.Build.0 = Debug|x64
+		{2A360710-7059-401F-AB55-097406EE731E}.Debug|x86.ActiveCfg = Debug|Win32
+		{2A360710-7059-401F-AB55-097406EE731E}.Debug|x86.Build.0 = Debug|Win32
+		{2A360710-7059-401F-AB55-097406EE731E}.Release|x64.ActiveCfg = Release|x64
+		{2A360710-7059-401F-AB55-097406EE731E}.Release|x64.Build.0 = Release|x64
+		{2A360710-7059-401F-AB55-097406EE731E}.Release|x86.ActiveCfg = Release|Win32
+		{2A360710-7059-401F-AB55-097406EE731E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -909,6 +919,7 @@ Global
 		{17B3CCCF-3E38-46B3-B462-008A1A806DA2} = {4EB77F45-E2D6-4CBC-9795-4AADD327A058}
 		{59D491B5-8F2F-4FD2-B899-40E2A23B75E5} = {B3296413-C9C8-4208-A9D0-ACDC7FE9693E}
 		{8D028498-0322-40C2-B548-2F9D18A8A41D} = {B3296413-C9C8-4208-A9D0-ACDC7FE9693E}
+		{2A360710-7059-401F-AB55-097406EE731E} = {B3296413-C9C8-4208-A9D0-ACDC7FE9693E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EDB484EF-311D-4757-ADD0-55B578187B53}
