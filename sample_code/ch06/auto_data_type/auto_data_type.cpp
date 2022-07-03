@@ -34,7 +34,7 @@ void pointer_increasement_sample() {
 int main() {
   auto auto_var_1 = 10;
   auto auto_var_2 = 20.38;
-  auto auto_var_3 = 0x10;
+  auto auto_var_3 = 10e-2;
   auto auto_var_4 = 'A';
   auto auto_var_5 = "auto ÀÚ·áÇü";
   auto auto_var_6 = new vector<int>;
