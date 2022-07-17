@@ -11,7 +11,6 @@
 
 using namespace std;
 
-
 void monster_routine(monster* mon, player target_player) {
   mon->attach_target(&target_player);
   mon->find_route(target_player.get_location(true), target_player.get_location(false));
