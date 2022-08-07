@@ -1,0 +1,1462 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E062148F-79EB-3CF6-83D7-0FAF24825822}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>Win32</Platform>
+    <ProjectName>cocos2d</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\DoItCPP\sample_code\appendix\simple_game\win32-build\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">cocos2d.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">cocos2d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\DoItCPP\sample_code\appendix\simple_game\win32-build\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">cocos2d.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">cocos2d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\DoItCPP\sample_code\appendix\simple_game\win32-build\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">cocos2d.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">cocos2d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\DoItCPP\sample_code\appendix\simple_game\win32-build\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">cocos2d.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">cocos2d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\DoItCPP\sample_code\appendix\simple_game\cocos2d;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\recast\..;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\tinyxml2\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\xxhash\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\xxtea\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\clipper\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\edtaa3func\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\ConvertUTF\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\poly2tri\..;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\md5\..;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\unzip\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/Box2D/include" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/chipmunk/include" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/freetype2/include/win32/freetype2" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/bullet/include" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/bullet/include/bullet" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/jpeg/include/win32" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/openssl/include/win32" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/uv/include" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/webp/include/win32" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/websockets/include/win32" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/curl/include/win32" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/png/include/win32" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/win32-specific/gles/include/OGLES" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/win32-specific/icon/include" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/win32-specific/MP3Decoder/include" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/win32-specific/OggDecoder/include" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/win32-specific/OpenalSoft/include" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/glfw3/include/win32" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/zlib/../win32-specific/zlib/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <ForcedIncludeFiles>precheader.h</ForcedIncludeFiles>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>precheader.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;COCOS2D_DEBUG=1;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;LWS_WITH_LIBUV;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;COCOS2D_DEBUG=1;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;LWS_WITH_LIBUV;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\DoItCPP\sample_code\appendix\simple_game\cocos2d;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\recast\..;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\tinyxml2\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\xxhash\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\xxtea\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\clipper\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\edtaa3func\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\ConvertUTF\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\poly2tri\..;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\md5\..;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\unzip\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\Box2D\include;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\chipmunk\include;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\freetype2\include\win32\freetype2;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\bullet\include;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\bullet\include\bullet;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\jpeg\include\win32;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\openssl\include\win32;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\uv\include;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\webp\include\win32;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\websockets\include\win32;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\curl\include\win32;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\png\include\win32;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\win32-specific\gles\include\OGLES;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\win32-specific\icon\include;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\win32-specific\MP3Decoder\include;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\win32-specific\OggDecoder\include;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\win32-specific\OpenalSoft\include;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\glfw3\include\win32;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\DoItCPP\sample_code\appendix\simple_game\cocos2d;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\recast\..;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\tinyxml2\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\xxhash\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\xxtea\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\clipper\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\edtaa3func\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\ConvertUTF\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\poly2tri\..;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\md5\..;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\unzip\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\Box2D\include;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\chipmunk\include;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\freetype2\include\win32\freetype2;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\bullet\include;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\bullet\include\bullet;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\jpeg\include\win32;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\openssl\include\win32;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\uv\include;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\webp\include\win32;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\websockets\include\win32;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\curl\include\win32;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\png\include\win32;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\win32-specific\gles\include\OGLES;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\win32-specific\icon\include;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\win32-specific\MP3Decoder\include;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\win32-specific\OggDecoder\include;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\win32-specific\OpenalSoft\include;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\glfw3\include\win32;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\DoItCPP\sample_code\appendix\simple_game\cocos2d;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\recast\..;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\tinyxml2\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\xxhash\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\xxtea\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\clipper\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\edtaa3func\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\ConvertUTF\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\poly2tri\..;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\md5\..;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\unzip\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/Box2D/include" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/chipmunk/include" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/freetype2/include/win32/freetype2" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/bullet/include" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/bullet/include/bullet" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/jpeg/include/win32" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/openssl/include/win32" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/uv/include" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/webp/include/win32" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/websockets/include/win32" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/curl/include/win32" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/png/include/win32" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/win32-specific/gles/include/OGLES" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/win32-specific/icon/include" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/win32-specific/MP3Decoder/include" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/win32-specific/OggDecoder/include" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/win32-specific/OpenalSoft/include" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/glfw3/include/win32" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/zlib/../win32-specific/zlib/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <ForcedIncludeFiles>precheader.h</ForcedIncludeFiles>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>precheader.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;LWS_WITH_LIBUV;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;LWS_WITH_LIBUV;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\DoItCPP\sample_code\appendix\simple_game\cocos2d;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\recast\..;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\tinyxml2\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\xxhash\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\xxtea\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\clipper\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\edtaa3func\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\ConvertUTF\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\poly2tri\..;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\md5\..;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\unzip\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\Box2D\include;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\chipmunk\include;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\freetype2\include\win32\freetype2;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\bullet\include;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\bullet\include\bullet;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\jpeg\include\win32;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\openssl\include\win32;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\uv\include;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\webp\include\win32;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\websockets\include\win32;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\curl\include\win32;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\png\include\win32;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\win32-specific\gles\include\OGLES;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\win32-specific\icon\include;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\win32-specific\MP3Decoder\include;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\win32-specific\OggDecoder\include;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\win32-specific\OpenalSoft\include;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\glfw3\include\win32;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\DoItCPP\sample_code\appendix\simple_game\cocos2d;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\recast\..;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\tinyxml2\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\xxhash\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\xxtea\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\clipper\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\edtaa3func\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\ConvertUTF\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\poly2tri\..;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\md5\..;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\unzip\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\Box2D\include;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\chipmunk\include;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\freetype2\include\win32\freetype2;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\bullet\include;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\bullet\include\bullet;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\jpeg\include\win32;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\openssl\include\win32;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\uv\include;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\webp\include\win32;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\websockets\include\win32;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\curl\include\win32;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\png\include\win32;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\win32-specific\gles\include\OGLES;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\win32-specific\icon\include;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\win32-specific\MP3Decoder\include;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\win32-specific\OggDecoder\include;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\win32-specific\OpenalSoft\include;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\glfw3\include\win32;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\DoItCPP\sample_code\appendix\simple_game\cocos2d;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\recast\..;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\tinyxml2\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\xxhash\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\xxtea\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\clipper\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\edtaa3func\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\ConvertUTF\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\poly2tri\..;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\md5\..;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\unzip\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/Box2D/include" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/chipmunk/include" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/freetype2/include/win32/freetype2" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/bullet/include" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/bullet/include/bullet" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/jpeg/include/win32" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/openssl/include/win32" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/uv/include" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/webp/include/win32" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/websockets/include/win32" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/curl/include/win32" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/png/include/win32" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/win32-specific/gles/include/OGLES" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/win32-specific/icon/include" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/win32-specific/MP3Decoder/include" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/win32-specific/OggDecoder/include" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/win32-specific/OpenalSoft/include" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/glfw3/include/win32" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/zlib/../win32-specific/zlib/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <ForcedIncludeFiles>precheader.h</ForcedIncludeFiles>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>precheader.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;LWS_WITH_LIBUV;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;LWS_WITH_LIBUV;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\DoItCPP\sample_code\appendix\simple_game\cocos2d;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\recast\..;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\tinyxml2\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\xxhash\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\xxtea\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\clipper\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\edtaa3func\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\ConvertUTF\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\poly2tri\..;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\md5\..;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\unzip\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\Box2D\include;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\chipmunk\include;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\freetype2\include\win32\freetype2;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\bullet\include;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\bullet\include\bullet;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\jpeg\include\win32;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\openssl\include\win32;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\uv\include;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\webp\include\win32;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\websockets\include\win32;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\curl\include\win32;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\png\include\win32;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\win32-specific\gles\include\OGLES;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\win32-specific\icon\include;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\win32-specific\MP3Decoder\include;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\win32-specific\OggDecoder\include;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\win32-specific\OpenalSoft\include;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\glfw3\include\win32;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\DoItCPP\sample_code\appendix\simple_game\cocos2d;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\recast\..;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\tinyxml2\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\xxhash\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\xxtea\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\clipper\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\edtaa3func\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\ConvertUTF\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\poly2tri\..;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\md5\..;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\unzip\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\Box2D\include;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\chipmunk\include;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\freetype2\include\win32\freetype2;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\bullet\include;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\bullet\include\bullet;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\jpeg\include\win32;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\openssl\include\win32;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\uv\include;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\webp\include\win32;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\websockets\include\win32;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\curl\include\win32;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\png\include\win32;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\win32-specific\gles\include\OGLES;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\win32-specific\icon\include;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\win32-specific\MP3Decoder\include;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\win32-specific\OggDecoder\include;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\win32-specific\OpenalSoft\include;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\glfw3\include\win32;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\DoItCPP\sample_code\appendix\simple_game\cocos2d;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\recast\..;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\tinyxml2\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\xxhash\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\xxtea\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\clipper\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\edtaa3func\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\ConvertUTF\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\poly2tri\..;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\md5\..;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\unzip\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/Box2D/include" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/chipmunk/include" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/freetype2/include/win32/freetype2" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/bullet/include" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/bullet/include/bullet" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/jpeg/include/win32" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/openssl/include/win32" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/uv/include" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/webp/include/win32" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/websockets/include/win32" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/curl/include/win32" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/png/include/win32" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/win32-specific/gles/include/OGLES" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/win32-specific/icon/include" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/win32-specific/MP3Decoder/include" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/win32-specific/OggDecoder/include" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/win32-specific/OpenalSoft/include" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/glfw3/include/win32" /external:I "D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/zlib/../win32-specific/zlib/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <ForcedIncludeFiles>precheader.h</ForcedIncludeFiles>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>precheader.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;LWS_WITH_LIBUV;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;LWS_WITH_LIBUV;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\DoItCPP\sample_code\appendix\simple_game\cocos2d;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\recast\..;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\tinyxml2\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\xxhash\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\xxtea\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\clipper\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\edtaa3func\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\ConvertUTF\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\poly2tri\..;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\md5\..;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\unzip\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\Box2D\include;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\chipmunk\include;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\freetype2\include\win32\freetype2;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\bullet\include;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\bullet\include\bullet;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\jpeg\include\win32;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\openssl\include\win32;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\uv\include;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\webp\include\win32;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\websockets\include\win32;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\curl\include\win32;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\png\include\win32;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\win32-specific\gles\include\OGLES;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\win32-specific\icon\include;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\win32-specific\MP3Decoder\include;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\win32-specific\OggDecoder\include;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\win32-specific\OpenalSoft\include;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\glfw3\include\win32;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\DoItCPP\sample_code\appendix\simple_game\cocos2d;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\recast\..;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\tinyxml2\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\xxhash\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\xxtea\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\clipper\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\edtaa3func\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\ConvertUTF\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\poly2tri\..;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\md5\..;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\unzip\.;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\Box2D\include;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\chipmunk\include;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\freetype2\include\win32\freetype2;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\bullet\include;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\bullet\include\bullet;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\jpeg\include\win32;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\openssl\include\win32;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\uv\include;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\webp\include\win32;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\websockets\include\win32;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\curl\include\win32;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\png\include\win32;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\win32-specific\gles\include\OGLES;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\win32-specific\icon\include;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\win32-specific\MP3Decoder\include;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\win32-specific\OggDecoder\include;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\win32-specific\OpenalSoft\include;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\glfw3\include\win32;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/cocos/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/DoItCPP/sample_code/appendix/simple_game -BD:/DoItCPP/sample_code/appendix/simple_game/win32-build --check-stamp-file D:/DoItCPP/sample_code/appendix/simple_game/win32-build/engine/cocos/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CMakeLists.txt;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CMakeLists.txt;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\audio\CMakeLists.txt;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CMakeLists.txt;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CMakeLists.txt;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\math\CMakeLists.txt;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\navmesh\CMakeLists.txt;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\network\CMakeLists.txt;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\physics\CMakeLists.txt;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\physics3d\CMakeLists.txt;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform\CMakeLists.txt;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\CMakeLists.txt;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\CMakeLists.txt;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\DoItCPP\sample_code\appendix\simple_game\win32-build\engine\cocos\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/cocos/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/DoItCPP/sample_code/appendix/simple_game -BD:/DoItCPP/sample_code/appendix/simple_game/win32-build --check-stamp-file D:/DoItCPP/sample_code/appendix/simple_game/win32-build/engine/cocos/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CMakeLists.txt;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CMakeLists.txt;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\audio\CMakeLists.txt;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CMakeLists.txt;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CMakeLists.txt;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\math\CMakeLists.txt;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\navmesh\CMakeLists.txt;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\network\CMakeLists.txt;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\physics\CMakeLists.txt;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\physics3d\CMakeLists.txt;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform\CMakeLists.txt;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\CMakeLists.txt;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\CMakeLists.txt;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\DoItCPP\sample_code\appendix\simple_game\win32-build\engine\cocos\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/cocos/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/DoItCPP/sample_code/appendix/simple_game -BD:/DoItCPP/sample_code/appendix/simple_game/win32-build --check-stamp-file D:/DoItCPP/sample_code/appendix/simple_game/win32-build/engine/cocos/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CMakeLists.txt;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CMakeLists.txt;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\audio\CMakeLists.txt;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CMakeLists.txt;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CMakeLists.txt;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\math\CMakeLists.txt;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\navmesh\CMakeLists.txt;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\network\CMakeLists.txt;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\physics\CMakeLists.txt;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\physics3d\CMakeLists.txt;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform\CMakeLists.txt;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\CMakeLists.txt;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\CMakeLists.txt;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\DoItCPP\sample_code\appendix\simple_game\win32-build\engine\cocos\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/cocos/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/DoItCPP/sample_code/appendix/simple_game -BD:/DoItCPP/sample_code/appendix/simple_game/win32-build --check-stamp-file D:/DoItCPP/sample_code/appendix/simple_game/win32-build/engine/cocos/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CMakeLists.txt;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CMakeLists.txt;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\audio\CMakeLists.txt;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CMakeLists.txt;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CMakeLists.txt;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\math\CMakeLists.txt;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\navmesh\CMakeLists.txt;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\network\CMakeLists.txt;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\physics\CMakeLists.txt;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\physics3d\CMakeLists.txt;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform\CMakeLists.txt;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\CMakeLists.txt;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\CMakeLists.txt;D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\DoItCPP\sample_code\appendix\simple_game\win32-build\engine\cocos\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\cocos2d.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCActionCamera.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCActionCatmullRom.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCAction.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCActionEase.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCActionGrid3D.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCActionGrid.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCActionInstant.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCActionInterval.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCActionManager.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCActionPageTurn3D.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCActionProgressTimer.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCActionTiledGrid.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCActionTween.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCAnimationCache.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCAnimation.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCAtlasNode.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCCamera.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCCameraBackgroundBrush.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCClippingNode.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCClippingRectangleNode.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCComponentContainer.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCComponent.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCDrawNode.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCFastTMXLayer.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCFastTMXTiledMap.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCFontAtlasCache.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCFontAtlas.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCFontCharMap.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCFont.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCFontFNT.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCFontFreeType.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCGrid.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCLabelAtlas.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCLabel.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCLabelTextFormatter.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCLayer.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCLight.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCMenu.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCMenuItem.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCMotionStreak.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCNode.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCNodeGrid.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCParallaxNode.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCParticleBatchNode.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCParticleExamples.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCParticleSystem.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCParticleSystemQuad.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCProgressTimer.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCProtectedNode.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCRenderTexture.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCScene.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCSpriteBatchNode.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCSprite.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCSpriteFrameCache.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCSpriteFrame.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCAutoPolygon.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCTextFieldTTF.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCTileMapAtlas.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCTMXLayer.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCTMXObjectGroup.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCTMXTiledMap.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCTMXXMLParser.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCTransition.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCTransitionPageTurn.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCTransitionProgress.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCTweenFunction.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCAABB.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCAnimate3D.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCAnimation3D.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCAttachNode.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCBillBoard.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCBundle3D.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCBundle3DData.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCBundleReader.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCFrustum.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCMesh.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCMeshSkin.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCMeshVertexIndexData.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCMotionStreak3D.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCOBB.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCObjLoader.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCPlane.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCRay.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCSkeleton3D.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCSkybox.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCSprite3D.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCSprite3DMaterial.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCTerrain.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCVertexAttribBinding.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CC3DProgramInfo.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform\win32\CCStdC-win32.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform\win32\CCUtils-win32.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform\win32\CCFileUtils-win32.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform\win32\CCCommon-win32.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform\win32\CCApplication-win32.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform\win32\CCDevice-win32.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform\win32\inet_pton_mingw.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform\desktop\CCGLViewImpl-desktop.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform\CCSAXParser.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform\CCGLView.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform\CCFileUtils.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform\CCImage.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\physics\CCPhysicsBody.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\physics\CCPhysicsContact.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\physics\CCPhysicsJoint.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\physics\CCPhysicsShape.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\physics\CCPhysicsWorld.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\physics3d\CCPhysics3D.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\physics3d\CCPhysics3DComponent.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\physics3d\CCPhysics3DConstraint.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\physics3d\CCPhysics3DDebugDrawer.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\physics3d\CCPhysics3DObject.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\physics3d\CCPhysics3DShape.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\physics3d\CCPhysics3DWorld.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\physics3d\CCPhysicsSprite3D.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\math\CCAffineTransform.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\math\CCGeometry.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\math\CCVertex.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\math\Mat4.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\math\MathUtil.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\math\Quaternion.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\math\TransformUtils.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\math\Vec2.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\math\Vec3.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\math\Vec4.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\navmesh\CCNavMesh.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\navmesh\CCNavMeshAgent.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\navmesh\CCNavMeshDebugDraw.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\navmesh\CCNavMeshObstacle.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\navmesh\CCNavMeshUtils.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\CCCallbackCommand.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\CCCustomCommand.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\CCGroupCommand.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\CCMaterial.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\CCMeshCommand.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\CCPass.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\CCQuadCommand.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\CCRenderCommand.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\CCRenderState.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\CCRenderer.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\CCTechnique.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\CCTexture2D.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\CCTextureAtlas.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\CCTextureCache.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\CCTextureCube.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\CCTextureUtils.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\CCTrianglesCommand.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\ccShaders.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\backend\CommandBuffer.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\backend\DepthStencilState.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\backend\Device.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\backend\ShaderModule.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\backend\Texture.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\backend\Types.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\backend\VertexLayout.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\backend\ProgramCache.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\backend\Program.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\backend\ProgramState.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\backend\ShaderCache.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\backend\RenderPassDescriptor.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\backend\opengl\BufferGL.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\backend\opengl\CommandBufferGL.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\backend\opengl\DepthStencilStateGL.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\backend\opengl\DeviceGL.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\backend\opengl\ProgramGL.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\backend\opengl\RenderPipelineGL.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\backend\opengl\ShaderModuleGL.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\backend\opengl\TextureGL.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\backend\opengl\UtilsGL.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\backend\opengl\DeviceInfoGL.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCAsyncTaskPool.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCAutoreleasePool.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCConfiguration.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCConsole.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCController.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCData.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCNinePatchImageParser.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCDirector.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCEvent.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCEventAcceleration.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCEventController.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCEventCustom.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCEventDispatcher.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCEventFocus.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCEventKeyboard.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCEventListener.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCEventListenerAcceleration.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCEventListenerController.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCEventListenerCustom.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCEventListenerFocus.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCEventListenerKeyboard.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCEventListenerMouse.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCEventListenerTouch.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCEventMouse.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCEventTouch.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCIMEDispatcher.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCNS.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCProfiling.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCProperties.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCRef.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCScheduler.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCScriptSupport.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCTouch.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCUserDefault.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCValue.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\ObjectFactory.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCStencilStateManager.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\TGAlib.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\ZipUtils.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\atitc.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\base64.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\ccCArray.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\ccFPSImages.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsCpp</CompileAs>
+    </ClCompile>
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\ccRandom.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\ccTypes.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\ccUTF8.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\ccUtils.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\etc1.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\pvr.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\s3tc.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCController-linux-win32.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\audio\AudioEngine.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\audio\win32\MciPlayer.cpp" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\audio\win32\MciPlayer.h" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\audio\win32\AudioEngine-win32.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\audio\win32\AudioCache.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\audio\win32\AudioPlayer.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\audio\win32\AudioDecoder.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\audio\win32\AudioDecoderManager.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\audio\win32\AudioDecoderMp3.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\audio\win32\AudioDecoderOgg.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIEditBox\UIEditBoxImpl-win32.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\CocosGUI.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIButton.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIAbstractCheckButton.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UICheckBox.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIRadioButton.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIHBox.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIHelper.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIImageView.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UILayout.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UILayoutManager.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UILayoutParameter.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIListView.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UILoadingBar.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIPageView.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIPageViewIndicator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIRelativeBox.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIRichText.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIScale9Sprite.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIScrollView.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIScrollViewBar.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UISlider.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIText.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UITextAtlas.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UITextBMFont.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UITextField.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIVBox.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIWidget.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIEditBox\UIEditBox.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UILayoutComponent.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIEditBox\UIEditBoxImpl-common.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UITabControl.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\network\HttpClient.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\network\SocketIO.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\network\WebSocket.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\network\CCDownloader.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\network\CCDownloader-curl.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\network\Uri.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\SimpleAudioEngine.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCActionFrame.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCActionFrameEasing.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCActionManagerEx.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCActionNode.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCActionObject.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCArmature.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCArmatureAnimation.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCArmatureDataManager.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCArmatureDefine.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCBatchNode.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCBone.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCColliderDetector.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCComAttribute.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCComAudio.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCComController.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCComRender.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCDataReaderHelper.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCDatas.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCDecorativeDisplay.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCDisplayFactory.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCDisplayManager.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCInputDelegate.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCProcessBase.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCSGUIReader.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCSSceneReader.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCSkin.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCSpriteFrameCacheHelper.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCTransformHelp.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCTween.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCUtilMath.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CocoLoader.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\DictionaryHelper.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\LocalizationManager.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\TriggerBase.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\TriggerMng.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\TriggerObj.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\FlatBuffersSerialize.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCComExtensionData.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CocoStudio.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetCallBackHandlerProtocol.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\NodeReader\NodeReader.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\SingleNodeReader\SingleNodeReader.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\SpriteReader\SpriteReader.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ParticleReader\ParticleReader.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\GameMapReader\GameMapReader.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ProjectNodeReader\ProjectNodeReader.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ComAudioReader\ComAudioReader.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\WidgetReader.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\LoadingBarReader\LoadingBarReader.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\TextFieldReader\TextFieldReader.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\CheckBoxReader\CheckBoxReader.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\SliderReader\SliderReader.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\PageViewReader\PageViewReader.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\TextReader\TextReader.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\Node3DReader\Node3DReader.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\UserCameraReader\UserCameraReader.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\Particle3DReader\Particle3DReader.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\Sprite3DReader\Sprite3DReader.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\SkeletonReader\BoneNodeReader.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\SkeletonReader\SkeletonNodeReader.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\TextAtlasReader\TextAtlasReader.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\LayoutReader\LayoutReader.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\TextBMFontReader\TextBMFontReader.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ImageViewReader\ImageViewReader.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ButtonReader\ButtonReader.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\GameNode3DReader\GameNode3DReader.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\Light3DReader\Light3DReader.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\ActionTimeline\CCActionTimelineCache.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\ActionTimeline\CCActionTimeline.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\ActionTimeline\CCActionTimelineNode.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\ActionTimeline\CCFrame.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\ActionTimeline\CCTimeLine.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\ActionTimeline\CSLoader.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\ActionTimeline\CCBoneNode.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\ActionTimeline\CCSkeletonNode.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\ActionTimeline\CCSkinNode.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ArmatureNodeReader\ArmatureNodeReader.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\TabControlReader\TabControlReader.cpp" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\SimpleAudioEngine.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCProcessBase.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\TriggerMng.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCDataReaderHelper.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCDisplayManager.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCComAttribute.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCArmatureDefine.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCUtilMath.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCInputDelegate.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCDecorativeDisplay.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCActionManagerEx.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\ActionTimeline\CCTimelineMacro.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\ActionTimeline\CCSkeletonNode.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\ActionTimeline\CCFrame.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\ActionTimeline\CCActionTimeline.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\ActionTimeline\CCActionTimelineNode.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\ActionTimeline\CCBoneNode.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\ActionTimeline\CCTimeLine.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\ActionTimeline\CSLoader.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\ActionTimeline\CCActionTimelineCache.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\ActionTimeline\CCSkinNode.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CocosStudioExtension.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCTransformHelp.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CocoStudio.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCBatchNode.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCActionFrame.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\FlatBuffersSerialize.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCComRender.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CSLanguageDataBinary_generated.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCSpriteFrameCacheHelper.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCBone.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CocosStudioExport.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCArmatureAnimation.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCActionFrameEasing.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCTween.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCActionNode.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CSParse3DBinary_generated.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\DictionaryHelper.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCComBase.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetCallBackHandlerProtocol.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ArmatureNodeReader\ArmatureNodeReader.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ArmatureNodeReader\CSArmatureNode_generated.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ProjectNodeReader\ProjectNodeReader.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\GameNode3DReader\GameNode3DReader.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\GameMapReader\GameMapReader.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\UserCameraReader\UserCameraReader.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\LoadingBarReader\LoadingBarReader.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\SpriteReader\SpriteReader.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\TextAtlasReader\TextAtlasReader.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\Node3DReader\Node3DReader.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\WidgetReaderProtocol.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ButtonReader\ButtonReader.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\Light3DReader\Light3DReader.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\TabControlReader\TabControlReader.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\TabControlReader\CSTabControl_generated.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\TextReader\TextReader.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\WidgetReader.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\PageViewReader\PageViewReader.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\NodeReader\NodeReader.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ImageViewReader\ImageViewReader.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\LayoutReader\LayoutReader.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\SingleNodeReader\SingleNodeReader.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\NodeReaderDefine.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\TextBMFontReader\TextBMFontReader.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\CheckBoxReader\CheckBoxReader.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\Sprite3DReader\Sprite3DReader.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\SliderReader\SliderReader.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ComAudioReader\ComAudioReader.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ParticleReader\ParticleReader.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\Particle3DReader\Particle3DReader.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\SkeletonReader\CSBoneBinary_generated.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\SkeletonReader\SkeletonNodeReader.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\SkeletonReader\BoneNodeReader.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\TextFieldReader\TextFieldReader.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\NodeReaderProtocol.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCComAudio.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCDisplayFactory.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCArmature.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCArmatureDataManager.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCDatas.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCComExtensionData.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCComController.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\TriggerObj.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CocoLoader.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCColliderDetector.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\LocalizationManager.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCActionObject.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\TriggerBase.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCSSceneReader.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCSGUIReader.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCSkin.h" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\assets-manager\AssetsManager.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\assets-manager\AssetsManagerEx.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\assets-manager\CCEventAssetsManagerEx.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\assets-manager\CCEventListenerAssetsManagerEx.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\assets-manager\Manifest.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\GUI\CCControlExtension\CCControl.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\GUI\CCControlExtension\CCControlButton.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\GUI\CCControlExtension\CCControlColourPicker.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\GUI\CCControlExtension\CCControlHuePicker.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\GUI\CCControlExtension\CCControlPotentiometer.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\GUI\CCControlExtension\CCControlSaturationBrightnessPicker.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\GUI\CCControlExtension\CCControlSlider.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\GUI\CCControlExtension\CCControlStepper.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\GUI\CCControlExtension\CCControlSwitch.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\GUI\CCControlExtension\CCControlUtils.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\GUI\CCControlExtension\CCInvocation.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\GUI\CCScrollView\CCScrollView.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\GUI\CCScrollView\CCTableView.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\GUI\CCScrollView\CCTableViewCell.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\physics-nodes\CCPhysicsDebugNode.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\physics-nodes\CCPhysicsSprite.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\CCParticle3DAffector.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\CCParticle3DEmitter.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\CCParticle3DRender.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\CCParticleSystem3D.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUDynamicAttribute.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUDynamicAttributeTranslator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUForceField.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUMaterialManager.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUMaterialTranslator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUNoise.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUPlane.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPURendererTranslator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUScriptCompiler.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUScriptLexer.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUScriptParser.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUScriptTranslator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUSimpleSpline.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUSphere.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUTechniqueTranslator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUTranslateManager.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUUtil.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUParticleSystem3D.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUParticleSystem3DTranslator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUListener.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUAffector.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUAffectorManager.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUAffectorTranslator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUAlignAffector.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUAlignAffectorTranslator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUBaseCollider.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUBaseColliderTranslator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUBaseForceAffector.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUBaseForceAffectorTranslator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUBoxCollider.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUBoxColliderTranslator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUCollisionAvoidanceAffector.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUCollisionAvoidanceAffectorTranslator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUColorAffector.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUColorAffectorTranslator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUFlockCenteringAffector.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUFlockCenteringAffectorTranslator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUForceFieldAffector.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUForceFieldAffectorTranslator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUGeometryRotator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUGeometryRotatorTranslator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUGravityAffector.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUGravityAffectorTranslator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUInterParticleCollider.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUInterParticleColliderTranslator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUJetAffector.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUJetAffectorTranslator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPULineAffector.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPULineAffectorTranslator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPULinearForceAffector.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPULinearForceAffectorTranslator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUParticleFollower.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUParticleFollowerTranslator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUPathFollower.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUPathFollowerTranslator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUPlaneCollider.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUPlaneColliderTranslator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPURandomiser.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPURandomiserTranslator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUScaleAffector.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUScaleAffectorTranslator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUScaleVelocityAffector.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUScaleVelocityAffectorTranslator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUSineForceAffector.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUSineForceAffectorTranslator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUSphereCollider.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUSphereColliderTranslator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUTextureAnimator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUTextureAnimatorTranslator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUTextureRotator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUTextureRotatorTranslator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUVelocityMatchingAffector.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUVelocityMatchingAffectorTranslator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUVortexAffector.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUVortexAffectorTranslator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUBoxEmitter.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUBoxEmitterTranslator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUCircleEmitter.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUCircleEmitterTranslator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUEmitter.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUEmitterManager.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUEmitterTranslator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPULineEmitter.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPULineEmitterTranslator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUMeshSurfaceEmitter.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUMeshSurfaceEmitterTranslator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUPointEmitter.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUPointEmitterTranslator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUPositionEmitter.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUPositionEmitterTranslator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUSlaveEmitter.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUSlaveEmitterTranslator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUSphereSurfaceEmitter.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUSphereSurfaceEmitterTranslator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUVertexEmitter.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPURender.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUBeamRender.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUBillboardChain.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPURibbonTrail.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPURibbonTrailRender.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUDoAffectorEventHandler.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUDoAffectorEventHandlerTranslator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUDoEnableComponentEventHandler.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUDoEnableComponentEventHandlerTranslator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUDoExpireEventHandler.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUDoExpireEventHandlerTranslator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUDoFreezeEventHandler.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUDoFreezeEventHandlerTranslator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUDoPlacementParticleEventHandler.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUDoPlacementParticleEventHandlerTranslator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUDoScaleEventHandler.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUDoScaleEventHandlerTranslator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUDoStopSystemEventHandler.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUDoStopSystemEventHandlerTranslator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUEventHandler.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUEventHandlerManager.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUEventHandlerTranslator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUObserver.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUObserverManager.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUObserverTranslator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUOnClearObserver.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUOnClearObserverTranslator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUOnCollisionObserver.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUOnCollisionObserverTranslator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUOnCountObserver.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUOnCountObserverTranslator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUOnEmissionObserver.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUOnEmissionObserverTranslator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUOnEventFlagObserver.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUOnEventFlagObserverTranslator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUOnExpireObserver.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUOnExpireObserverTranslator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUOnPositionObserver.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUOnPositionObserverTranslator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUOnQuotaObserver.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUOnQuotaObserverTranslator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUOnRandomObserver.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUOnRandomObserverTranslator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUOnTimeObserver.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUOnTimeObserverTranslator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUOnVelocityObserver.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUOnVelocityObserverTranslator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUBehaviour.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUBehaviourManager.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUBehaviourTranslator.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUSlaveBehaviour.cpp" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUSlaveBehaviourTranslator.cpp" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\cocos2d.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCActionPageTurn3D.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCActionTween.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCGrid.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCSpriteFrameCache.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCTMXTiledMap.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCLayer.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCActionCamera.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCParticleExamples.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCSprite.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCNode.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCComponentContainer.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCActionProgressTimer.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCTweenFunction.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCLight.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCAutoPolygon.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCFontAtlas.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCAtlasNode.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCClippingNode.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCRenderTexture.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCActionInterval.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCTMXXMLParser.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCActionInstant.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCLabel.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCComponent.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCLabelAtlas.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCActionCatmullRom.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCActionGrid.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCParticleBatchNode.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCClippingRectangleNode.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCActionEase.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCScene.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCProtectedNode.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCTextFieldTTF.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCAnimationCache.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCFastTMXLayer.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCFontAtlasCache.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCFont.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCParticleSystemQuad.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCActionGrid3D.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCCameraBackgroundBrush.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCFastTMXTiledMap.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCLabelTextFormatter.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCMenuItem.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCFontFNT.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCSpriteBatchNode.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCTransitionProgress.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCSpriteFrame.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCTMXObjectGroup.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCAnimation.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCNodeGrid.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCFontFreeType.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCAction.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCTransition.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCTransitionPageTurn.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCFontCharMap.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCParticleSystem.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCProgressTimer.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCTileMapAtlas.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCActionTiledGrid.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCActionManager.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCMotionStreak.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCMenu.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCDrawNode.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCTMXLayer.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCCamera.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCParallaxNode.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCBillBoard.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCFrustum.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCSprite3DMaterial.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCMeshVertexIndexData.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCPlane.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCRay.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCMesh.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCAnimate3D.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCTerrain.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCAnimationCurve.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCSprite3D.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCOBB.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCAnimation3D.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCMotionStreak3D.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCSkybox.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCMeshSkin.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\cocos3d.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCAABB.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCBundle3D.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCObjLoader.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCBundle3DData.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCSkeleton3D.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCBundleReader.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCAttachNode.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCVertexAttribBinding.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CC3DProgramInfo.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform\win32\compat\stdint.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform\win32\CCApplication-win32.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform\win32\inet_pton_mingw.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform\win32\CCGL-win32.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform\win32\CCFileUtils-win32.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform\win32\CCStdC-win32.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform\win32\CCPlatformDefine-win32.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform\win32\CCUtils-win32.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform\desktop\CCGLViewImpl-desktop.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform\CCApplication.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform\CCApplicationProtocol.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform\CCCommon.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform\CCDevice.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform\CCFileUtils.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform\CCGL.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform\CCGLView.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform\CCImage.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform\CCPlatformConfig.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform\CCPlatformDefine.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform\CCPlatformMacros.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform\CCSAXParser.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform\CCStdC.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\physics\CCPhysicsContact.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\physics\CCPhysicsWorld.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\physics\CCPhysicsBody.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\physics\cpCompat62.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\physics\CCPhysicsShape.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\physics\CCPhysicsHelper.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\physics\CCPhysicsJoint.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\physics3d\CCPhysics3DConstraint.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\physics3d\CCPhysics3DShape.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\physics3d\CCPhysics3D.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\physics3d\CCPhysics3DWorld.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\physics3d\CCPhysicsSprite3D.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\physics3d\CCPhysics3DObject.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\physics3d\CCPhysics3DComponent.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\physics3d\CCPhysics3DDebugDrawer.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\math\Vec2.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\math\Mat4.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\math\Quaternion.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\math\TransformUtils.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\math\Vec4.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\math\CCAffineTransform.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\math\CCGeometry.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\math\CCVertex.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\math\Vec3.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\math\CCMathBase.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\math\MathUtil.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\math\CCMath.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\navmesh\CCNavMeshAgent.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\navmesh\CCNavMeshObstacle.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\navmesh\CCNavMeshUtils.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\navmesh\CCNavMeshDebugDraw.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\navmesh\CCNavMesh.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\CCCallbackCommand.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\CCCustomCommand.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\CCGroupCommand.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\CCMaterial.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\CCMeshCommand.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\CCPass.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\CCPipelineDescriptor.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\CCQuadCommand.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\CCRenderCommand.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\CCRenderCommandPool.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\CCRenderState.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\CCRenderer.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\CCTechnique.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\CCTexture2D.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\CCTextureAtlas.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\CCTextureCache.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\CCTextureCube.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\CCTextureUtils.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\CCTrianglesCommand.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\ccShaders.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\backend\Backend.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\backend\Buffer.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\backend\CommandBuffer.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\backend\DepthStencilState.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\backend\Device.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\backend\Program.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\backend\ProgramCache.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\backend\Macros.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\backend\RenderPassDescriptor.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\backend\RenderPipeline.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\backend\RenderPipelineDescriptor.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\backend\ShaderModule.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\backend\Texture.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\backend\Types.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\backend\VertexLayout.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\backend\ProgramState.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\backend\ShaderCache.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\backend\DeviceInfo.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\backend\opengl\BufferGL.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\backend\opengl\CommandBufferGL.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\backend\opengl\DepthStencilStateGL.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\backend\opengl\DeviceGL.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\backend\opengl\ProgramGL.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\backend\opengl\RenderPipelineGL.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\backend\opengl\ShaderModuleGL.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\backend\opengl\TextureGL.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\backend\opengl\UtilsGL.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\backend\opengl\DeviceInfoGL.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\pvr.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCValue.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCEventListenerMouse.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\atitc.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\utlist.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCEventTouch.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCData.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\ccMacros.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCEventAcceleration.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCEventListenerKeyboard.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCController.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCTouch.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\base64.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCEventListenerController.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\s3tc.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\etc1.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCGameController.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCConsole.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\ccConstants.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCEvent.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\ccTypes.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCAsyncTaskPool.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\ccRandom.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCRef.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCProfiling.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\ObjectFactory.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCProperties.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCVector.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCEventCustom.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCEventKeyboard.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCNinePatchImageParser.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCEventListenerCustom.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCEventDispatcher.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\uthash.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\ccUtils.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCEventController.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCRefPtr.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCDirector.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCEventListenerFocus.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCUserDefault.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\ccConfig.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\ccFPSImages.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\ZipUtils.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCMap.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\ccUTF8.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCScriptSupport.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCEventFocus.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCConfiguration.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCProtocols.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\TGAlib.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCEventMouse.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCIMEDelegate.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCNS.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCAutoreleasePool.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCStencilStateManager.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCEventListenerTouch.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCEventListenerAcceleration.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\firePngData.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\ccCArray.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCEventListener.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCScheduler.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCEventType.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCIMEDispatcher.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\audio\include\AudioEngine.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\audio\include\Export.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\audio\win32\AudioDecoderManager.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\audio\win32\AudioDecoder.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\audio\win32\AudioPlayer.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\audio\win32\AudioDecoderOgg.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\audio\win32\AudioMacros.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\audio\win32\AudioEngine-win32.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\audio\win32\AudioDecoderMp3.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\audio\win32\AudioCache.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIEditBox\UIEditBoxImpl-win32.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\CocosGUI.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\GUIDefine.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\GUIExport.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIAbstractCheckButton.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIButton.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UICheckBox.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIHBox.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIHelper.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIImageView.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UILayout.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UILayoutComponent.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UILayoutManager.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UILayoutParameter.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIListView.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UILoadingBar.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIPageView.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIPageViewIndicator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIRadioButton.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIRelativeBox.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIRichText.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIScale9Sprite.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIScrollView.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIScrollViewBar.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UISlider.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UITabControl.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIText.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UITextAtlas.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UITextBMFont.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UITextField.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIVBox.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIWidget.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\network\CCDownloader-curl.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\network\CCIDownloaderImpl.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\network\CCDownloader.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\network\WebSocket.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\network\Uri.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\network\SocketIO.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\network\HttpClient.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\network\HttpResponse.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\network\HttpRequest.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\network\HttpCookie.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\ExtensionMacros.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\assets-manager\AssetsManagerEx.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\assets-manager\Manifest.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\assets-manager\CCEventListenerAssetsManagerEx.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\assets-manager\AssetsManager.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\assets-manager\CCEventAssetsManagerEx.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\physics-nodes\CCPhysicsSprite.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\physics-nodes\CCPhysicsDebugNode.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\CCParticleSystem3D.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUDoExpireEventHandler.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUParticleSystem3D.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUDoStopSystemEventHandler.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUAffectorManager.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUTechniqueTranslator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPURender.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUObserver.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUMeshSurfaceEmitterTranslator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUAlignAffector.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUSphereColliderTranslator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUAffectorTranslator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUTextureRotator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUTextureRotatorTranslator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUParticleSystem3DTranslator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUCircleEmitterTranslator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPURandomiser.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUBoxCollider.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUScriptCompiler.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUDynamicAttributeTranslator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUOnRandomObserver.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUOnCollisionObserver.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUBoxEmitterTranslator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUDoAffectorEventHandler.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUEventHandlerTranslator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPULineEmitterTranslator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUMaterialTranslator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUVelocityMatchingAffector.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUEmitterTranslator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUOnCountObserver.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUScriptParser.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUOnEmissionObserver.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUBaseForceAffectorTranslator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPURibbonTrailRender.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUDoPlacementParticleEventHandlerTranslator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUDoScaleEventHandler.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUScriptTranslator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPURandomiserTranslator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUBoxEmitter.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUPlaneColliderTranslator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUVortexAffectorTranslator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUUtil.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUListener.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUGravityAffectorTranslator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUDoEnableComponentEventHandler.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUInterParticleCollider.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUDoStopSystemEventHandlerTranslator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUPositionEmitterTranslator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUGeometryRotator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUOnEventFlagObserver.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPULinearForceAffector.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUOnTimeObserverTranslator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUBillboardChain.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUScaleVelocityAffectorTranslator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUParticleFollower.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUPositionEmitter.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUTextureAnimatorTranslator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUPlaneCollider.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUBehaviour.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUOnQuotaObserver.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPULineAffectorTranslator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUJetAffectorTranslator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUDoEnableComponentEventHandlerTranslator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUForceFieldAffector.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUDoFreezeEventHandler.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUOnClearObserverTranslator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUAffector.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUAlignAffectorTranslator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUEmitterManager.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUObserverTranslator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUBaseCollider.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUParticleFollowerTranslator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUBaseColliderTranslator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUOnVelocityObserverTranslator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUVertexEmitter.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUMaterialManager.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUScaleAffectorTranslator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUSphereSurfaceEmitterTranslator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUSphereSurfaceEmitter.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUEmitter.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUCollisionAvoidanceAffector.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUDoFreezeEventHandlerTranslator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUSimpleSpline.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUFlockCenteringAffector.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUOnExpireObserverTranslator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPULineEmitter.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUDoAffectorEventHandlerTranslator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUTextureAnimator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUSineForceAffectorTranslator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUCircleEmitter.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUSlaveBehaviour.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUOnPositionObserverTranslator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUOnEventFlagObserverTranslator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUScriptLexer.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUOnExpireObserver.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUOnRandomObserverTranslator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPURibbonTrail.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUColorAffectorTranslator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUEventHandler.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUNoise.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUEventHandlerManager.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUSlaveBehaviourTranslator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUColorAffector.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUScaleVelocityAffector.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUDynamicAttribute.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUSphere.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUSlaveEmitter.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUBaseForceAffector.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUVelocityMatchingAffectorTranslator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUDoScaleEventHandlerTranslator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUGravityAffector.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUBeamRender.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUOnClearObserver.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUOnEmissionObserverTranslator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUJetAffector.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUSphereCollider.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUPathFollowerTranslator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUOnQuotaObserverTranslator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUPointEmitter.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUCollisionAvoidanceAffectorTranslator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUPlane.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUGeometryRotatorTranslator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUOnCountObserverTranslator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUDoExpireEventHandlerTranslator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUMeshSurfaceEmitter.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPULineAffector.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUSineForceAffector.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUPathFollower.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPULinearForceAffectorTranslator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUObserverManager.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUBoxColliderTranslator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUDoPlacementParticleEventHandler.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUOnVelocityObserver.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUScaleAffector.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUInterParticleColliderTranslator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUPointEmitterTranslator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUVortexAffector.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUTranslateManager.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUFlockCenteringAffectorTranslator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUOnTimeObserver.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUBehaviourManager.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUOnCollisionObserverTranslator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPURendererTranslator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUSlaveEmitterTranslator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUBehaviourTranslator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUForceField.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUForceFieldAffectorTranslator.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUOnPositionObserver.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\CCParticle3DEmitter.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\CCParticle3DAffector.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\CCParticle3DRender.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\cocos-ext.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\GUI\CCControlExtension\CCControlHuePicker.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\GUI\CCControlExtension\CCControlUtils.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\GUI\CCControlExtension\CCControl.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\GUI\CCControlExtension\CCControlExtensions.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\GUI\CCControlExtension\CCControlColourPicker.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\GUI\CCControlExtension\CCControlButton.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\GUI\CCControlExtension\CCInvocation.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\GUI\CCControlExtension\CCControlSlider.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\GUI\CCControlExtension\CCControlStepper.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\GUI\CCControlExtension\CCControlSaturationBrightnessPicker.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\GUI\CCControlExtension\CCControlPotentiometer.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\GUI\CCControlExtension\CCControlSwitch.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\GUI\CCScrollView\CCTableViewCell.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\GUI\CCScrollView\CCScrollView.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\GUI\CCScrollView\CCTableView.h" />
+    <ClInclude Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\ExtensionExport.h" />
+    <ClCompile Include="D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\precheader.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">precheader.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">precheader.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">precheader.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">precheader.h</PrecompiledHeaderFile>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\DoItCPP\sample_code\appendix\simple_game\win32-build\ZERO_CHECK.vcxproj">
+      <Project>{1B4FFDEA-E766-3F5D-B3CD-12AD07AFF533}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\DoItCPP\sample_code\appendix\simple_game\win32-build\engine\external\clipper\ext_clipper.vcxproj">
+      <Project>{0C5AAAC5-36E2-3982-8B30-8E7CF7F829F1}</Project>
+      <Name>ext_clipper</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DoItCPP\sample_code\appendix\simple_game\win32-build\engine\external\ConvertUTF\ext_convertUTF.vcxproj">
+      <Project>{B22E7A56-2294-34CC-93DD-55E9621567F9}</Project>
+      <Name>ext_convertUTF</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DoItCPP\sample_code\appendix\simple_game\win32-build\engine\external\edtaa3func\ext_edtaa3func.vcxproj">
+      <Project>{7673B4D0-6D8C-395D-BC12-D08323A69013}</Project>
+      <Name>ext_edtaa3func</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DoItCPP\sample_code\appendix\simple_game\win32-build\engine\external\md5\ext_md5.vcxproj">
+      <Project>{516E3257-6BED-3B38-AC28-38716260222A}</Project>
+      <Name>ext_md5</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DoItCPP\sample_code\appendix\simple_game\win32-build\engine\external\poly2tri\ext_poly2tri.vcxproj">
+      <Project>{4E690B10-B59B-33F7-827F-8F043BF60773}</Project>
+      <Name>ext_poly2tri</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DoItCPP\sample_code\appendix\simple_game\win32-build\engine\external\recast\ext_recast.vcxproj">
+      <Project>{8AE7A78B-C05B-3C4C-B74F-5AF5E6CFD398}</Project>
+      <Name>ext_recast</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DoItCPP\sample_code\appendix\simple_game\win32-build\engine\external\tinyxml2\ext_tinyxml2.vcxproj">
+      <Project>{5BB8C352-9853-3EC2-9A6D-833587308E29}</Project>
+      <Name>ext_tinyxml2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DoItCPP\sample_code\appendix\simple_game\win32-build\engine\external\unzip\ext_unzip.vcxproj">
+      <Project>{D41D6DCF-3F5B-355B-85A6-32605E38920A}</Project>
+      <Name>ext_unzip</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DoItCPP\sample_code\appendix\simple_game\win32-build\engine\external\xxhash\ext_xxhash.vcxproj">
+      <Project>{CEFA1A08-7CA5-3B8F-9E26-8816FA550D34}</Project>
+      <Name>ext_xxhash</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DoItCPP\sample_code\appendix\simple_game\win32-build\engine\external\xxtea\ext_xxtea.vcxproj">
+      <Project>{579BC233-791F-3A35-B1F1-707CA0791E5E}</Project>
+      <Name>ext_xxtea</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DoItCPP\sample_code\appendix\simple_game\win32-build\engine\external\external.vcxproj">
+      <Project>{092F8BFE-2635-34B6-AAD3-16433FFCB44C}</Project>
+      <Name>external</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
