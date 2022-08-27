@@ -18,8 +18,8 @@ int main() {
   //cout << "C로 시작해서 E나 N으로 끝나는 '단어'가 포함한 문장 찾기(대소 구별 없음)" << endl;
   cout << "C로 시작해서 E나 N으로 끝나는 '문자열'이 포함한 문장 찾기(대소 구별 없음)" << endl;
   while (getline(manifesto, manifesto_text)) {
-    //regex reg("\\sc[a-z]*[en]\\s", regex::icase);
-    regex reg("c[a-z]*[en]", regex::icase);
+    regex reg("\\sc[a-z]*[en]\\s", regex::icase);
+    //regex reg("c[a-z]*[en]", regex::icase);
     smatch match_results;
     if (regex_search(manifesto_text, match_results, reg)) {
       cout << "[찾음] : " << manifesto_text << " - " << match_results[0] << endl;
