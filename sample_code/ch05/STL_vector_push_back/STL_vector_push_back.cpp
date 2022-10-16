@@ -5,7 +5,7 @@ using namespace std;
 
 int main() {
   vector<int> vec;
-  vec.push_back(0);  // 맨 뒤에 0 추가
+  vConsoleApplication1ec.push_back(0);  // 맨 뒤에 0 추가
   vec.push_back(1);  // 맨 뒤에 1 추가
   vec.push_back(2);  // 맨 뒤에 2 추가
   vec.push_back(3);  // 맨 뒤에 3 추가

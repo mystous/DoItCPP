@@ -207,6 +207,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "STL_string_operator", "ch05
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "STL_vector_push_back", "ch05\STL_vector_push_back\STL_vector_push_back.vcxproj", "{C5788F24-E5F3-459E-9D02-165968F916E5}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "STL_vector_iterator_1", "ch05\STL_vector_iterator_1\STL_vector_iterator_1.vcxproj", "{4B74C621-F752-4F4C-810D-32EE9D2491A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1723,6 +1725,22 @@ Global
 		{C5788F24-E5F3-459E-9D02-165968F916E5}.RelWithDebInfo|x64.Build.0 = Release|x64
 		{C5788F24-E5F3-459E-9D02-165968F916E5}.RelWithDebInfo|x86.ActiveCfg = Release|Win32
 		{C5788F24-E5F3-459E-9D02-165968F916E5}.RelWithDebInfo|x86.Build.0 = Release|Win32
+		{4B74C621-F752-4F4C-810D-32EE9D2491A2}.Debug|x64.ActiveCfg = Debug|x64
+		{4B74C621-F752-4F4C-810D-32EE9D2491A2}.Debug|x64.Build.0 = Debug|x64
+		{4B74C621-F752-4F4C-810D-32EE9D2491A2}.Debug|x86.ActiveCfg = Debug|Win32
+		{4B74C621-F752-4F4C-810D-32EE9D2491A2}.Debug|x86.Build.0 = Debug|Win32
+		{4B74C621-F752-4F4C-810D-32EE9D2491A2}.MinSizeRel|x64.ActiveCfg = Debug|x64
+		{4B74C621-F752-4F4C-810D-32EE9D2491A2}.MinSizeRel|x64.Build.0 = Debug|x64
+		{4B74C621-F752-4F4C-810D-32EE9D2491A2}.MinSizeRel|x86.ActiveCfg = Debug|Win32
+		{4B74C621-F752-4F4C-810D-32EE9D2491A2}.MinSizeRel|x86.Build.0 = Debug|Win32
+		{4B74C621-F752-4F4C-810D-32EE9D2491A2}.Release|x64.ActiveCfg = Release|x64
+		{4B74C621-F752-4F4C-810D-32EE9D2491A2}.Release|x64.Build.0 = Release|x64
+		{4B74C621-F752-4F4C-810D-32EE9D2491A2}.Release|x86.ActiveCfg = Release|Win32
+		{4B74C621-F752-4F4C-810D-32EE9D2491A2}.Release|x86.Build.0 = Release|Win32
+		{4B74C621-F752-4F4C-810D-32EE9D2491A2}.RelWithDebInfo|x64.ActiveCfg = Release|x64
+		{4B74C621-F752-4F4C-810D-32EE9D2491A2}.RelWithDebInfo|x64.Build.0 = Release|x64
+		{4B74C621-F752-4F4C-810D-32EE9D2491A2}.RelWithDebInfo|x86.ActiveCfg = Release|Win32
+		{4B74C621-F752-4F4C-810D-32EE9D2491A2}.RelWithDebInfo|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1823,6 +1841,7 @@ Global
 		{ABB348DA-20AC-4927-A016-65B97AC12468} = {8451F7A6-A156-40B7-B736-D44EC3DA7558}
 		{0F164632-5B8C-4F58-B2DB-D8DB9AA61BB0} = {8451F7A6-A156-40B7-B736-D44EC3DA7558}
 		{C5788F24-E5F3-459E-9D02-165968F916E5} = {8451F7A6-A156-40B7-B736-D44EC3DA7558}
+		{4B74C621-F752-4F4C-810D-32EE9D2491A2} = {8451F7A6-A156-40B7-B736-D44EC3DA7558}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EDB484EF-311D-4757-ADD0-55B578187B53}
