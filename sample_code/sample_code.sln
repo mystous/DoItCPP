@@ -209,6 +209,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "STL_vector_push_back", "ch0
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "STL_vector_iterator_1", "ch05\STL_vector_iterator_1\STL_vector_iterator_1.vcxproj", "{4B74C621-F752-4F4C-810D-32EE9D2491A2}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "STL_vector_iterator_2", "ch05\STL_vector_iterator_2\STL_vector_iterator_2.vcxproj", "{59DDA73C-3018-4B03-B46E-997470EA67CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1741,6 +1743,22 @@ Global
 		{4B74C621-F752-4F4C-810D-32EE9D2491A2}.RelWithDebInfo|x64.Build.0 = Release|x64
 		{4B74C621-F752-4F4C-810D-32EE9D2491A2}.RelWithDebInfo|x86.ActiveCfg = Release|Win32
 		{4B74C621-F752-4F4C-810D-32EE9D2491A2}.RelWithDebInfo|x86.Build.0 = Release|Win32
+		{59DDA73C-3018-4B03-B46E-997470EA67CF}.Debug|x64.ActiveCfg = Debug|x64
+		{59DDA73C-3018-4B03-B46E-997470EA67CF}.Debug|x64.Build.0 = Debug|x64
+		{59DDA73C-3018-4B03-B46E-997470EA67CF}.Debug|x86.ActiveCfg = Debug|Win32
+		{59DDA73C-3018-4B03-B46E-997470EA67CF}.Debug|x86.Build.0 = Debug|Win32
+		{59DDA73C-3018-4B03-B46E-997470EA67CF}.MinSizeRel|x64.ActiveCfg = Debug|x64
+		{59DDA73C-3018-4B03-B46E-997470EA67CF}.MinSizeRel|x64.Build.0 = Debug|x64
+		{59DDA73C-3018-4B03-B46E-997470EA67CF}.MinSizeRel|x86.ActiveCfg = Debug|Win32
+		{59DDA73C-3018-4B03-B46E-997470EA67CF}.MinSizeRel|x86.Build.0 = Debug|Win32
+		{59DDA73C-3018-4B03-B46E-997470EA67CF}.Release|x64.ActiveCfg = Release|x64
+		{59DDA73C-3018-4B03-B46E-997470EA67CF}.Release|x64.Build.0 = Release|x64
+		{59DDA73C-3018-4B03-B46E-997470EA67CF}.Release|x86.ActiveCfg = Release|Win32
+		{59DDA73C-3018-4B03-B46E-997470EA67CF}.Release|x86.Build.0 = Release|Win32
+		{59DDA73C-3018-4B03-B46E-997470EA67CF}.RelWithDebInfo|x64.ActiveCfg = Release|x64
+		{59DDA73C-3018-4B03-B46E-997470EA67CF}.RelWithDebInfo|x64.Build.0 = Release|x64
+		{59DDA73C-3018-4B03-B46E-997470EA67CF}.RelWithDebInfo|x86.ActiveCfg = Release|Win32
+		{59DDA73C-3018-4B03-B46E-997470EA67CF}.RelWithDebInfo|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1842,6 +1860,7 @@ Global
 		{0F164632-5B8C-4F58-B2DB-D8DB9AA61BB0} = {8451F7A6-A156-40B7-B736-D44EC3DA7558}
 		{C5788F24-E5F3-459E-9D02-165968F916E5} = {8451F7A6-A156-40B7-B736-D44EC3DA7558}
 		{4B74C621-F752-4F4C-810D-32EE9D2491A2} = {8451F7A6-A156-40B7-B736-D44EC3DA7558}
+		{59DDA73C-3018-4B03-B46E-997470EA67CF} = {8451F7A6-A156-40B7-B736-D44EC3DA7558}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EDB484EF-311D-4757-ADD0-55B578187B53}
