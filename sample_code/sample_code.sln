@@ -249,6 +249,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tuple_and_structed_binding"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "delete_keyword_error_message", "ch06\delete_keyword_error_message\delete_keyword_error_message.vcxproj", "{EF9D611C-27B5-433D-B21F-98DC562BFA8D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "filesystem_directory_tour", "ch06\filesystem_directory_tour\filesystem_directory_tour.vcxproj", "{C1E43F53-340B-4059-8B8F-4971E4E457F9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -2101,6 +2103,22 @@ Global
 		{EF9D611C-27B5-433D-B21F-98DC562BFA8D}.RelWithDebInfo|x64.Build.0 = Release|x64
 		{EF9D611C-27B5-433D-B21F-98DC562BFA8D}.RelWithDebInfo|x86.ActiveCfg = Release|Win32
 		{EF9D611C-27B5-433D-B21F-98DC562BFA8D}.RelWithDebInfo|x86.Build.0 = Release|Win32
+		{C1E43F53-340B-4059-8B8F-4971E4E457F9}.Debug|x64.ActiveCfg = Debug|x64
+		{C1E43F53-340B-4059-8B8F-4971E4E457F9}.Debug|x64.Build.0 = Debug|x64
+		{C1E43F53-340B-4059-8B8F-4971E4E457F9}.Debug|x86.ActiveCfg = Debug|Win32
+		{C1E43F53-340B-4059-8B8F-4971E4E457F9}.Debug|x86.Build.0 = Debug|Win32
+		{C1E43F53-340B-4059-8B8F-4971E4E457F9}.MinSizeRel|x64.ActiveCfg = Debug|x64
+		{C1E43F53-340B-4059-8B8F-4971E4E457F9}.MinSizeRel|x64.Build.0 = Debug|x64
+		{C1E43F53-340B-4059-8B8F-4971E4E457F9}.MinSizeRel|x86.ActiveCfg = Debug|Win32
+		{C1E43F53-340B-4059-8B8F-4971E4E457F9}.MinSizeRel|x86.Build.0 = Debug|Win32
+		{C1E43F53-340B-4059-8B8F-4971E4E457F9}.Release|x64.ActiveCfg = Release|x64
+		{C1E43F53-340B-4059-8B8F-4971E4E457F9}.Release|x64.Build.0 = Release|x64
+		{C1E43F53-340B-4059-8B8F-4971E4E457F9}.Release|x86.ActiveCfg = Release|Win32
+		{C1E43F53-340B-4059-8B8F-4971E4E457F9}.Release|x86.Build.0 = Release|Win32
+		{C1E43F53-340B-4059-8B8F-4971E4E457F9}.RelWithDebInfo|x64.ActiveCfg = Release|x64
+		{C1E43F53-340B-4059-8B8F-4971E4E457F9}.RelWithDebInfo|x64.Build.0 = Release|x64
+		{C1E43F53-340B-4059-8B8F-4971E4E457F9}.RelWithDebInfo|x86.ActiveCfg = Release|Win32
+		{C1E43F53-340B-4059-8B8F-4971E4E457F9}.RelWithDebInfo|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -2222,6 +2240,7 @@ Global
 		{0AB43DC1-F8CD-4B89-A032-BD4299B6B13F} = {B3296413-C9C8-4208-A9D0-ACDC7FE9693E}
 		{C8081144-7229-4423-83DF-BA0F72563F15} = {B3296413-C9C8-4208-A9D0-ACDC7FE9693E}
 		{EF9D611C-27B5-433D-B21F-98DC562BFA8D} = {B3296413-C9C8-4208-A9D0-ACDC7FE9693E}
+		{C1E43F53-340B-4059-8B8F-4971E4E457F9} = {B3296413-C9C8-4208-A9D0-ACDC7FE9693E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EDB484EF-311D-4757-ADD0-55B578187B53}
