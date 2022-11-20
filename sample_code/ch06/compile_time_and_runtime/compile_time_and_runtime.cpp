@@ -7,8 +7,9 @@ void sum_int(int operand1, int operand2) {
   const int var12 = operand1 + 10;
   const int var13 = operand1 + operand2;
   constexpr int var14 = 20;
-  constexpr int var15 = operand1 + 15;
-  constexpr int var16 = operand1 + operand2;
+  // 아래 코드는 동작하지 않습니다.
+  //constexpr int var15 = operand1 + 15;
+  //constexpr int var16 = operand1 + operand2;
 }
 
 int main() {

@@ -20,11 +20,6 @@ using create_monster_function = monster&&(*)(terrain_type);
 template<typename T>
 using monster_vector = vector<T>;
 
-template <typename T> struct rebind
-{
-  typedef whatever<T> type; // to make it possible to substitue the whatever in future.
-};
-
 monster&& create_monster(terrain_type type) {
   return monster(type);
 }
