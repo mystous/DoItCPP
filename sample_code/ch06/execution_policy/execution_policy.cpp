@@ -21,7 +21,6 @@ void sort_and_merge(execution_policy &&policy, string print_out_msg) {
   vector<int> source_1, source_2;
   vector<int> result(2 * vector_size);
 
-
   for (int i = 0; i < vector_size; ++i) {
     source_1.push_back(dis(gen));
     source_2.push_back(dis(gen));
