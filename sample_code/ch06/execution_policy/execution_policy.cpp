@@ -41,7 +41,7 @@ int main() {
   sort_and_merge(execution::seq, "순차 처리 실행 시간: ");
   sort_and_merge(execution::par, "병렬 처리 실행 시간: ");
   sort_and_merge(execution::unseq, "벡터라이제이션 처리 실행 시간: ");
-  sort_and_merge(execution::par_unseq, "병렬 처림 + 벡터라이제이션 처리 실행 시간: ");
+  sort_and_merge(execution::par_unseq, "병렬 처리 + 벡터라이제이션 처리 실행 시간: ");
 
   return 0;
 }
