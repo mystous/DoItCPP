@@ -4,14 +4,34 @@ using namespace std;
 const int loop_count = 5;
 const int change_count = 5;
 
-int main() {
-  int payments[loop_count] = { 1000, 500, 15000, 1000, 200 };
-  int price[loop_count] = { 450, 390, 11340, 900, 150 };
-  int changes[change_count] = { 0, };
-
-  for (int i = 0; i < loop_count; ++i) {
-    cout << payments[i] << "¿øÀ» ³»°í " << price[i] << "¿ø Â¥¸® À½·á¸¦ ¼±ÅÃÇß½À´Ï´Ù." << endl;
-    cout << "°Å½½·¯ ¹ÞÀ» µ·Àº " << [&changes](int payment, int price)->int {
+class vending_machine{
+public:
+  vending_machine(): price{450, 390, 11340, 900, 150}{};
+  void stack_drink(){};
+  
+  void sale_using_basic_lambda(int payments[], int changes[]){
+    for( int i = 0 ; i < loop_count ; ++ i ){
+      cout << payments[i] << "ì›ì„ ë‚´ê³  " << price[i] << "ì› ì§œë¦¬ ìŒë£Œë¥¼ ì„ íƒí–ˆìŠµë‹ˆë‹¤." << endl;
+      cout << "ê±°ìŠ¬ëŸ¬ ë°›ì„ ëˆì€ " << [&changes](int payment, int price)->int{
+        int change = payment - price;
+        changes[0] = change / 1000;
+        change %= 1000;
+        changes[1] = change / 500;
+        change %= 500;
+        changes[2] = change / 100;
+        change %= 100;
+        changes[3] = change / 50;
+        change %= 50;
+        changes[4] = change / 10;
+        return payment - price;
+      }(payments[i], price[i]) << "ìž…ë‹ˆë‹¤." << endl;
+      cout << "ì²œì› ì§œë¦¬ " << changes[0] << "ê°œ, ì˜¤ë°±ì› ì§œë¦¬ " << changes[1] << "ê°œ, ë°±ì› ì§œë¦¬ " << changes[2] << "ê°œ, ";
+      cout << "ì˜¤ì‹­ì› ì§œë¦¬ " << changes[3] << "ê°œ, ì‹­ì› ì§œë¦¬" << changes[4] << "ê°œë¡œ ë°›ìŠµë‹ˆë‹¤." << endl;
+    }
+  };
+  
+  void sale_sale_using_lambda_function_object(int payments[], int changes[]){
+    auto calcu_changes = [&changes](int payment, int price)->int{
       int change = payment - price;
       changes[0] = change / 1000;
       change %= 1000;
@@ -23,33 +43,53 @@ int main() {
       change %= 50;
       changes[4] = change / 10;
       return payment - price;
-    }(payments[i], price[i]) << "ÀÔ´Ï´Ù." << endl;
-    cout << "Ãµ¿ø Â¥¸® " << changes[0] << "°³, ¿À¹é¿ø Â¥¸® " << changes[1] << "°³, ¹é¿ø Â¥¸® " << changes[2] << "°³, ";
-    cout << "¿À½Ê¿ø Â¥¸® " << changes[3] << "°³, ½Ê¿ø Â¥¸®" << changes[4] << "°³·Î ¹Þ½À´Ï´Ù." << endl;
-  }
-
-  auto calcu_changes = [&changes](int payment, int price)->int {
-    int change = payment - price;
-    changes[0] = change / 1000;
-    change %= 1000;
-    changes[1] = change / 500;
-    change %= 500;
-    changes[2] = change / 100;
-    change %= 100;
-    changes[3] = change / 50;
-    change %= 50;
-    changes[4] = change / 10;
-    return payment - price;
+    };
+    
+    for( int i = 0 ; i < loop_count ; ++ i ){
+      cout << payments[i] << "ì›ì„ ë‚´ê³  " << price[i] << "ì› ì§œë¦¬ ìŒë£Œë¥¼ ì„ íƒí–ˆìŠµë‹ˆë‹¤." << endl;
+      cout << "ê±°ìŠ¬ëŸ¬ ë°›ì„ ëˆì€ " << calcu_changes(payments[i], price[i]) << "ìž…ë‹ˆë‹¤." << endl;
+      cout << "ì²œì› ì§œë¦¬ " << changes[0] << "ê°œ, ì˜¤ë°±ì› ì§œë¦¬ " << changes[1] << "ê°œ, ë°±ì› ì§œë¦¬ " << changes[2] << "ê°œ, ";
+      cout << "ì˜¤ì‹­ì› ì§œë¦¬ " << changes[3] << "ê°œ, ì‹­ì› ì§œë¦¬" << changes[4] << "ê°œë¡œ ë°›ìŠµë‹ˆë‹¤." << endl;
+    }
   };
+  
+  void sale_using_lambda_with_this(int payments[], int changes[]){
+    for( int i = 0 ; i < loop_count ; ++ i ){
+      cout << payments[i] << "ì›ì„ ë‚´ê³  " << price[i] << "ì› ì§œë¦¬ ìŒë£Œë¥¼ ì„ íƒí–ˆìŠµë‹ˆë‹¤." << endl;
+      cout << "ê±°ìŠ¬ëŸ¬ ë°›ì„ ëˆì€ " << [&](int payment)->int{
+        int change = payment - this->price[i];
+        changes[0] = change / 1000;
+        change %= 1000;
+        changes[1] = change / 500;
+        change %= 500;
+        changes[2] = change / 100;
+        change %= 100;
+        changes[3] = change / 50;
+        change %= 50;
+        changes[4] = change / 10;
+        return payment - this->price[i];
+      }(payments[i]) << "ìž…ë‹ˆë‹¤." << endl;
+      cout << "ì²œì› ì§œë¦¬ " << changes[0] << "ê°œ, ì˜¤ë°±ì› ì§œë¦¬ " << changes[1] << "ê°œ, ë°±ì› ì§œë¦¬ " << changes[2] << "ê°œ, ";
+      cout << "ì˜¤ì‹­ì› ì§œë¦¬ " << changes[3] << "ê°œ, ì‹­ì› ì§œë¦¬" << changes[4] << "ê°œë¡œ ë°›ìŠµë‹ˆë‹¤." << endl;
+    }
+  };
+private:
+  int price[loop_count];
+};
 
+int main() {
+  vending_machine vending_machine_object = vending_machine();
+  int payments[loop_count] = {1000, 500, 15000, 1000, 200 };
+  int changes[change_count] = {0, };
+  
+  cout << "ëžŒë‹¤ í‘œí˜„ì‹ ê¸°ë³¸ ì‚¬ìš©" << endl;
   cout << "--------------------------------------------------------------------" << endl;
-
-  for (int i = 0; i < loop_count; ++i) {
-    cout << payments[i] << "¿øÀ» ³»°í " << price[i] << "¿ø Â¥¸® À½·á¸¦ ¼±ÅÃÇß½À´Ï´Ù." << endl;
-    cout << "°Å½½·¯ ¹ÞÀ» µ·Àº " << calcu_changes(payments[i], price[i]) << "ÀÔ´Ï´Ù." << endl;
-    cout << "Ãµ¿ø Â¥¸® " << changes[0] << "°³, ¿À¹é¿ø Â¥¸® " << changes[1] << "°³, ¹é¿ø Â¥¸® " << changes[2] << "°³, ";
-    cout << "¿À½Ê¿ø Â¥¸® " << changes[3] << "°³, ½Ê¿ø Â¥¸®" << changes[4] << "°³·Î ¹Þ½À´Ï´Ù." << endl;
-  }
-
+  vending_machine_object.sale_using_basic_lambda(payments, changes);
+  cout << endl << "ëžŒë‹¤ í‘œí˜„ì‹ í•¨ìˆ˜ ê°ì²´ë¡œ ì‚¬ìš©í•˜ê¸°" << endl;
+  cout << "--------------------------------------------------------------------" << endl;
+  vending_machine_object.sale_sale_using_lambda_function_object(payments, changes);
+  cout << endl << "ëžŒë‹¤ í‘œí˜„ì‹ì—ì„œ this í¬ì¸í„° ì‚¬ìš©í•˜ê¸°" << endl;
+  cout << "--------------------------------------------------------------------" << endl;
+  vending_machine_object.sale_using_lambda_with_this(payments, changes);
   return 0;
 }
