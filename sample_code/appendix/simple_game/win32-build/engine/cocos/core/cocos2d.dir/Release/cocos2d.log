@@ -1,1 +1,1448 @@
-﻿
+﻿  Building Custom Rule D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/cocos/CMakeLists.txt
+  precheader.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\physics/CCPhysicsBody.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\physics/CCPhysicsShape.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base/ccUTF8.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform/CCSAXParser.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  cocos2d.cpp
+  CCActionCamera.cpp
+  CCActionCatmullRom.cpp
+  CCAction.cpp
+  CCActionEase.cpp
+  CCActionGrid3D.cpp
+  CCActionGrid.cpp
+  CCActionInstant.cpp
+  CCActionInterval.cpp
+  CCActionManager.cpp
+  CCActionPageTurn3D.cpp
+  CCActionProgressTimer.cpp
+  CCActionTiledGrid.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCActionTiledGrid.cpp(250,57): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCActionTiledGrid.cpp(250,30): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CCActionTween.cpp
+  CCAnimationCache.cpp
+  CCAnimation.cpp
+  CCAtlasNode.cpp
+  CCCamera.cpp
+  CCCameraBackgroundBrush.cpp
+  CCClippingNode.cpp
+  CCClippingRectangleNode.cpp
+  CCComponentContainer.cpp
+  CCComponent.cpp
+  CCDrawNode.cpp
+  CCFastTMXLayer.cpp
+  CCFastTMXTiledMap.cpp
+  CCFontAtlasCache.cpp
+  CCFontAtlas.cpp
+  CCFontCharMap.cpp
+  CCFont.cpp
+  CCFontFNT.cpp
+  CCFontFreeType.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCFontFreeType.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  CCGrid.cpp
+  CCLabelAtlas.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCLabelAtlas.cpp(116,24): warning C4244: '초기화 중': 'float'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCLabelAtlas.cpp(117,25): warning C4244: '초기화 중': 'float'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCLabelAtlas.cpp(145,29): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCLabelAtlas.cpp(146,30): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CCLabel.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCLabelAtlas.cpp(210,13): warning C4018: '>': signed 또는 unsigned가 일치하지 않습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCLabelAtlas.cpp(218,37): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCLabelAtlas.cpp(218,23): warning C4244: '인수': 'ssize_t'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCLabelAtlas.cpp(237,42): warning C4244: '*=': 'float'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCLabelAtlas.cpp(238,42): warning C4244: '*=': 'float'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCLabelAtlas.cpp(239,42): warning C4244: '*=': 'float'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCLabel.cpp(163,32): warning C4244: '=': 'float'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCLabel.cpp(169,42): warning C4244: '*=': 'float'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCLabel.cpp(170,42): warning C4244: '*=': 'float'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCLabel.cpp(171,42): warning C4244: '*=': 'float'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCLabel.cpp(288,30): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCLabel.cpp(380,25): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCLabel.cpp(797,36): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCLabel.cpp(1250,24): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCLabel.cpp(1704,74): warning C4244: '=': 'float'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCLabel.cpp(2188,38): warning C4244: '*=': 'float'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCLabel.cpp(2189,38): warning C4244: '*=': 'float'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCLabel.cpp(2190,38): warning C4244: '*=': 'float'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCLabel.cpp(2201,35): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCLabel.cpp(2279,31): warning C4244: '=': 'const float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCLabel.cpp(2296,64): warning C4244: '=': 'float'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCLabel.cpp(2297,64): warning C4244: '=': 'float'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCLabel.cpp(2298,64): warning C4244: '=': 'float'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCLabel.cpp(2299,62): warning C4244: '=': 'float'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CCLabelTextFormatter.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCLabelTextFormatter.cpp(113,58): warning C4244: '+=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCLabelTextFormatter.cpp(143,32): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCLabelTextFormatter.cpp(241,73): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CCLayer.cpp
+  CCLight.cpp
+  CCMenu.cpp
+  CCMenuItem.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCMenuItem.cpp(358,66): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCMenuItem.cpp(369,53): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CCMotionStreak.cpp
+  CCNode.cpp
+  CCNodeGrid.cpp
+  CCParallaxNode.cpp
+  CCParticleBatchNode.cpp
+  CCParticleExamples.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCNode.cpp(1978,53): warning C4244: '=': 'double'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCNode.cpp(2063,53): warning C4244: '=': 'double'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCNode.cpp(2064,53): warning C4244: '=': 'double'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCNode.cpp(2065,53): warning C4244: '=': 'double'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CCParticleSystem.cpp
+  CCParticleSystemQuad.cpp
+  CCProgressTimer.cpp
+  CCProtectedNode.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCParticleSystemQuad.cpp(409,28): warning C4244: '초기화 중': 'float'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCParticleSystemQuad.cpp(410,28): warning C4244: '초기화 중': 'float'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCParticleSystemQuad.cpp(411,28): warning C4244: '초기화 중': 'float'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCParticleSystemQuad.cpp(412,28): warning C4244: '초기화 중': 'float'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCParticleSystemQuad.cpp(429,28): warning C4244: '초기화 중': 'float'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCParticleSystemQuad.cpp(430,28): warning C4244: '초기화 중': 'float'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCParticleSystemQuad.cpp(431,28): warning C4244: '초기화 중': 'float'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCParticleSystemQuad.cpp(432,28): warning C4244: '초기화 중': 'float'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCParticleSystem.cpp(423,70): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCParticleSystem.cpp(432,68): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCParticleSystem.cpp(450,80): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCProgressTimer.cpp(241,27): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCProtectedNode.cpp(401,50): warning C4244: '=': 'double'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCProtectedNode.cpp(418,50): warning C4244: '=': 'double'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCProtectedNode.cpp(419,50): warning C4244: '=': 'double'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCProtectedNode.cpp(420,50): warning C4244: '=': 'double'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCProgressTimer.cpp(560,112): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCParticleSystem.cpp(882,23): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCProgressTimer.cpp(560,65): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCProgressTimer.cpp(562,104): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCProgressTimer.cpp(562,65): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CCRenderTexture.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCRenderTexture.cpp(167,49): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCRenderTexture.cpp(167,47): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCRenderTexture.cpp(170,36): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCRenderTexture.cpp(170,34): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CCScene.cpp
+  CCSpriteBatchNode.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCRenderTexture.cpp(564,99): warning C4244: '인수': 'float'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCRenderTexture.cpp(564,78): warning C4244: '인수': 'float'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCRenderTexture.cpp(564,61): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCRenderTexture.cpp(564,42): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCSpriteBatchNode.cpp(483,21): warning C4018: '<=': signed 또는 unsigned가 일치하지 않습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCSpriteBatchNode.cpp(729,17): warning C4018: '>=': signed 또는 unsigned가 일치하지 않습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCSpriteBatchNode.cpp(754,18): warning C4018: '>=': signed 또는 unsigned가 일치하지 않습니다.
+  CCSprite.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCSpriteBatchNode.cpp(783,35): warning C4018: '>=': signed 또는 unsigned가 일치하지 않습니다.
+  CCSpriteFrameCache.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCSprite.cpp(1538,39): warning C4244: '*=': 'float'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCSprite.cpp(1539,39): warning C4244: '*=': 'float'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCSprite.cpp(1540,39): warning C4244: '*=': 'float'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CCSpriteFrame.cpp
+  CCAutoPolygon.cpp
+  CCTextFieldTTF.cpp
+  CCTileMapAtlas.cpp
+  CCTMXLayer.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCTMXLayer.cpp(96,40): warning C4244: '인수': 'float'에서 'ssize_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCTMXLayer.cpp(102,46): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCTMXLayer.cpp(105,44): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCTMXLayer.cpp(198,72): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCTMXLayer.cpp(222,56): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCTMXLayer.cpp(222,50): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCTMXLayer.cpp(428,21): warning C4018: '>=': signed 또는 unsigned가 일치하지 않습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCTMXLayer.cpp(470,31): warning C4244: '=': 'float'에서 'intptr_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCTMXLayer.cpp(472,65): warning C4244: '=': 'float'에서 'intptr_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCTMXLayer.cpp(476,31): warning C4244: '=': 'float'에서 'intptr_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCTMXLayer.cpp(478,66): warning C4244: '=': 'float'에서 'intptr_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCTMXLayer.cpp(483,20): warning C4244: '=': 'float'에서 'intptr_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCTMXLayer.cpp(598,19): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCTMXLayer.cpp(652,15): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCTileMapAtlas.cpp(171,11): warning C4244: '초기화 중': 'const float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCTileMapAtlas.cpp(172,11): warning C4244: '초기화 중': 'const float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCTileMapAtlas.cpp(246,53): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCTileMapAtlas.cpp(246,51): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCTMXLayer.cpp(675,25): warning C4018: '>=': signed 또는 unsigned가 일치하지 않습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCTMXLayer.cpp(701,27): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCTMXLayer.cpp(706,27): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CCTMXObjectGroup.cpp
+  CCTMXTiledMap.cpp
+  CCTMXXMLParser.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCTMXXMLParser.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  CCTransition.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCTMXXMLParser.cpp(275,38): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCTMXXMLParser.cpp(359,29): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCTMXXMLParser.cpp(455,29): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCTMXXMLParser.cpp(517,23): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCTMXXMLParser.cpp(517,16): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCTMXXMLParser.cpp(697,34): warning C4244: '초기화 중': 'float'에서 'ssize_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CCTransitionPageTurn.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCTransitionPageTurn.cpp(115,59): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCTransitionPageTurn.cpp(115,57): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CCTransitionProgress.cpp
+  CCTweenFunction.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCTransition.cpp(1429,65): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCTransition.cpp(1429,63): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CCAABB.cpp
+  CCAnimate3D.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCTransition.cpp(1625,53): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\2d\CCTransition.cpp(1625,51): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CCAnimation3D.cpp
+  CCAttachNode.cpp
+  CCBillBoard.cpp
+  CCBundle3D.cpp
+  CCBundle3DData.cpp
+  CCBundleReader.cpp
+  CCFrustum.cpp
+  CCMesh.cpp
+  CCMeshSkin.cpp
+  CCMeshVertexIndexData.cpp
+  CCMotionStreak3D.cpp
+  CCOBB.cpp
+  CCObjLoader.cpp
+  CCPlane.cpp
+  CCRay.cpp
+  CCSkeleton3D.cpp
+  CCSkybox.cpp
+  CCSprite3D.cpp
+  CCSprite3DMaterial.cpp
+  CCTerrain.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCTerrain.cpp(225,28): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCTerrain.cpp(226,28): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCTerrain.cpp(292,24): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCTerrain.cpp(293,24): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCTerrain.cpp(335,13): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCTerrain.cpp(336,13): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCTerrain.cpp(349,37): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCTerrain.cpp(349,34): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCTerrain.cpp(350,39): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCTerrain.cpp(350,34): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCTerrain.cpp(351,41): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCTerrain.cpp(351,36): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCTerrain.cpp(352,43): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCTerrain.cpp(352,36): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCTerrain.cpp(361,58): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCTerrain.cpp(361,55): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCTerrain.cpp(361,105): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCTerrain.cpp(361,100): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCTerrain.cpp(361,158): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCTerrain.cpp(361,153): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCTerrain.cpp(361,205): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCTerrain.cpp(361,198): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCTerrain.cpp(388,101): warning C4244: 'return': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCTerrain.cpp(404,60): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCTerrain.cpp(404,39): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CCVertexAttribBinding.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCTerrain.cpp(548,16): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCTerrain.cpp(549,16): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCTerrain.cpp(550,16): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCTerrain.cpp(551,16): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCTerrain.cpp(917,24): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCTerrain.cpp(918,24): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCTerrain.cpp(949,27): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCTerrain.cpp(994,20): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCTerrain.cpp(997,24): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCTerrain.cpp(1009,20): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCTerrain.cpp(1011,53): warning C4244: '인수': 'float'에서 'const unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCTerrain.cpp(1018,20): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCTerrain.cpp(1020,72): warning C4244: '인수': 'float'에서 'const unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCTerrain.cpp(1027,20): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCTerrain.cpp(1029,53): warning C4244: '인수': 'float'에서 'const unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCTerrain.cpp(1036,20): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCTerrain.cpp(1038,66): warning C4244: '인수': 'float'에서 'const unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCTerrain.cpp(1047,20): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCTerrain.cpp(1050,24): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCTerrain.cpp(1065,27): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCTerrain.cpp(1066,92): warning C4244: '인수': 'float'에서 'const unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCTerrain.cpp(1067,96): warning C4244: '인수': 'float'에서 'const unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCTerrain.cpp(1067,184): warning C4244: '인수': 'float'에서 'const unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCTerrain.cpp(1141,15): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCTerrain.cpp(1142,15): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCTerrain.cpp(1382,15): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCTerrain.cpp(1383,15): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCTerrain.cpp(1398,38): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCTerrain.cpp(1423,15): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCTerrain.cpp(1424,15): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCTerrain.cpp(1530,15): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\3d\CCTerrain.cpp(1531,15): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CC3DProgramInfo.cpp
+  CCStdC-win32.cpp
+  CCUtils-win32.cpp
+  CCFileUtils-win32.cpp
+  CCCommon-win32.cpp
+  CCApplication-win32.cpp
+  CCDevice-win32.cpp
+  inet_pton_mingw.cpp
+  CCGLViewImpl-desktop.cpp
+  CCSAXParser.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform\CCSAXParser.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform\desktop\CCGLViewImpl-desktop.cpp(683,46): warning C4244: '인수': 'unsigned int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform\desktop\CCGLViewImpl-desktop.cpp(683,38): warning C4244: '인수': 'unsigned int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform\desktop\CCGLViewImpl-desktop.cpp(683,34): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform\desktop\CCGLViewImpl-desktop.cpp(683,30): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform\CCSAXParser.cpp(112,35): warning C4101: 'e' :참조되지 않은 지역 변수입니다.
+  CCGLView.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform\CCGLView.cpp(262,47): warning C4244: '인수': 'unsigned int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform\CCGLView.cpp(261,47): warning C4244: '인수': 'unsigned int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform\CCGLView.cpp(260,48): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform\CCGLView.cpp(259,48): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CCFileUtils.cpp
+  CCImage.cpp
+  CCPhysicsBody.cpp
+  CCPhysicsContact.cpp
+  CCPhysicsJoint.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\physics\CCPhysicsBody.cpp(346,29): warning C4244: '인수': 'double'에서 'cpFloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\physics\CCPhysicsBody.cpp(399,61): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CCPhysicsShape.cpp
+  CCPhysicsWorld.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\physics\CCPhysicsWorld.cpp(205,21): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CCPhysics3D.cpp
+  CCPhysics3DComponent.cpp
+  CCPhysics3DConstraint.cpp
+  CCPhysics3DDebugDrawer.cpp
+  CCPhysics3DObject.cpp
+  CCPhysics3DShape.cpp
+  CCPhysics3DWorld.cpp
+  CCPhysicsSprite3D.cpp
+  CCAffineTransform.cpp
+  CCGeometry.cpp
+  CCVertex.cpp
+  Mat4.cpp
+  MathUtil.cpp
+  Quaternion.cpp
+  TransformUtils.cpp
+  Vec2.cpp
+  Vec3.cpp
+  Vec4.cpp
+  CCNavMesh.cpp
+  CCNavMeshAgent.cpp
+  CCNavMeshDebugDraw.cpp
+  CCNavMeshObstacle.cpp
+  CCNavMeshUtils.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\navmesh\CCNavMeshDebugDraw.cpp(127,48): warning C4267: '=': 'size_t'에서 'unsigned short'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\navmesh\CCNavMeshDebugDraw.cpp(134,46): warning C4267: '=': 'size_t'에서 'unsigned short'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\navmesh\CCNavMeshDebugDraw.cpp(147,26): warning C4244: '인수': 'const unsigned int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\navmesh\CCNavMeshDebugDraw.cpp(147,23): warning C4244: '인수': 'const unsigned int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\navmesh\CCNavMeshDebugDraw.cpp(147,20): warning C4244: '인수': 'const unsigned int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\navmesh\CCNavMeshDebugDraw.cpp(147,17): warning C4244: '인수': 'const unsigned int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CCCallbackCommand.cpp
+  CCCustomCommand.cpp
+  CCGroupCommand.cpp
+  CCMaterial.cpp
+  CCMeshCommand.cpp
+  CCPass.cpp
+  CCQuadCommand.cpp
+  CCRenderCommand.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\CCQuadCommand.cpp(66,25): warning C4244: '*=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CCRenderState.cpp
+  CCRenderer.cpp
+  CCTechnique.cpp
+  CCTexture2D.cpp
+  CCTextureAtlas.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\CCRenderer.cpp(612,42): warning C4244: '*=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\CCTextureAtlas.cpp(194,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\CCRenderer.cpp(858,44): warning C4244: '=': 'const unsigned int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\CCRenderer.cpp(899,33): warning C4244: 'return': 'const float'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\CCTextureAtlas.cpp(214,19): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\CCTextureAtlas.cpp(358,19): warning C4018: '>': signed 또는 unsigned가 일치하지 않습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\CCTexture2D.cpp(479,30): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\CCTexture2D.cpp(538,26): warning C4244: '*=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\CCTexture2D.cpp(571,58): warning C4244: '=': 'size_t'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\CCTexture2D.cpp(571,38): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\CCTexture2D.cpp(572,60): warning C4244: '=': 'size_t'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\CCTexture2D.cpp(572,39): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CCTextureCache.cpp
+  CCTextureCube.cpp
+  CCTextureUtils.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\CCTextureCache.cpp(456,72): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\CCTextureCache.cpp(456,52): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CCTrianglesCommand.cpp
+  ccShaders.cpp
+  CommandBuffer.cpp
+  DepthStencilState.cpp
+  Device.cpp
+  ShaderModule.cpp
+  Texture.cpp
+  Types.cpp
+  VertexLayout.cpp
+  ProgramCache.cpp
+  Program.cpp
+  ProgramState.cpp
+  ShaderCache.cpp
+  RenderPassDescriptor.cpp
+  BufferGL.cpp
+  CommandBufferGL.cpp
+  DepthStencilStateGL.cpp
+  DeviceGL.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\backend\opengl\CommandBufferGL.cpp(260,34): warning C4244: '인수': 'const float'에서 'GLint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  ProgramGL.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\backend\opengl\CommandBufferGL.cpp(599,32): warning C4244: '인수': 'float'에서 'GLsizei'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\backend\opengl\CommandBufferGL.cpp(599,25): warning C4244: '인수': 'float'에서 'GLsizei'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\backend\opengl\CommandBufferGL.cpp(599,22): warning C4244: '인수': 'float'에서 'GLint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\backend\opengl\CommandBufferGL.cpp(599,19): warning C4244: '인수': 'float'에서 'GLint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\backend\opengl\CommandBufferGL.cpp(627,27): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  RenderPipelineGL.cpp
+  ShaderModuleGL.cpp
+  TextureGL.cpp
+  UtilsGL.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\backend\opengl\TextureGL.cpp(319,27): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\backend\opengl\TextureGL.cpp(438,27): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  DeviceInfoGL.cpp
+  CCAsyncTaskPool.cpp
+  CCAutoreleasePool.cpp
+  CCConfiguration.cpp
+  CCConsole.cpp
+  CCController.cpp
+  CCData.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\renderer\backend\opengl\ProgramGL.cpp(335): warning C4172: 지역 변수 또는 임시의 주소를 반환하고 있습니다.
+  CCNinePatchImageParser.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCNinePatchImageParser.cpp(50,69): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCNinePatchImageParser.cpp(50,49): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCNinePatchImageParser.cpp(68,32): warning C4244: 'return': 'const float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCNinePatchImageParser.cpp(70,28): warning C4244: 'return': 'const float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCNinePatchImageParser.cpp(77,32): warning C4244: 'return': 'const float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCNinePatchImageParser.cpp(79,28): warning C4244: 'return': 'const float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCNinePatchImageParser.cpp(114,16): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCNinePatchImageParser.cpp(132,20): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCNinePatchImageParser.cpp(132,17): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCNinePatchImageParser.cpp(147,15): warning C4244: '초기화 중': 'const float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCNinePatchImageParser.cpp(164,20): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCNinePatchImageParser.cpp(164,17): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CCDirector.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCDirector.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  CCEvent.cpp
+  CCEventAcceleration.cpp
+  CCEventController.cpp
+  CCEventCustom.cpp
+  CCEventDispatcher.cpp
+  CCEventFocus.cpp
+  CCEventKeyboard.cpp
+  CCEventListener.cpp
+  CCEventListenerAcceleration.cpp
+  CCEventListenerController.cpp
+  CCEventListenerCustom.cpp
+  CCEventListenerFocus.cpp
+  CCEventListenerKeyboard.cpp
+  CCEventListenerMouse.cpp
+  CCEventListenerTouch.cpp
+  CCEventMouse.cpp
+  CCEventTouch.cpp
+  CCIMEDispatcher.cpp
+  CCNS.cpp
+  CCProfiling.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCProfiling.cpp(162,62): warning C4244: '=': 'float'에서 'long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CCProperties.cpp
+  CCRef.cpp
+  CCScheduler.cpp
+  CCScriptSupport.cpp
+  CCTouch.cpp
+  CCUserDefault.cpp
+  CCValue.cpp
+  ObjectFactory.cpp
+  CCStencilStateManager.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCValue.cpp(586,27): warning C4244: 'return': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  TGAlib.cpp
+  ZipUtils.cpp
+  atitc.cpp
+  base64.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\base64.cpp(45,33): warning C4267: '=': 'size_t'에서 'char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  ccCArray.cpp
+  ccFPSImages.c
+  ccRandom.cpp
+  ccTypes.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\ccTypes.cpp(57,4): warning C4244: '초기화 중': 'float'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\ccTypes.cpp(58,4): warning C4244: '초기화 중': 'float'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\ccTypes.cpp(59,4): warning C4244: '초기화 중': 'float'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\ccTypes.cpp(114,4): warning C4244: '초기화 중': 'float'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\ccTypes.cpp(115,4): warning C4244: '초기화 중': 'float'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\ccTypes.cpp(116,4): warning C4244: '초기화 중': 'float'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\ccTypes.cpp(117,4): warning C4244: '초기화 중': 'float'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  ccUTF8.cpp
+  ccUtils.cpp
+  etc1.cpp
+  pvr.cpp
+  s3tc.cpp
+  CCController-linux-win32.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\CCController-linux-win32.cpp(4146,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  AudioEngine.cpp
+  MciPlayer.cpp
+  AudioEngine-win32.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\ccUtils.cpp(185,58): warning C4244: '인수': 'const float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\ccUtils.cpp(185,46): warning C4244: '인수': 'const float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\ccUtils.cpp(206,78): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base\ccUtils.cpp(206,57): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  AudioCache.cpp
+  AudioPlayer.cpp
+  AudioDecoder.cpp
+  AudioDecoderManager.cpp
+  AudioDecoderMp3.cpp
+  AudioDecoderOgg.cpp
+  UIEditBoxImpl-win32.cpp
+  CocosGUI.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui/UIHelper.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIEditBox\UIEditBoxImpl-win32.cpp)
+  UIButton.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIEditBox\UIEditBoxImpl-win32.cpp(280,22): warning C4244: '인수': 'const float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIEditBox\UIEditBoxImpl-win32.cpp(279,22): warning C4244: '인수': 'const float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIEditBox\UIEditBoxImpl-win32.cpp(278,24): warning C4244: '인수': 'const float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIEditBox\UIEditBoxImpl-win32.cpp(277,24): warning C4244: '인수': 'const float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  UIAbstractCheckButton.cpp
+  UICheckBox.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui/UIHelper.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIButton.cpp)
+  UIRadioButton.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui/UIHelper.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\CocosGUI.cpp)
+  UIHBox.cpp
+  UIHelper.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui/UIHelper.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIHelper.cpp)
+  UIImageView.cpp
+  UILayout.cpp
+  UILayoutManager.cpp
+  UILayoutParameter.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui/UIHelper.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIImageView.cpp)
+  UIListView.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui/UIHelper.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UILayout.cpp)
+  UILoadingBar.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui/UIHelper.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIListView.cpp)
+  UIPageView.cpp
+  UIPageViewIndicator.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UILayout.cpp(1113,54): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UILayout.cpp(1121,61): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UILayout.cpp(1131,24): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UILayout.cpp(1151,55): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UILayout.cpp(1158,61): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UILayout.cpp(1168,24): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  UIRelativeBox.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui/UIHelper.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UILoadingBar.cpp)
+  UIRichText.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIPageViewIndicator.cpp(37,59): warning C4244: '초기화 중': 'double'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  UIScale9Sprite.cpp
+  UIScrollView.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui/UIHelper.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIRichText.cpp)
+  UIScrollViewBar.cpp
+  UISlider.cpp
+  UIText.cpp
+  UITextAtlas.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIScrollViewBar.cpp(52,9): warning C4244: '초기화 중': 'float'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIScrollViewBar.cpp(206,44): warning C4244: '인수': 'float'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui/UIHelper.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UISlider.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UISlider.cpp(508,41): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UISlider.cpp(517,37): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  UITextBMFont.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIText.cpp(391,77): warning C4244: '인수': 'float'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIText.cpp(391,61): warning C4244: '인수': 'float'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIText.cpp(391,45): warning C4244: '인수': 'float'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIText.cpp(391,29): warning C4244: '인수': 'float'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIText.cpp(396,42): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIText.cpp(405,77): warning C4244: '인수': 'float'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIText.cpp(405,61): warning C4244: '인수': 'float'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIText.cpp(405,45): warning C4244: '인수': 'float'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIText.cpp(405,29): warning C4244: '인수': 'float'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIText.cpp(454,101): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  UITextField.cpp
+  UIVBox.cpp
+  UIWidget.cpp
+  UIEditBox.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui/UIHelper.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UITextField.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UITextField.cpp(446,47): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UITextField.cpp(449,43): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UITextField.cpp(454,27): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UITextField.cpp(480,31): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui/UIHelper.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIWidget.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui/UIHelper.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIEditBox\UIEditBox.cpp)
+  UILayoutComponent.cpp
+  UIEditBoxImpl-common.cpp
+  UITabControl.cpp
+  HttpClient.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui/UIHelper.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UILayoutComponent.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui/UIHelper.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIEditBox\UIEditBoxImpl-common.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIEditBox\UIEditBoxImpl-common.cpp(107,44): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIEditBox\UIEditBoxImpl-common.cpp(108,55): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIEditBox\UIEditBoxImpl-common.cpp(163,45): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIEditBox\UIEditBoxImpl-common.cpp(170,35): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIEditBox\UIEditBoxImpl-common.cpp(185,56): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UIEditBox\UIEditBoxImpl-common.cpp(192,46): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  SocketIO.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UITabControl.cpp(96,55): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UITabControl.cpp(96,41): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UITabControl.cpp(102,63): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UITabControl.cpp(102,49): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UITabControl.cpp(156,24): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UITabControl.cpp(165,25): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UITabControl.cpp(232,26): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UITabControl.cpp(235,23): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UITabControl.cpp(237,28): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UITabControl.cpp(240,23): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UITabControl.cpp(241,26): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UITabControl.cpp(246,28): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UITabControl.cpp(268,39): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UITabControl.cpp(272,42): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  WebSocket.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UITabControl.cpp(448,65): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui\UITabControl.cpp(448,51): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CCDownloader.cpp
+  CCDownloader-curl.cpp
+  Uri.cpp
+  SimpleAudioEngine.cpp
+  CCActionFrame.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\network\CCDownloader-curl.cpp(723,45): warning C4244: '인수': 'int64_t'에서 'size_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCActionFrame.cpp(336,13): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCActionFrame.cpp(341,9): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCActionFrame.cpp(346,56): warning C4244: '인수': 'float'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CCActionFrameEasing.cpp
+  CCActionManagerEx.cpp
+  CCActionNode.cpp
+  CCActionObject.cpp
+  CCArmature.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCActionObject.cpp(195,23): warning C4244: 'return': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui/UIHelper.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCActionNode.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCActionNode.cpp(207,27): warning C4244: 'return': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CCArmatureAnimation.cpp
+  CCArmatureDataManager.cpp
+  CCArmatureDefine.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCArmatureAnimation.cpp(235,55): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCArmatureAnimation.cpp(445,77): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCArmatureAnimation.cpp(454,50): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CCBatchNode.cpp
+  CCBone.cpp
+  CCColliderDetector.cpp
+  CCComAttribute.cpp
+  CCComAudio.cpp
+  CCComController.cpp
+  CCComRender.cpp
+  CCDataReaderHelper.cpp
+  CCDatas.cpp
+  CCDecorativeDisplay.cpp
+  CCDisplayFactory.cpp
+  CCDisplayManager.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCDatas.cpp(127,41): warning C4244: '+=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCDatas.cpp(128,41): warning C4244: '-=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CCInputDelegate.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCDataReaderHelper.cpp(904,33): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCDataReaderHelper.cpp(921,38): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCDataReaderHelper.cpp(926,38): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCDataReaderHelper.cpp(935,37): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCDataReaderHelper.cpp(1084,43): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCDataReaderHelper.cpp(1085,41): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCDataReaderHelper.cpp(1086,43): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCDataReaderHelper.cpp(1087,42): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCDataReaderHelper.cpp(1557,50): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCDataReaderHelper.cpp(1576,39): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCDataReaderHelper.cpp(1581,39): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCDataReaderHelper.cpp(1596,50): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCDataReaderHelper.cpp(1762,61): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCDataReaderHelper.cpp(1878,23): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCDataReaderHelper.cpp(1987,72): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCDataReaderHelper.cpp(1991,72): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCDataReaderHelper.cpp(1995,71): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCDataReaderHelper.cpp(1999,71): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCDataReaderHelper.cpp(2003,70): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCDataReaderHelper.cpp(2007,70): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCDataReaderHelper.cpp(2166,54): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCDataReaderHelper.cpp(2218,58): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCDataReaderHelper.cpp(2233,62): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCDataReaderHelper.cpp(2260,62): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCDataReaderHelper.cpp(2265,62): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCDataReaderHelper.cpp(2279,54): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCDataReaderHelper.cpp(2379,70): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCDataReaderHelper.cpp(2418,53): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCDataReaderHelper.cpp(2425,54): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCDataReaderHelper.cpp(2432,54): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCDataReaderHelper.cpp(2439,54): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCDataReaderHelper.cpp(2478,43): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCDataReaderHelper.cpp(2479,43): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCDataReaderHelper.cpp(2502,44): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCDataReaderHelper.cpp(2506,44): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCDataReaderHelper.cpp(2514,42): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCDataReaderHelper.cpp(2518,42): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCDataReaderHelper.cpp(2522,43): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCDataReaderHelper.cpp(2526,43): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CCProcessBase.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCProcessBase.cpp(129,46): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCProcessBase.cpp(155,39): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CCSGUIReader.cpp
+  CCSSceneReader.cpp
+  CCSkin.cpp
+  CCSpriteFrameCacheHelper.cpp
+  CCTransformHelp.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui/UIHelper.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCSGUIReader.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCTransformHelp.cpp(105,32): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCTransformHelp.cpp(106,32): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCTransformHelp.cpp(107,32): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCTransformHelp.cpp(108,32): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCTransformHelp.cpp(131,35): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCTransformHelp.cpp(132,35): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCTransformHelp.cpp(133,35): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCTransformHelp.cpp(134,35): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCSGUIReader.cpp(769,59): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCSGUIReader.cpp(891,53): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCSGUIReader.cpp(938,218): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCSGUIReader.cpp(938,141): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCSGUIReader.cpp(1021,16): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCSGUIReader.cpp(1175,53): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCSGUIReader.cpp(1298,43): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCSGUIReader.cpp(1300,43): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CCTween.cpp
+  CCUtilMath.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCUtilMath.cpp(55,67): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCUtilMath.cpp(56,67): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCUtilMath.cpp(65,112): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCUtilMath.cpp(66,112): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CocoLoader.cpp
+  DictionaryHelper.cpp
+  LocalizationManager.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui/UIHelper.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCSSceneReader.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCTween.cpp(121,37): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCTween.cpp(148,40): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCTween.cpp(268,50): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCTween.cpp(276,30): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCTween.cpp(385,24): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCTween.cpp(386,24): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCTween.cpp(387,24): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCTween.cpp(388,24): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCTween.cpp(456,78): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCSSceneReader.cpp(344,48): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCSSceneReader.cpp(344,41): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCSSceneReader.cpp(521,28): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCSSceneReader.cpp(526,28): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCSSceneReader.cpp(546,34): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCSSceneReader.cpp(551,27): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\CCSSceneReader.cpp(556,37): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  TriggerBase.cpp
+  TriggerMng.cpp
+  TriggerObj.cpp
+  FlatBuffersSerialize.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui/UIHelper.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\FlatBuffersSerialize.cpp)
+  CCComExtensionData.cpp
+  CocoStudio.cpp
+  WidgetCallBackHandlerProtocol.cpp
+  NodeReader.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\TriggerMng.cpp(277,54): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\TriggerMng.cpp(353,54): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  SingleNodeReader.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546,39): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\FlatBuffersSerialize.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546,39): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\NodeReader\NodeReader.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593,63): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\FlatBuffersSerialize.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593,63): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\NodeReader\NodeReader.cpp)
+  SpriteReader.cpp
+  ParticleReader.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546,39): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\SingleNodeReader\SingleNodeReader.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593,63): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\SingleNodeReader\SingleNodeReader.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546,39): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\SpriteReader\SpriteReader.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593,63): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\SpriteReader\SpriteReader.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\NodeReader\NodeReader.cpp(145,38): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\NodeReader\NodeReader.cpp(149,38): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\FlatBuffersSerialize.cpp(577,25): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\NodeReader\NodeReader.cpp(229,34): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\NodeReader\NodeReader.cpp(233,35): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546,39): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ParticleReader\ParticleReader.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593,63): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ParticleReader\ParticleReader.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\NodeReader\NodeReader.cpp(237,33): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\NodeReader\NodeReader.cpp(241,36): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\NodeReader\NodeReader.cpp(262,42): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\NodeReader\NodeReader.cpp(266,42): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\NodeReader\NodeReader.cpp(283,39): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\NodeReader\NodeReader.cpp(287,39): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\NodeReader\NodeReader.cpp(304,45): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\NodeReader\NodeReader.cpp(308,45): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\FlatBuffersSerialize.cpp(806,30): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\FlatBuffersSerialize.cpp(810,30): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\NodeReader\NodeReader.cpp(354,38): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\NodeReader\NodeReader.cpp(358,38): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\FlatBuffersSerialize.cpp(849,27): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\FlatBuffersSerialize.cpp(853,27): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\NodeReader\NodeReader.cpp(375,48): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\NodeReader\NodeReader.cpp(379,48): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\NodeReader\NodeReader.cpp(396,44): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\NodeReader\NodeReader.cpp(400,44): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\FlatBuffersSerialize.cpp(1261,36): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\FlatBuffersSerialize.cpp(1265,36): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\FlatBuffersSerialize.cpp(1539,30): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  GameMapReader.cpp
+  ProjectNodeReader.cpp
+  ComAudioReader.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546,39): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ProjectNodeReader\ProjectNodeReader.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593,63): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ProjectNodeReader\ProjectNodeReader.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546,39): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\GameMapReader\GameMapReader.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593,63): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\GameMapReader\GameMapReader.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ProjectNodeReader\ProjectNodeReader.cpp(88,38): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546,39): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ComAudioReader\ComAudioReader.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593,63): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ComAudioReader\ComAudioReader.cpp)
+  WidgetReader.cpp
+  LoadingBarReader.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ComAudioReader\ComAudioReader.cpp(99,30): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ComAudioReader\ComAudioReader.cpp(149,46): warning C4244: '인수': 'float'에서 'int32_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  ListViewReader.cpp
+  TextFieldReader.cpp
+  CheckBoxReader.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546,39): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\LoadingBarReader\LoadingBarReader.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593,63): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\LoadingBarReader\LoadingBarReader.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\LoadingBarReader\LoadingBarReader.cpp(90,21): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\LoadingBarReader\LoadingBarReader.cpp(137,32): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\LoadingBarReader\LoadingBarReader.cpp(176,57): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\LoadingBarReader\LoadingBarReader.cpp(343,32): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546,39): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\WidgetReader.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593,63): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\WidgetReader.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\WidgetReader.cpp(144,31): warning C4244: 'return': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\WidgetReader.cpp(483,38): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\WidgetReader.cpp(487,38): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\WidgetReader.cpp(575,34): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\WidgetReader.cpp(579,35): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\WidgetReader.cpp(583,33): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\WidgetReader.cpp(587,36): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\WidgetReader.cpp(608,42): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\WidgetReader.cpp(612,42): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\WidgetReader.cpp(629,39): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\WidgetReader.cpp(633,39): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\WidgetReader.cpp(650,45): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\WidgetReader.cpp(654,45): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\WidgetReader.cpp(700,38): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\WidgetReader.cpp(704,38): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546,39): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593,63): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp)
+  SliderReader.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\WidgetReader.cpp(721,48): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\WidgetReader.cpp(725,48): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\WidgetReader.cpp(742,44): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\WidgetReader.cpp(746,44): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546,39): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\TextFieldReader\TextFieldReader.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593,63): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\TextFieldReader\TextFieldReader.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp(107,23): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp(173,42): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp(177,42): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp(181,44): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp(185,45): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546,39): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\CheckBoxReader\CheckBoxReader.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp(227,47): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp(231,48): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593,63): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\CheckBoxReader\CheckBoxReader.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp(248,48): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp(252,49): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp(343,45): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp(347,45): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp(577,26): warning C4244: '초기화 중': 'int32_t'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  PageViewReader.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546,39): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\SliderReader\SliderReader.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593,63): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\SliderReader\SliderReader.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546,39): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\PageViewReader\PageViewReader.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593,63): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\PageViewReader\PageViewReader.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\PageViewReader\PageViewReader.cpp(134,42): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\PageViewReader\PageViewReader.cpp(138,42): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\PageViewReader\PageViewReader.cpp(142,44): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\PageViewReader\PageViewReader.cpp(146,45): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\PageViewReader\PageViewReader.cpp(169,48): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\PageViewReader\PageViewReader.cpp(173,49): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\PageViewReader\PageViewReader.cpp(264,45): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\PageViewReader\PageViewReader.cpp(268,45): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  TextReader.cpp
+  Node3DReader.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546,39): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\TextReader\TextReader.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593,63): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\TextReader\TextReader.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546,39): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\Node3DReader\Node3DReader.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593,63): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\Node3DReader\Node3DReader.cpp)
+  UserCameraReader.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\TextReader\TextReader.cpp(108,46): warning C4244: '인수': '_Ret'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ret=int
+          ]
+  Particle3DReader.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\TextReader\TextReader.cpp(144,53): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\TextReader\TextReader.cpp(290,42): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\TextReader\TextReader.cpp(294,43): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\TextReader\TextReader.cpp(437,28): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\TextReader\TextReader.cpp(439,71): warning C4244: '인수': 'int32_t'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\TextReader\TextReader.cpp(439,48): warning C4244: '인수': 'int32_t'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\Node3DReader\Node3DReader.cpp(91,29): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\Node3DReader\Node3DReader.cpp(95,29): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\Node3DReader\Node3DReader.cpp(99,29): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\Node3DReader\Node3DReader.cpp(202,42): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\Node3DReader\Node3DReader.cpp(206,42): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\Node3DReader\Node3DReader.cpp(223,39): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\Node3DReader\Node3DReader.cpp(227,39): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Sprite3DReader.cpp
+  BoneNodeReader.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546,39): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\UserCameraReader\UserCameraReader.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593,63): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\UserCameraReader\UserCameraReader.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546,39): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\Particle3DReader\Particle3DReader.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593,63): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\Particle3DReader\Particle3DReader.cpp)
+  SkeletonNodeReader.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\UserCameraReader\UserCameraReader.cpp(94,29): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\UserCameraReader\UserCameraReader.cpp(98,29): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\UserCameraReader\UserCameraReader.cpp(127,27): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546,39): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\Sprite3DReader\Sprite3DReader.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593,63): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\Sprite3DReader\Sprite3DReader.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546,39): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\SkeletonReader\BoneNodeReader.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593,63): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\SkeletonReader\BoneNodeReader.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\Sprite3DReader\Sprite3DReader.cpp(96,29): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\Sprite3DReader\Sprite3DReader.cpp(100,29): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546,39): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\SkeletonReader\SkeletonNodeReader.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593,63): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\SkeletonReader\SkeletonNodeReader.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\SkeletonReader\BoneNodeReader.cpp(86,26): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  TextAtlasReader.cpp
+  LayoutReader.cpp
+  TextBMFontReader.cpp
+  ImageViewReader.cpp
+  ButtonReader.cpp
+  ScrollViewReader.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546,39): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\TextAtlasReader\TextAtlasReader.cpp)
+  GameNode3DReader.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593,63): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\TextAtlasReader\TextAtlasReader.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\TextAtlasReader\TextAtlasReader.cpp(126,78): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\TextAtlasReader\TextAtlasReader.cpp(126,67): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546,39): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\LayoutReader\LayoutReader.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593,63): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\LayoutReader\LayoutReader.cpp)
+  Light3DReader.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546,39): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\GameNode3DReader\GameNode3DReader.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546,39): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ImageViewReader\ImageViewReader.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593,63): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ImageViewReader\ImageViewReader.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593,63): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\GameNode3DReader\GameNode3DReader.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\LayoutReader\LayoutReader.cpp(407,42): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\LayoutReader\LayoutReader.cpp(411,42): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\LayoutReader\LayoutReader.cpp(415,44): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\LayoutReader\LayoutReader.cpp(419,45): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\LayoutReader\LayoutReader.cpp(442,48): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\LayoutReader\LayoutReader.cpp(446,49): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\LayoutReader\LayoutReader.cpp(537,45): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546,39): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\TextBMFontReader\TextBMFontReader.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\LayoutReader\LayoutReader.cpp(541,45): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593,63): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\TextBMFontReader\TextBMFontReader.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546,39): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593,63): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546,39): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ButtonReader\ButtonReader.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593,63): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ButtonReader\ButtonReader.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ImageViewReader\ImageViewReader.cpp(220,42): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ImageViewReader\ImageViewReader.cpp(224,42): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ImageViewReader\ImageViewReader.cpp(228,44): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ImageViewReader\ImageViewReader.cpp(232,45): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ImageViewReader\ImageViewReader.cpp(255,48): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ImageViewReader\ImageViewReader.cpp(259,49): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp(118,23): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp(178,42): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp(182,42): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp(186,44): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp(190,45): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp(221,45): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp(242,47): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ButtonReader\ButtonReader.cpp(265,59): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp(246,48): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp(263,48): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp(267,49): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ButtonReader\ButtonReader.cpp(330,42): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ButtonReader\ButtonReader.cpp(334,42): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ButtonReader\ButtonReader.cpp(338,44): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ButtonReader\ButtonReader.cpp(342,45): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp(358,45): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp(362,45): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ButtonReader\ButtonReader.cpp(378,42): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ButtonReader\ButtonReader.cpp(382,43): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546,39): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\Light3DReader\Light3DReader.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593,63): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\Light3DReader\Light3DReader.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ButtonReader\ButtonReader.cpp(409,48): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ButtonReader\ButtonReader.cpp(413,49): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ButtonReader\ButtonReader.cpp(882,34): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\Light3DReader\Light3DReader.cpp(122,33): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\Light3DReader\Light3DReader.cpp(126,29): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\Light3DReader\Light3DReader.cpp(130,34): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CCActionTimelineCache.cpp
+  CCActionTimeline.cpp
+  CCActionTimelineNode.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\ActionTimeline\CCActionTimeline.cpp(202,30): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\ActionTimeline\CCActionTimeline.cpp(206,36): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\ActionTimeline\CCActionTimeline.cpp(206,28): warning C4244: '초기화 중': 'double'에서 'const float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546,39): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\ActionTimeline\CCActionTimelineCache.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593,63): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\ActionTimeline\CCActionTimelineCache.cpp)
+  CCFrame.cpp
+  CCTimeLine.cpp
+  CSLoader.cpp
+  CCBoneNode.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\ActionTimeline\CCFrame.cpp(717,27): warning C4244: '=': 'float'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\ActionTimeline\CCFrame.cpp(718,27): warning C4244: '=': 'float'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\ActionTimeline\CCFrame.cpp(719,27): warning C4244: '=': 'float'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\ActionTimeline\CCFrame.cpp(772,23): warning C4244: '초기화 중': 'float'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CCSkeletonNode.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\ActionTimeline\CCBoneNode.cpp(54,33): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\ui/UIHelper.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\ActionTimeline\CSLoader.cpp)
+  CCSkinNode.cpp
+  ArmatureNodeReader.cpp
+  TabControlReader.cpp
+  AssetsManager.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546,39): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ArmatureNodeReader\ArmatureNodeReader.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593,63): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\ArmatureNodeReader\ArmatureNodeReader.cpp)
+  AssetsManagerEx.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546,39): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\ActionTimeline\CSLoader.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593,63): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\ActionTimeline\CSLoader.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1546,39): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\TabControlReader\TabControlReader.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1593,63): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ] (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\TabControlReader\TabControlReader.cpp)
+  CCEventAssetsManagerEx.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\TabControlReader\TabControlReader.cpp(108,35): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\TabControlReader\TabControlReader.cpp(186,52): warning C4244: '인수': 'int32_t'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\TabControlReader\TabControlReader.cpp(187,54): warning C4244: '인수': 'int32_t'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\editor-support\cocostudio\WidgetReader\TabControlReader\TabControlReader.cpp(571,47): warning C4244: '인수': 'int32_t'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\assets-manager\AssetsManagerEx.cpp(80,46): warning C4244: '인수': 'int64_t'에서 'double'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\assets-manager\AssetsManagerEx.cpp(80,26): warning C4244: '인수': 'int64_t'에서 'double'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CCEventListenerAssetsManagerEx.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\assets-manager\AssetsManagerEx.cpp(660,61): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\assets-manager\AssetsManagerEx.cpp(660,48): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\assets-manager\AssetsManagerEx.cpp(909,65): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\assets-manager\AssetsManagerEx.cpp(909,52): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\assets-manager\AssetsManagerEx.cpp(1011,37): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\assets-manager\AssetsManagerEx.cpp(1052,34): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Manifest.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\assets-manager\AssetsManagerEx.cpp(1161,46): warning C4305: '+=': 'double'에서 'float'(으)로 잘립니다.
+  CCControl.cpp
+  CCControlButton.cpp
+  CCControlColourPicker.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\assets-manager\Manifest.cpp(434,43): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\GUI\CCControlExtension\CCControlColourPicker.cpp(154,28): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\GUI\CCControlExtension\CCControlColourPicker.cpp(160,28): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\GUI\CCControlExtension\CCControlButton.cpp(101,20): warning C4244: '인수': 'float'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CCControlHuePicker.cpp
+  CCControlPotentiometer.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\GUI\CCControlExtension\CCControlPotentiometer.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\GUI\CCControlExtension\CCControlPotentiometer.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\GUI\CCControlExtension\CCControlPotentiometer.cpp(227,34): warning C4244: 'return': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CCControlSaturationBrightnessPicker.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\GUI\CCControlExtension\CCControlSaturationBrightnessPicker.cpp(73,63): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CCControlSlider.cpp
+  CCControlStepper.cpp
+  CCControlSwitch.cpp
+  CCControlUtils.cpp
+  CCInvocation.cpp
+  CCScrollView.cpp
+  CCTableView.cpp
+  CCTableViewCell.cpp
+  CCPhysicsDebugNode.cpp
+  CCPhysicsSprite.cpp
+  CCParticle3DAffector.cpp
+  CCParticle3DEmitter.cpp
+  CCParticle3DRender.cpp
+  CCParticleSystem3D.cpp
+  CCPUDynamicAttribute.cpp
+  CCPUDynamicAttributeTranslator.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUDynamicAttribute.cpp(418,26): warning C4244: 'return': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUDynamicAttribute.cpp(423,23): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CCPUForceField.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUDynamicAttribute.cpp(425,27): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CCPUMaterialManager.cpp
+  CCPUMaterialTranslator.cpp
+  CCPUNoise.cpp
+  CCPUPlane.cpp
+  CCPURendererTranslator.cpp
+  CCPUScriptCompiler.cpp
+  CCPUScriptLexer.cpp
+  CCPUScriptParser.cpp
+  CCPUScriptTranslator.cpp
+  CCPUSimpleSpline.cpp
+  CCPUSphere.cpp
+  CCPUTechniqueTranslator.cpp
+  CCPUTranslateManager.cpp
+  CCPUUtil.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUUtil.cpp(57,61): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CCPUParticleSystem3D.cpp
+  CCPUParticleSystem3DTranslator.cpp
+  CCPUListener.cpp
+  CCPUAffector.cpp
+  CCPUAffectorManager.cpp
+  CCPUAffectorTranslator.cpp
+  CCPUAlignAffector.cpp
+  CCPUAlignAffectorTranslator.cpp
+  CCPUBaseCollider.cpp
+  CCPUBaseColliderTranslator.cpp
+  CCPUBaseForceAffector.cpp
+  CCPUBaseForceAffectorTranslator.cpp
+  CCPUBoxCollider.cpp
+  CCPUBoxColliderTranslator.cpp
+  CCPUCollisionAvoidanceAffector.cpp
+  CCPUCollisionAvoidanceAffectorTranslator.cpp
+  CCPUColorAffector.cpp
+  CCPUColorAffectorTranslator.cpp
+  CCPUFlockCenteringAffector.cpp
+  CCPUFlockCenteringAffectorTranslator.cpp
+  CCPUForceFieldAffector.cpp
+  CCPUForceFieldAffectorTranslator.cpp
+  CCPUGeometryRotator.cpp
+  CCPUGeometryRotatorTranslator.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUForceFieldAffector.cpp(291,28): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CCPUGravityAffector.cpp
+  CCPUGravityAffectorTranslator.cpp
+  CCPUInterParticleCollider.cpp
+  CCPUInterParticleColliderTranslator.cpp
+  CCPUJetAffector.cpp
+  CCPUJetAffectorTranslator.cpp
+  CCPULineAffector.cpp
+  CCPULineAffectorTranslator.cpp
+  CCPULinearForceAffector.cpp
+  CCPULinearForceAffectorTranslator.cpp
+  CCPUParticleFollower.cpp
+  CCPUParticleFollowerTranslator.cpp
+  CCPUPathFollower.cpp
+  CCPUPathFollowerTranslator.cpp
+  CCPUPlaneCollider.cpp
+  CCPUPlaneColliderTranslator.cpp
+  CCPURandomiser.cpp
+  CCPURandomiserTranslator.cpp
+  CCPUScaleAffector.cpp
+  CCPUScaleAffectorTranslator.cpp
+  CCPUScaleVelocityAffector.cpp
+  CCPUScaleVelocityAffectorTranslator.cpp
+  CCPUSineForceAffector.cpp
+  CCPUSineForceAffectorTranslator.cpp
+  CCPUSphereCollider.cpp
+  CCPUSphereColliderTranslator.cpp
+  CCPUTextureAnimator.cpp
+  CCPUTextureAnimatorTranslator.cpp
+  CCPUTextureRotator.cpp
+  CCPUTextureRotatorTranslator.cpp
+  CCPUVelocityMatchingAffector.cpp
+  CCPUVelocityMatchingAffectorTranslator.cpp
+  CCPUVortexAffector.cpp
+  CCPUVortexAffectorTranslator.cpp
+  CCPUBoxEmitter.cpp
+  CCPUBoxEmitterTranslator.cpp
+  CCPUCircleEmitter.cpp
+  CCPUCircleEmitterTranslator.cpp
+  CCPUEmitter.cpp
+  CCPUEmitterManager.cpp
+  CCPUEmitterTranslator.cpp
+  CCPULineEmitter.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUCircleEmitter.cpp(126,32): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPUCircleEmitter.cpp(132,37): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CCPULineEmitterTranslator.cpp
+  CCPUMeshSurfaceEmitter.cpp
+  CCPUMeshSurfaceEmitterTranslator.cpp
+  CCPUPointEmitter.cpp
+  CCPUPointEmitterTranslator.cpp
+  CCPUPositionEmitter.cpp
+  CCPUPositionEmitterTranslator.cpp
+  CCPUSlaveEmitter.cpp
+  CCPUSlaveEmitterTranslator.cpp
+  CCPUSphereSurfaceEmitter.cpp
+  CCPUSphereSurfaceEmitterTranslator.cpp
+  CCPUVertexEmitter.cpp
+  CCPURender.cpp
+  CCPUBeamRender.cpp
+  CCPUBillboardChain.cpp
+  CCPURibbonTrail.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPURender.cpp(170,35): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPURender.cpp(170,58): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPURender.cpp(526,114): warning C4244: '인수': 'float'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPURender.cpp(526,89): warning C4244: '인수': 'float'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPURender.cpp(526,64): warning C4244: '인수': 'float'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPURender.cpp(527,58): warning C4244: '인수': 'float'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CCPURibbonTrailRender.cpp
+  CCPUDoAffectorEventHandler.cpp
+  CCPUDoAffectorEventHandlerTranslator.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPURender.cpp(946,25): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\extensions\Particle3D\PU\CCPURender.cpp(947,28): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CCPUDoEnableComponentEventHandler.cpp
+  CCPUDoEnableComponentEventHandlerTranslator.cpp
+  CCPUDoExpireEventHandler.cpp
+  CCPUDoExpireEventHandlerTranslator.cpp
+  CCPUDoFreezeEventHandler.cpp
+  CCPUDoFreezeEventHandlerTranslator.cpp
+  CCPUDoPlacementParticleEventHandler.cpp
+  CCPUDoPlacementParticleEventHandlerTranslator.cpp
+  CCPUDoScaleEventHandler.cpp
+  CCPUDoScaleEventHandlerTranslator.cpp
+  CCPUDoStopSystemEventHandler.cpp
+  CCPUDoStopSystemEventHandlerTranslator.cpp
+  CCPUEventHandler.cpp
+  CCPUEventHandlerManager.cpp
+  CCPUEventHandlerTranslator.cpp
+  CCPUObserver.cpp
+  CCPUObserverManager.cpp
+  CCPUObserverTranslator.cpp
+  CCPUOnClearObserver.cpp
+  CCPUOnClearObserverTranslator.cpp
+  CCPUOnCollisionObserver.cpp
+  CCPUOnCollisionObserverTranslator.cpp
+  CCPUOnCountObserver.cpp
+  CCPUOnCountObserverTranslator.cpp
+  CCPUOnEmissionObserver.cpp
+  CCPUOnEmissionObserverTranslator.cpp
+  CCPUOnEventFlagObserver.cpp
+  CCPUOnEventFlagObserverTranslator.cpp
+  CCPUOnExpireObserver.cpp
+  CCPUOnExpireObserverTranslator.cpp
+  CCPUOnPositionObserver.cpp
+  CCPUOnPositionObserverTranslator.cpp
+  CCPUOnQuotaObserver.cpp
+  CCPUOnQuotaObserverTranslator.cpp
+  CCPUOnRandomObserver.cpp
+  CCPUOnRandomObserverTranslator.cpp
+  CCPUOnTimeObserver.cpp
+  CCPUOnTimeObserverTranslator.cpp
+  CCPUOnVelocityObserver.cpp
+  CCPUOnVelocityObserverTranslator.cpp
+  CCPUBehaviour.cpp
+  CCPUBehaviourManager.cpp
+  CCPUBehaviourTranslator.cpp
+  CCPUSlaveBehaviour.cpp
+  CCPUSlaveBehaviourTranslator.cpp
+  cocos2d.vcxproj -> D:\DoItCPP\sample_code\appendix\simple_game\win32-build\lib\Release\cocos2d.lib

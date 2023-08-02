@@ -1,1 +1,15 @@
-﻿
+﻿  Copying resources for simple_game ...
+      copying to D:/DoItCPP/sample_code/appendix/simple_game/win32-build/bin/simple_game/Release/Resources
+  지정된 경로를 찾을 수 없습니다.
+E:\VS2022\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(157,5): error MSB3073: "setlocal
+E:\VS2022\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(157,5): error MSB3073: "C:\Program Files\CMake\bin\cmake.exe" -E echo "    copying to D:/DoItCPP/sample_code/appendix/simple_game/win32-build/bin/simple_game/Release/Resources"
+E:\VS2022\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(157,5): error MSB3073: if %errorlevel% neq 0 goto :cmEnd
+E:\VS2022\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(157,5): error MSB3073: C:\Python27\python.exe D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/cmake/scripts/sync_folder.py -s D:/DoItCPP/sample_code/appendix/simple_game/Resources -d D:/DoItCPP/sample_code/appendix/simple_game/win32-build/bin/simple_game/Release/Resources
+E:\VS2022\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(157,5): error MSB3073: if %errorlevel% neq 0 goto :cmEnd
+E:\VS2022\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(157,5): error MSB3073: :cmEnd
+E:\VS2022\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(157,5): error MSB3073: endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+E:\VS2022\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(157,5): error MSB3073: :cmErrorLevel
+E:\VS2022\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(157,5): error MSB3073: exit /b %1
+E:\VS2022\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(157,5): error MSB3073: :cmDone
+E:\VS2022\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(157,5): error MSB3073: if %errorlevel% neq 0 goto :VCEnd
+E:\VS2022\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(157,5): error MSB3073: :VCEnd" 명령이 종료되었습니다(코드: 3).

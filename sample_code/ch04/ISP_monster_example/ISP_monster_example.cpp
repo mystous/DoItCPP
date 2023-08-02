@@ -30,15 +30,15 @@ protected:
 };
 
 __interface IRoute {
-  virtual void find_route(int x, int y) = 0;
-  virtual void set_location(int x, int y) = 0;
-  virtual int get_location(bool x) = 0;
+  virtual void find_route(int x, int y);
+  virtual void set_location(int x, int y);
+  virtual int get_location(bool x);
 };
 
 __interface IAttack {
-  virtual bool attach_target(character* target_player) = 0;
-  virtual void check_target(character& target_player) = 0;
-  virtual void attack_special(character& target_player) = 0;
+  virtual bool attach_target(character* target_player);
+  virtual void check_target(character& target_player);
+  virtual void attack_special(character& target_player);
 };
 
 //character 클래스를 상속 받은 player 클래스

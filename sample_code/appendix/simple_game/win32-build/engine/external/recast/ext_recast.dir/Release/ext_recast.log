@@ -1,1 +1,21 @@
-﻿
+﻿  Building Custom Rule D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/recast/CMakeLists.txt
+  DebugDraw.cpp
+  DetourDebugDraw.cpp
+  DetourAlloc.cpp
+  DetourCommon.cpp
+  DetourNavMesh.cpp
+  DetourNavMeshBuilder.cpp
+  DetourNavMeshQuery.cpp
+  DetourNode.cpp
+  DetourCrowd.cpp
+  DetourLocalBoundary.cpp
+  DetourObstacleAvoidance.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\recast\DetourCrowd\DetourObstacleAvoidance.cpp(334,18): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  DetourPathCorridor.cpp
+  DetourPathQueue.cpp
+  DetourProximityGrid.cpp
+  DetourTileCache.cpp
+  DetourTileCacheBuilder.cpp
+  코드를 생성하고 있습니다...
+  fastlz.c
+  ext_recast.vcxproj -> D:\DoItCPP\sample_code\appendix\simple_game\win32-build\lib\Release\ext_recast.lib

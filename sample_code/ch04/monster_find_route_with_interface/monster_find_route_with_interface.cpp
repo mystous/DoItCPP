@@ -21,8 +21,8 @@ public:
 __interface Imonster
 {
 public:
-  virtual void find_route() = 0;
-  virtual void attack_special(player target_player) = 0;
+  virtual void find_route();
+  virtual void attack_special(player target_player);
 };
 
 //몬스터 A는 추상 클래스 Monster 클래스로부터 상속

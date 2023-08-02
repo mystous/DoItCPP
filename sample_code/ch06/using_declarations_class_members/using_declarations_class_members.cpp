@@ -61,7 +61,7 @@ int main() {
   monster_b mon_2;
 
   mon_1.get_damage(100);
-  mon_2.get_damage(100);
+  //mon_2.get_damage(100);
 
   return 0;
 }

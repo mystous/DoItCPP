@@ -1,1 +1,13 @@
-﻿
+﻿  Building Custom Rule D:/DoItCPP/sample_code/appendix/simple_game/cocos2d/external/unzip/CMakeLists.txt
+  ioapi.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\unzip\ioapi.cpp(108,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\unzip\ioapi.cpp(125,16): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\unzip\ioapi.cpp(144,16): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\unzip\ioapi.cpp(161,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\unzip\ioapi.cpp(166,9): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\unzip\ioapi.cpp(186,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\external\unzip\ioapi.cpp(191,9): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  unzip.cpp
+  ioapi_mem.cpp
+  코드를 생성하고 있습니다...
+  ext_unzip.vcxproj -> D:\DoItCPP\sample_code\appendix\simple_game\win32-build\lib\Release\ext_unzip.lib

@@ -1,1 +1,86 @@
-﻿
+﻿  Building Custom Rule D:/DoItCPP/sample_code/appendix/simple_game/CMakeLists.txt
+  coco2d_x_scene.cpp
+  configuration.cpp
+  game_logic_factory.cpp
+  monster_class.cpp
+  player_class.cpp
+  riding_object.cpp
+  terrain_class.cpp
+  weapon.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\Classes\const_int.h(7,29): warning C4244: '초기화 중': 'double'에서 'const int'(으)로 변환하면서 데이터가 손실될 수 있습니다. (소스 파일 컴파일 중 ..\game_logic\configuration.cpp)
+  AppDelegate.cpp
+  main.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\physics/CCPhysicsBody.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\game_logic\player_class.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\physics/CCPhysicsShape.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\game_logic\player_class.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\physics/CCPhysicsBody.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\Classes\coco2d_x_scene.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\physics/CCPhysicsShape.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\Classes\coco2d_x_scene.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\physics/CCPhysicsBody.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\game_logic\game_logic_factory.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\physics/CCPhysicsShape.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\game_logic\game_logic_factory.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\physics/CCPhysicsBody.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\game_logic\monster_class.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\physics/CCPhysicsShape.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\game_logic\monster_class.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\physics/CCPhysicsBody.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\Classes\AppDelegate.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\physics/CCPhysicsShape.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\Classes\AppDelegate.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\physics/CCPhysicsBody.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\game_logic\terrain_class.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\physics/CCPhysicsShape.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\game_logic\terrain_class.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\physics/CCPhysicsBody.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\game_logic\riding_object.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\physics/CCPhysicsShape.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\game_logic\riding_object.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\physics/CCPhysicsBody.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\proj.win32\main.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\physics/CCPhysicsShape.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\proj.win32\main.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base/ccUTF8.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\game_logic\player_class.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base/ccUTF8.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\Classes\coco2d_x_scene.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base/ccUTF8.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\game_logic\game_logic_factory.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base/ccUTF8.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\game_logic\monster_class.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base/ccUTF8.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\Classes\AppDelegate.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base/ccUTF8.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\game_logic\riding_object.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base/ccUTF8.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\game_logic\terrain_class.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform/CCSAXParser.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\game_logic\player_class.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform/CCSAXParser.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\game_logic\game_logic_factory.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform/CCSAXParser.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\Classes\coco2d_x_scene.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform/CCSAXParser.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\game_logic\monster_class.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform/CCSAXParser.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\Classes\AppDelegate.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\base/ccUTF8.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\proj.win32\main.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform/CCSAXParser.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\game_logic\riding_object.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform/CCSAXParser.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\game_logic\terrain_class.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\Classes\const_int.h(7,29): warning C4244: '초기화 중': 'double'에서 'const int'(으)로 변환하면서 데이터가 손실될 수 있습니다. (소스 파일 컴파일 중 ..\game_logic\game_logic_factory.cpp)
+..\game_logic\game_logic_factory.cpp(41,21): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\game_logic\game_logic_factory.cpp(42,22): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\Classes\const_int.h(7,29): warning C4244: '초기화 중': 'double'에서 'const int'(으)로 변환하면서 데이터가 손실될 수 있습니다. (소스 파일 컴파일 중 ..\Classes\coco2d_x_scene.cpp)
+..\game_logic\game_logic_factory.cpp(115,64): warning C4244: '인수': 'float'에서 '_Ty'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=int
+          ]
+..\game_logic\game_logic_factory.cpp(116,65): warning C4244: '인수': 'float'에서 '_Ty'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=int
+          ]
+..\game_logic\game_logic_factory.cpp(182,62): warning C4244: '인수': 'float'에서 '_Ty'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=int
+          ]
+..\game_logic\game_logic_factory.cpp(183,63): warning C4244: '인수': 'float'에서 '_Ty'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=int
+          ]
+..\game_logic\game_logic_factory.cpp(188,43): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\game_logic\game_logic_factory.cpp(188,31): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\game_logic\game_logic_factory.cpp(189,104): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\game_logic\game_logic_factory.cpp(189,92): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\game_logic\game_logic_factory.cpp(195,43): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\game_logic\game_logic_factory.cpp(195,31): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\Classes\const_int.h(7,29): warning C4244: '초기화 중': 'double'에서 'const int'(으)로 변환하면서 데이터가 손실될 수 있습니다. (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\Classes\AppDelegate.cpp)
+D:\DoItCPP\sample_code\appendix\simple_game\Classes\const_int.h(7,29): warning C4244: '초기화 중': 'double'에서 'const int'(으)로 변환하면서 데이터가 손실될 수 있습니다. (소스 파일 컴파일 중 ..\game_logic\monster_class.cpp)
+..\Classes\coco2d_x_scene.cpp(85,18): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\Classes\coco2d_x_scene.cpp(150,61): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\Classes\coco2d_x_scene.cpp(150,53): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\cocos2d\cocos\platform/CCSAXParser.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 D:\DoItCPP\sample_code\appendix\simple_game\proj.win32\main.cpp)
+  precheader.cpp
+D:\DoItCPP\sample_code\appendix\simple_game\game_logic\riding_object.h(22): warning C4715: 'car::get_object_name': 모든 제어 경로에서 값을 반환하지는 않습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\game_logic\riding_object.h(46): warning C4715: 'motor_cycle::get_object_name': 모든 제어 경로에서 값을 반환하지는 않습니다.
+D:\DoItCPP\sample_code\appendix\simple_game\game_logic\riding_object.h(34): warning C4715: 'horse::get_object_name': 모든 제어 경로에서 값을 반환하지는 않습니다.
+     D:/DoItCPP/sample_code/appendix/simple_game/win32-build/Release/simple_game.lib 라이브러리 및 D:/DoItCPP/sample_code/appendix/simple_game/win32-build/Release/simple_game.exp 개체를 생성하고 있습니다.
+LINK : warning LNK4098: 'LIBCMT' defaultlib가 다른 라이브러리와 충돌합니다. /NODEFAULTLIB:library를 사용하십시오.
+  simple_game.vcxproj -> D:\DoItCPP\sample_code\appendix\simple_game\win32-build\bin\simple_game\Release\simple_game.exe
