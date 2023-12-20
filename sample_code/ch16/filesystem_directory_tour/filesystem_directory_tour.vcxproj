@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{6ce1e62f-6a78-4727-9abc-4f67112c6908}</ProjectGuid>
-    <RootNamespace>stlsortint</RootNamespace>
+    <ProjectGuid>{0B4365D3-33A8-454F-A979-6F4CF6933D7B}</ProjectGuid>
+    <RootNamespace>filesystemdirectorytour</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -131,7 +131,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="stl_sort_int.cpp" />
+    <ClCompile Include="filesystem_directory_tour.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

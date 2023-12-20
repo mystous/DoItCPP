@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{6ce1e62f-6a78-4727-9abc-4f67112c6908}</ProjectGuid>
-    <RootNamespace>stlsortint</RootNamespace>
+    <ProjectGuid>{02d5702c-b7f1-484a-84a1-46a71abe9148}</ProjectGuid>
+    <RootNamespace>basiclambda</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -131,7 +131,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="stl_sort_int.cpp" />
+    <ClCompile Include="basic_lambda.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

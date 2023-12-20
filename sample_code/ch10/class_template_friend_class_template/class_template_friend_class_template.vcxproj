@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{6ce1e62f-6a78-4727-9abc-4f67112c6908}</ProjectGuid>
-    <RootNamespace>stlsortint</RootNamespace>
+    <ProjectGuid>{54D4FC4B-894C-4EDC-92AB-77C2FD8910D1}</ProjectGuid>
+    <RootNamespace>classtemplatefriendclasstemplate</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -131,7 +131,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="stl_sort_int.cpp" />
+    <ClCompile Include="class_template_friend_class_template.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

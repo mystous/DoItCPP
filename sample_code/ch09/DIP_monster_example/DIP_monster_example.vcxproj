@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{6ce1e62f-6a78-4727-9abc-4f67112c6908}</ProjectGuid>
-    <RootNamespace>stlsortint</RootNamespace>
+    <ProjectGuid>{7a4bb0a0-758e-4f8e-9085-d075271f14b9}</ProjectGuid>
+    <RootNamespace>DIPmonsterexample</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -131,7 +131,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="stl_sort_int.cpp" />
+    <ClCompile Include="DIP_monster_example.cpp" />
+    <ClCompile Include="monster_class.cpp" />
+    <ClCompile Include="player_class.cpp" />
+    <ClCompile Include="riding_object.cpp" />
+    <ClCompile Include="terrain_class.cpp" />
+    <ClCompile Include="weapon.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="base_classes.h" />
+    <ClInclude Include="interface.h" />
+    <ClInclude Include="monster_class.h" />
+    <ClInclude Include="player_class.h" />
+    <ClInclude Include="riding_object.h" />
+    <ClInclude Include="terrain_class.h" />
+    <ClInclude Include="weapon.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

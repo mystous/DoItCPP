@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{6ce1e62f-6a78-4727-9abc-4f67112c6908}</ProjectGuid>
-    <RootNamespace>stlsortint</RootNamespace>
+    <ProjectGuid>{c6c1d888-7f33-4b09-a654-3a5a2cdb4d71}</ProjectGuid>
+    <RootNamespace>purevirtualfunctionerror</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -131,7 +131,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="stl_sort_int.cpp" />
+    <ClCompile Include="pure_virtual_function_error.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
