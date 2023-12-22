@@ -11,8 +11,7 @@ public:
 };
 
 manage_data_structure::manage_data_structure() :
-  current_index(0), data_queue{ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 }
-{
+  current_index(0), data_queue{ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 }{
 }
 
 int main(void) {

@@ -34,18 +34,25 @@ void monster::attack_special(player target_player) {
 //몬스터 A는 기본 Monster 클래스로부터 상속
 class monster_b : public monster, character {
 public:
-  monster_b(player& attack_target)
-    : monster_type("일반"),         // 직접 초기화
-    location{ 0,0 },                // 유니폼 초기화
-    unique_id(++total_count),       // 상수 변수 초기화
-    target(attack_target) {         // 레버런스 변수 초기화
-    difficult_level = 10;           // 복사초기화
-    quiz = new char[1024];          // 동적 메모리 할당
+  monster_b(player& attach_target)
+    : monster_type("일반"),       // 직접 초기화
+    location{ 0,0 },              // 유니폼 초기화
+    unique_id(++total_count),     // 상수 변수 초기화
+    target(attach_target) {       // 레버런스 변수 초기화
+    difficult_level = 10;         // 복사초기화
+    quiz = new char[1024];        // 동적 메모리 할당
   };
 
   ~monster_b() {
     delete[]quiz;
     total_count--;
+  };
+
+  monster_b(const monster_b& ref);
+
+  //상속받은 함수 오버라이딩 
+  virtual void attack_special(player target_player) override {
+    cout << "가상 공격 : 데미지 - 0 hp" << endl;
   };
 
   void set_quiz(const char* new_quiz) { strcpy_s(quiz, 1024, new_quiz); };
@@ -70,6 +77,15 @@ private:
 
 int monster_b::total_count = 0; // 정적 변수 초기화
 
+monster_b::monster_b(const monster_b& ref) : unique_id(++total_count), target(ref.target) {
+  quiz = new char[1024];
+  strcpy_s(quiz, strlen(ref.quiz) + 1, ref.quiz);
+  monster_type = ref.monster_type;
+  difficult_level = ref.difficult_level;
+  location[0] = ref.location[0];
+  location[1] = ref.location[1];
+}
+
 int main() {
   player first_player;
   monster_b first_mon(first_player);
@@ -78,9 +94,10 @@ int main() {
   first_mon.set_type("수수께끼 몬스터");
   first_mon.set_location(30, 30);
 
-  monster_b second_mon(first_player);
+  monster_b second_mon = first_mon;
   second_mon.set_quiz("문이 뒤집어 지면 무엇이 될까?");
   second_mon.set_location(45, 50);
+
 
   cout << "[" << first_mon.get_x_location() << " , " << first_mon.get_y_location()
     << "] 첫번째 몬스터(" << first_mon.get_type() << " - "

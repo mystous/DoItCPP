@@ -42,14 +42,20 @@ public:
   //상속받은 함수 오버라이딩
   void attack_special(player target_player) override;
   monster_c operator+(monster_c& operand);
+  monster_c operator+(player& operand);
   void set_level(int level_value) { level = level_value; };
   void set_hp(int hp_value) { hp = hp_value; };
 };
 
-// 덧셈 연산자 오버로딩 구현
 monster_c monster_c::operator+(monster_c& operand) {
   monster_c result_monster;
   result_monster.set_level(level + operand.get_level());
+  return result_monster;
+}
+
+monster_c monster_c::operator+(player& operand) {
+  monster_c result_monster;
+  result_monster.set_hp(hp + operand.get_hp());
   return result_monster;
 }
 
@@ -61,13 +67,15 @@ int main() {
 
   monster_c monster_c_obj1, monster_c_obj2;
   monster_c_obj2.set_level(2);
+  player player1;
   monster_c new_monster_c_obj = monster_c_obj1 + monster_c_obj2;
 
-  cout << "합체전 몬스터C #1 Level[" << monster_c_obj1.get_level()
-    << "], 몬스터C #2 Level[" << monster_c_obj2.get_level()
+  cout << "Player 합체 전 몬스터C HP[" << new_monster_c_obj.get_hp()
     << "]" << endl;
 
-  cout << "합체 후 몬스터C Level[" << new_monster_c_obj.get_level()
+  new_monster_c_obj = new_monster_c_obj + player1;
+
+  cout << "Player 합체 후 몬스터C HP[" << new_monster_c_obj.get_hp()
     << "]" << endl;
 
   return 0;

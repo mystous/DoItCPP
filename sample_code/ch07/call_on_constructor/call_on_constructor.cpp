@@ -20,17 +20,14 @@ public:
 class monster_a : public monster, character {
 public:
   monster_a() {
-    //cout << this << " monster_a 클래스 생성자" << endl;
     cout << "monster_a 클래스 생성자" << endl;
     monster_a(10, 10);
   };
 
   monster_a(int x, int y) : location{ x, y } {
-    //cout << this << " monster_a 클래스 생성자 (인자 추가)" << endl;
-    cout << "monster_a 클래스 생성자 (인자 추가)" << endl;
+    cout << "monster_a 클래스 생성자 (매개변수 추가)" << endl;
   };
   void show_location() {
-    //cout << this << " 위치(" << location[0] << " , " << location[1] << ")" << endl;
     cout << "위치(" << location[0] << " , " << location[1] << ")" << endl;
   };
 

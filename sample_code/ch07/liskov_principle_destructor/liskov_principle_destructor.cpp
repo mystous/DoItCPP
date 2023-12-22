@@ -1,5 +1,4 @@
 ﻿#include <iostream>
-#include <random>
 using namespace std;
 
 class monster {
@@ -7,7 +6,7 @@ public:
   monster() {
     cout << "monster 클래스 생성자" << endl;
   };
-  virtual ~monster() {
+  ~monster() {
     cout << "monster 클래스 소멸자" << endl;
   };
 };
@@ -18,7 +17,7 @@ public:
   monster_a() {
     cout << "monster_a 클래스 생성자" << endl;
   };
-  virtual ~monster_a() {
+  ~monster_a() {
     cout << "monster_a 클래스 소멸자" << endl;
   }
 };
