@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{1c1dcddb-360e-46a0-9186-118da072a28d}</ProjectGuid>
-    <RootNamespace>monsterfindroutewithinterface</RootNamespace>
+    <ProjectGuid>{e3c0bc64-949d-446f-a02f-105a7e3aca4f}</ProjectGuid>
+    <RootNamespace>monsterdestructor</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -131,7 +131,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="monster_find_route_with_interface.cpp" />
+    <ClCompile Include="monster_destructor.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

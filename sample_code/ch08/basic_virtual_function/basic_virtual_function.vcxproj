@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{d1d66568-ace4-4b27-91b5-f53b9d9c78a9}</ProjectGuid>
-    <RootNamespace>monsterfactorystaticclassmembers</RootNamespace>
+    <ProjectGuid>{726c3a36-ceb7-44e4-863b-16ba3dbc7f52}</ProjectGuid>
+    <RootNamespace>basicvirtualfunction</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -131,7 +131,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="monster_factory_static_class_members.cpp" />
+    <ClCompile Include="basic_virtual_function.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

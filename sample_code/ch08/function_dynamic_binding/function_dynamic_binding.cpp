@@ -49,11 +49,11 @@ int main() {
   mother_monster.attack_special(player_1);
 
   monster* mon = &forest_monster;
-  cout << endl << "부모 클래스 업케스팅 후 공격" << endl;
+  cout << endl << "부모 클래스로 업케스팅 후 공격" << endl;
   mon->attack_special(player_1);
 
   mon = &mother_monster;
-  cout << endl << "부모 클래스 공격" << endl;
+  cout << endl << "부모 클래스로 공격" << endl;
   mon->attack_special(player_1);
 
   return 0;

@@ -20,10 +20,10 @@ public:
 //추상 클래스 Monster
 class monster {
 public:
-  monster();
-  virtual ~monster();
-  virtual void find_route() = 0;
-  virtual void attack_special(player target_player) = 0;
+  monster();             // 생성자
+  virtual ~monster();    // 소멸자
+  virtual void find_route() = 0;                            // 순수 가상 함수
+  virtual void attack_special(player target_player) = 0;    // 순수 가상 함수
 };
 
 monster::monster() {
@@ -38,13 +38,14 @@ monster::~monster() {
 class monster_a : public monster {
 public:
   virtual void attack_special(player target_player) override;
-  virtual void find_route() override;
+  virtual void find_route() override;   // 순수 가상 함수 오버라이드 선언
 };
 
 void monster_a::attack_special(player target_player) {
   cout << "인텡글 공격 : 데미지 - 15 hp" << endl;
 }
 
+// 추상 클래스의 순수 가상 함수 구현
 void monster_a::find_route() {
   cout << "깊이 우선 탐색(DFS)" << endl;
 }
@@ -82,6 +83,7 @@ void monster_c::find_route() {
   cout << "다익스트라 최단 경로 알고리즘" << endl;
 }
 
+// 전역 함수
 void monster_routine(monster* mon, player target_player) {
   mon->find_route();
   mon->attack_special(target_player);

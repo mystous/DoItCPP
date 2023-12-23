@@ -5,16 +5,16 @@ using namespace std;
 template <typename Type1, typename Type2>
 class data_package {
 public:
-  template<typename Type2>
-  class nested_class_data_package {
+  template <typename Type2>            // 바깥쪽 템플릿 매개변수 사용 
+  class nested_class_data_package {    // 안쪽 클래스
   public:
     nested_class_data_package(Type2 data) : nested_class_data(data) {}
     Type2 get_element() { return nested_class_data; }
     Type2 nested_class_data;
   };
 
-  template<typename Type3>
-  class nested_class {
+  template <typename Type3>    // 새 템플릿 매개변수 사용
+  class nested_class {         // 안쪽 클래스
   public:
     nested_class(Type3 data) : nested_class_data(data) {}
     void print_out_element() {
@@ -36,12 +36,12 @@ public:
 private:
   Type1 first;
   Type2 second;
-  nested_class_data_package<Type2> internal_data;
+  nested_class_data_package<Type2> internal_data;   // 멤버 변수로 선언
 
 };
 int main() {
   data_package<string, int> template_inst1("문자열", 10);
-  data_package<string, int>::nested_class<int> template_inst2(500);
+  data_package<string, int>::nested_class<int> template_inst2(500);   // 객체로 선언
 
   cout << "중첩 클래스 첫 번째 범례" << endl;
   template_inst1.print_out_element();

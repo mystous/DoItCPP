@@ -29,16 +29,20 @@ protected:
   int power;
 };
 
-__interface IRoute {
-  virtual void find_route(int x, int y);
-  virtual void set_location(int x, int y);
-  virtual int get_location(bool x);
+// 인터페이스로 사용할 추상 클래스 IRoute
+class IRoute {
+public:
+  virtual void find_route(int x, int y) = 0;
+  virtual void set_location(int x, int y) = 0;
+  virtual int get_location(bool x) = 0;
 };
 
-__interface IAttack {
-  virtual bool attach_target(character* target_player);
-  virtual void check_target(character& target_player);
-  virtual void attack_special(character& target_player);
+// 인터페이스로 사용할 추상 클래스 IAttack
+class IAttack {
+public:
+  virtual bool attach_target(character* target_player) = 0;
+  virtual void check_target(character& target_player) = 0;
+  virtual void attack_special(character& target_player) = 0;
 };
 
 //character 클래스를 상속 받은 player 클래스
