@@ -27,6 +27,7 @@ class monster
 public:
   virtual void find_route() = 0;
   virtual void attack_special(player target_player) = 0;
+  virtual ~monster() {};
 
   static monster* create_monster(const int terrain_type);
   static void destroy_monster();

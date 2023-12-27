@@ -132,20 +132,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="DIP_monster_example.cpp" />
-    <ClCompile Include="monster_class.cpp" />
-    <ClCompile Include="player_class.cpp" />
-    <ClCompile Include="riding_object.cpp" />
-    <ClCompile Include="terrain_class.cpp" />
-    <ClCompile Include="weapon.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="base_classes.h" />
-    <ClInclude Include="interface.h" />
-    <ClInclude Include="monster_class.h" />
-    <ClInclude Include="player_class.h" />
-    <ClInclude Include="riding_object.h" />
-    <ClInclude Include="terrain_class.h" />
-    <ClInclude Include="weapon.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

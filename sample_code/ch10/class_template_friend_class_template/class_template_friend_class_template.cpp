@@ -8,7 +8,7 @@ public:
   caller() : object(nullptr) {};
   void set_object(U* obj_pointer) { object = obj_pointer; }
   void printout_friend_object() {
-    cout << "(friend 클래스 템플릿 호출) 클래스 템플릿 형식 매개 변수 값 : " 
+    cout << "(friend 클래스 템플릿 호출) 템플릿 형식 매개 변수 값 : " 
       << object->first << endl;
   }
 private:
@@ -19,9 +19,6 @@ template <typename T = int>
 class data_package {
 public:
   data_package(T first) : first(first) {}
-  void print_out_element() {
-    cout << "클래스 템플릿 형식 매개 변수 값 : " << first << endl;
-  }
   friend caller<data_package>;
 private:
   T first;

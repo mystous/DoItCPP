@@ -67,6 +67,7 @@ int monster::calculate_distance(player& target_player) {
 
 class terrain {
 public:
+  // 리스코프 치환 원칙 준수하는 순수 가상 함수 두 종류
   virtual void allocate_monster(monster* mon) = 0;
   virtual void bost_monster(monster* mon) = 0;
   void set_start_location(int x, int y) { start_location_x = x; start_location_y = y; };
@@ -98,6 +99,7 @@ public:
   virtual void bost_monster(monster* mon) override;
 };
 
+// 부모와 동일한 함수 시그니처를 사용하지만 특성있는 행동 실행
 void forest_terrain::allocate_monster(monster* mon) {
   if (monster_a_type == mon->get_monster_type()) {
     update_monster_list(mon);
@@ -105,6 +107,7 @@ void forest_terrain::allocate_monster(monster* mon) {
   }
 }
 
+// 부모와 동일한 함수 시그니처를 사용하지만 특성있는 행동 실행
 void forest_terrain::bost_monster(monster* mon) {
   if (monster_a_type == mon->get_monster_type()) {
     cout << "몬스터A가 숲에서는 힘이 더 강해 집니다." << endl;
@@ -120,11 +123,13 @@ public:
   virtual void bost_monster(monster* mon) override;
 };
 
+// 부모와 동일한 함수 시그니처를 사용하지만 특성있는 행동 실행
 void cyber_terrain::allocate_monster(monster* mon) {
   update_monster_list(mon);
   cout << "모든 종류의 Monster를 사이버 공간에 배치 합니다." << endl;
 }
 
+// 부모와 동일한 함수 시그니처를 사용하지만 특성있는 행동 실행
 void cyber_terrain::bost_monster(monster* mon) {
   cout << "모든 몬스터가 사이버 공간에서는 속도가 빨라 집니다." << endl;
 }
@@ -138,6 +143,7 @@ public:
   virtual void bost_monster(monster* mon) override;
 };
 
+// 부모와 동일한 함수 시그니처를 사용하지만 특성있는 행동 실행
 void urban_terrain::allocate_monster(monster* mon) {
   if (monster_a_type != mon->get_monster_type()) {
     update_monster_list(mon);
@@ -145,6 +151,7 @@ void urban_terrain::allocate_monster(monster* mon) {
   }
 }
 
+// 부모와 동일한 함수 시그니처를 사용하지만 특성있는 행동 실행
 void urban_terrain::bost_monster(monster* mon) {
   if (monster_c_type == mon->get_monster_type()) {
     update_monster_list(mon);
@@ -280,8 +287,6 @@ void monster_c::check_target(player& target_player) {
   attack_special(target_player);
 }
 
-
-
 int monster_factory::get_monster_count() {
   return mon_count;
 }
@@ -318,6 +323,7 @@ void monster_factory::destroy_terrain() {
   }
 }
 
+
 monster* monster_factory::create_monster(const int terrain_type, terrain* terrain_inst) {
   monster* new_mon = nullptr;
   switch (terrain_type) {
@@ -332,6 +338,7 @@ monster* monster_factory::create_monster(const int terrain_type, terrain* terrai
     break;
   }
 
+  // 종류에 상관없이 monster 클래스로 업캐스팅 하여 동일한 흐름 실행
   terrain_inst->allocate_monster(new_mon);
   terrain_inst->bost_monster(new_mon);
   mon_list.push_back(new_mon);

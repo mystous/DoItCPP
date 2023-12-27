@@ -6,13 +6,12 @@ template <typename T = int>
 class data_package {
 public:
   data_package(T first) : first(first) {}
-  void print_out_element() {
-    cout << "클래스 템플릿 형식 매개 변수 값 : " << first << endl;
-  }
+
   friend void printout_friend_element(data_package<T>& data_object) {
-    cout << "(friend 클래스 템플릿 호출) 클래스 템플릿 형식 매개 변수 값 : " 
+    cout << "(friend 함수) 템플릿 매개변수 값 : " 
       << data_object.first << endl;
   }
+
 private:
   T first;
 };

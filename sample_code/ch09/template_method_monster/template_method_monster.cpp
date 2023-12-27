@@ -13,7 +13,6 @@ random_device rd;
 mt19937 gen(rd());
 uniform_int_distribution<int> dis(0, 99);
 
-
 class character {
 public:
   character() : hp(100), power(100), location_x(0), location_y(0) {};
@@ -39,11 +38,13 @@ public:
 class monster
 {
 public:
+  // 템플릿 패턴을 위한 순수 가상 함수 구현
   virtual void find_route(player& target_player) = 0;
   virtual bool attach_target(player* target_player) = 0;
   virtual void check_target(player& target_player) = 0;
   virtual void attack_special(player& target_player) = 0;
   virtual void set_location(int x, int y) { monster_body.set_location(x, y); };
+  virtual ~monster() {};
 
 protected:
   int calculate_distance(player& target_player);
@@ -80,12 +81,14 @@ int monster_factory::mon_count = 0;
 //몬스터 A는 추상 클래스 Monster 클래스로부터 상속
 class monster_a : public monster {
 public:
+  // 템플릿 패턴 구현을 위한 순수 가상 함수 오버라이딩
   virtual void find_route(player& target_player) override;
   virtual bool attach_target(player* target_player) override;
   virtual void check_target(player& target_player) override;
   virtual void attack_special(player& target_player) override;
 };
 
+// 몬스터 A에 특화된 공격 정의
 void monster_a::attack_special(player& target_player) {
   cout << "인텡글 공격 : 데미지 - 15 hp" << endl;
 }
@@ -120,6 +123,7 @@ public:
   virtual void attack_special(player& target_player) override;
 };
 
+// 몬스터 B에 특화된 공격 정의
 void monster_b::attack_special(player& target_player) {
   cout << "가상 공격 : 데미지 - 0 hp" << endl;
 }
@@ -155,6 +159,7 @@ public:
   virtual void attack_special(player& target_player) override;
 };
 
+// 몬스터 C에 특화된 공격 정의
 void monster_c::attack_special(player& target_player) {
   cout << "강력 뇌전 공격 : 데미지 - 100 hp" << endl;
 }
@@ -217,12 +222,6 @@ void monster_factory::destroy_monster() {
   }
 }
 
-void monster_routine(monster* mon, player target_player) {
-  mon->attach_target(&target_player);
-  mon->find_route(target_player);
-  mon->check_target(target_player);
-}
-
 void monster_factory::create_monster(const int terrain_type, int count) {
   monster* mon = nullptr;
 
@@ -230,6 +229,13 @@ void monster_factory::create_monster(const int terrain_type, int count) {
     mon = monster_factory::create_monster(terrain_type);
     mon->set_location(dis(gen), dis(gen));
   }
+}
+
+// 순수 가상 함수의 조합으로 흐름을 정의 하는 전역 함수
+void monster_routine(monster* mon, player target_player) {
+  mon->attach_target(&target_player);
+  mon->find_route(target_player);
+  mon->check_target(target_player);
 }
 
 int main() {
@@ -240,7 +246,9 @@ int main() {
   monster_factory::initialize_monster();
 
   mon_count = monster_factory::get_monster_count();
-  for (i = 0; i < mon_count; ++i) {
+  for (i = 0; i < mon_count; ++i) { 
+    cout << endl;
+    // 몬스터 종류와 상관 없이 전체 몬스터를 순회 하면서 동일한 흐름을 실행
     cout << endl;
     monster_routine(monster_factory::get_monster(i), target_player_dummy);
   }

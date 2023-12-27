@@ -45,7 +45,7 @@ public:
   virtual void attack_special(character& target_player) = 0;
 };
 
-//character 클래스를 상속 받은 player 클래스
+//character 클래스와 추상 클래스 IRoute를 상속 받은 player 클래스
 class player : public character, public IRoute {
 public:
   player() {};
@@ -73,7 +73,7 @@ int player::get_location(bool x) {
   return location_y;
 }
 
-//Monster 인터페이스
+// IRoute,IAttack 두 추상 클래스를 상속 받아 정의한 몬스터 클래스
 class monster : public IRoute, public IAttack {
 public:
   int get_monster_type() { return monster_type; };
@@ -379,8 +379,6 @@ void charater_factory::destroy_terrain() {
 }
 
 void charater_factory::create_npc() {
-  nullptr;
-
   for (int i = 0; i < 10; ++i) {
     npc_object* npc = new npc_object();
     npc_list.push_back(npc);
