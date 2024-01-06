@@ -9,8 +9,7 @@ float result_1 = a / b;
 ---
 
 
-#### 모범 답안 과 설명
-##### 답안
+##### 모범 답안
 ```cpp
 int a = 10, b = 3;
 float result_1 = (float)a / (float)b;;
