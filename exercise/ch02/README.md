@@ -8,11 +8,13 @@
 std::cout과 std::cin을 이용하여 이름을 입력받고, 이름이 포함된 환영 메시지를 출력하는 프로그램을 만들어 보세요.
 
 [모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch02/solution_02.md "문제 1번 정답")
+<br />
 
 ### 문제 2 데이터 형식
 정수형과 부동 소수점 형 변수를 선언하고 각각의 최댓값을 출력해 보세요.
 
 [모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch02/solution_02.md "문제 2번 정답")
+<br />
 
 ### 문제 3 변수의 유효 범위와 형식 변환
 다음 코드에서 컴파일 오류가 발생하는 부분이 있습니다. 위치와 원인을 설명해 보세요.
@@ -28,6 +30,7 @@ std::cout << "Inner Variable: " << inner_variable << std::endl;
 ```
 
 [모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch02/solution_03.md "문제 3번 정답")
+<br />
 
 ### 문제 4 키워드와 리터럴
 다음처럼 이름이 있는 심볼릭 상수는 L-value일까요? 답과 그 이유를 간단하게 설명해 보세요.
@@ -36,6 +39,7 @@ const double PI = 3.14159;
 ```
 
 [모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch02/solution_04.md "문제 4번 정답")
+<br />
 
 ### 문제 5 표현식과 연산자
 다음 코드에서 문제가 발생할 수 있는 부분을 찾고 개선된 코드로 만들어 보세요.
