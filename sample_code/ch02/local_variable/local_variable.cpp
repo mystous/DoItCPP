@@ -2,17 +2,24 @@
 
 using namespace std;
 
-int add(int x, int y) {   // add 함수 안에서만 유효
-  return x + y;
+void print() {
+  // 함수 내부의 지역 변수
+  int value = 10;
+
+  cout << "print 함수 내부에서의 지역 변수 value: " << value << endl;
 }
 
 int main() {
-  int x, y;   // main 함수 안에서만 유효
-  x = 1;
-  y = 2;
+  // main 함수 내부의 지역 변수
+  int value = 5;
 
-  // x, y 값이 add 함수의 매개변수 x, y로 복사
-  cout << "result : " << add(x, y) << endl;
+  cout << "main 함수 내부에서의 지역 변수 value: " << value << endl;
+
+  // print 함수 호출
+  print();
+
+  // print 함수 호출 후에도 main 함수의 value에 영향을 주지 않음
+  cout << "다시 main 함수 내부에서의 지역 변수 value: " << value << endl;
 
   return 0;
 }
