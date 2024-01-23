@@ -3,10 +3,10 @@
 using namespace std;
 
 struct Person {
-  std::string name;   // 이름
-  int age;            // 나이
-  float height;       // 키
-  float weight;       // 몸무게
+  string name;    // 이름
+  int age;        // 나이
+  float height;   // 키
+  float weight;   // 몸무게
 };
 
 void check_age(Person* _adult, int _count) {
