@@ -38,6 +38,6 @@ int main() {
 
   global_bank.transfer_account(rich_bank.get_safe());
   rich_bank.reset_account();
-   
+  
   return 0;
 }
