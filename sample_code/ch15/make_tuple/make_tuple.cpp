@@ -45,6 +45,7 @@ public:
   };
 };
 
+// 몬스터 객체를 전달받아 특성을 튜플로 반환
 tuple<int, string, int, int> get_monster_status(monster& monster_inst) {
 
   int monster_type = monster_inst.get_monster_type();
@@ -66,14 +67,16 @@ tuple<int, string, int, int> get_monster_status(monster& monster_inst) {
     power += 100;
     break;
   }
-
+  // ① 튜플 생성
   return make_tuple(monster_type, monster_name, hp, power);
 }
 
+// 튜플의 원소 출력
 void print_out_tuple(tuple<int, string, int, int> monster_status) {
-  cout << get<1>(monster_status) << "(" << get<0>(monster_status) 
-    << ") : hp(" << get<2>(monster_status) << "), power(" << get<3>(monster_status) 
-    << ")" << endl;
+  cout << get<1>(monster_status) << "(" 
+      << get<0>(monster_status) << ") : hp(" 
+      << get<2>(monster_status) << "), power(" 
+      << get<3>(monster_status) << ")" << endl;
 }
 
 // tuple size 상관 없이 출력하는 소스 코드 cppreference.com 참조
@@ -100,20 +103,25 @@ int main() {
   monster_a monster_a_inst;
   monster_b monster_b_inst;
 
+  // make_tuple로 생성된 튜플을 반환 받아 튜플 객체에 대입
   tuple<int, string, int, int> monster_a_status = get_monster_status(monster_a_inst);
+  // ② 복사 생성자로 튜플 생성
   tuple<int, string, int, int> monster_a_status_copy(monster_a_status);
-
+  // ③ 유니폼 초기화로 튜플 생성
   tuple<int, string, int, int> monster_b_status_temp{monster_b_type, "B 몬스터 임시", 100, 100};
+  // ④ auto 사용
   auto monster_b_status = get_monster_status(monster_b_inst);
 
   print_out_tuple(monster_a_status);
   print_out_tuple(monster_a_status_copy);
   print_out_tuple(monster_b_status_temp);
 
+  // ⑤ 튜플의 원솟값 교환
   swap(monster_b_status, monster_b_status_temp);
   cout << "튜플 내용 교환 후" << endl;
   print_out_tuple(monster_b_status_temp);
 
+  // ⑥ 튜플 합치기
   auto monster_status_all = tuple_cat(monster_a_status, monster_b_status);
   cout << "tuple_cat 호출 이후 : { ";
   print_out_tuple_second<decltype(monster_status_all), tuple_size<decltype(monster_status_all)>::value>::show(monster_status_all);
