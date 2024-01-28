@@ -71,9 +71,10 @@ tuple<int, string, int, int> get_monster_status(monster& monster_inst) {
 }
 
 void print_out_tuple(tuple<int, string, int, int> monster_status) {
-  cout << get<1>(monster_status) << "(" << get<0>(monster_status)
-    << ") : hp(" << get<2>(monster_status) << "), power(" << get<3>(monster_status)
-    << ")" << endl;
+  cout << get<1>(monster_status) << "("
+    << get<0>(monster_status) << ") : hp("
+    << get<2>(monster_status) << "), power("
+    << get<3>(monster_status) << ")" << endl;
 }
 
 int main() {
@@ -81,10 +82,11 @@ int main() {
   monster_a monster_a_inst;
 
   tuple<int, string, int, int> monster_a_status = get_monster_status(monster_a_inst);
+  // 튜플의 개별 변수에 매칭
   tie(monster_type, ignore, hp, power) = get_monster_status(monster_a_inst);
 
   print_out_tuple(monster_a_status);
-  cout << "tie()로 분리한 튜플" << endl << "monster type(" << monster_type << ") : hp(" << hp << "), power(" << power << ")" << endl;
+  cout << "tie()로 변수에 매핑" << endl << "monster type(" << monster_type << ") : hp(" << hp << "), power(" << power << ")" << endl;
 
   return 0;
 }
