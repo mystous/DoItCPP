@@ -1,5 +1,5 @@
 ﻿#include <iostream>
-//#include <string> //iostream 헤더에는 string도 포함
+#include <string>
 
 using namespace std;
 
