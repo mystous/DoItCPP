@@ -387,6 +387,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "find_user", "ch12\find_user
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "binary_search", "ch12\binary_search\binary_search.vcxproj", "{168E6C04-9C1B-4C8D-8958-48B214E827C7}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "simple_fold_expr", "ch16\simple_fold_expr\simple_fold_expr.vcxproj", "{030BDB6F-C745-4CAB-8781-373ECEF94A8F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -3215,6 +3217,22 @@ Global
 		{168E6C04-9C1B-4C8D-8958-48B214E827C7}.RelWithDebInfo|x64.Build.0 = Release|x64
 		{168E6C04-9C1B-4C8D-8958-48B214E827C7}.RelWithDebInfo|x86.ActiveCfg = Release|Win32
 		{168E6C04-9C1B-4C8D-8958-48B214E827C7}.RelWithDebInfo|x86.Build.0 = Release|Win32
+		{030BDB6F-C745-4CAB-8781-373ECEF94A8F}.Debug|x64.ActiveCfg = Debug|x64
+		{030BDB6F-C745-4CAB-8781-373ECEF94A8F}.Debug|x64.Build.0 = Debug|x64
+		{030BDB6F-C745-4CAB-8781-373ECEF94A8F}.Debug|x86.ActiveCfg = Debug|Win32
+		{030BDB6F-C745-4CAB-8781-373ECEF94A8F}.Debug|x86.Build.0 = Debug|Win32
+		{030BDB6F-C745-4CAB-8781-373ECEF94A8F}.MinSizeRel|x64.ActiveCfg = Debug|x64
+		{030BDB6F-C745-4CAB-8781-373ECEF94A8F}.MinSizeRel|x64.Build.0 = Debug|x64
+		{030BDB6F-C745-4CAB-8781-373ECEF94A8F}.MinSizeRel|x86.ActiveCfg = Debug|Win32
+		{030BDB6F-C745-4CAB-8781-373ECEF94A8F}.MinSizeRel|x86.Build.0 = Debug|Win32
+		{030BDB6F-C745-4CAB-8781-373ECEF94A8F}.Release|x64.ActiveCfg = Release|x64
+		{030BDB6F-C745-4CAB-8781-373ECEF94A8F}.Release|x64.Build.0 = Release|x64
+		{030BDB6F-C745-4CAB-8781-373ECEF94A8F}.Release|x86.ActiveCfg = Release|Win32
+		{030BDB6F-C745-4CAB-8781-373ECEF94A8F}.Release|x86.Build.0 = Release|Win32
+		{030BDB6F-C745-4CAB-8781-373ECEF94A8F}.RelWithDebInfo|x64.ActiveCfg = Release|x64
+		{030BDB6F-C745-4CAB-8781-373ECEF94A8F}.RelWithDebInfo|x64.Build.0 = Release|x64
+		{030BDB6F-C745-4CAB-8781-373ECEF94A8F}.RelWithDebInfo|x86.ActiveCfg = Release|Win32
+		{030BDB6F-C745-4CAB-8781-373ECEF94A8F}.RelWithDebInfo|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -3396,6 +3414,7 @@ Global
 		{EA9F622F-2A32-4FED-A3DB-34FFDC267A28} = {CA967AF0-E7DD-436F-9988-12EB6826C799}
 		{86EF5D91-D0B4-4A08-8E5D-35B2766D2A0A} = {CA967AF0-E7DD-436F-9988-12EB6826C799}
 		{168E6C04-9C1B-4C8D-8958-48B214E827C7} = {CA967AF0-E7DD-436F-9988-12EB6826C799}
+		{030BDB6F-C745-4CAB-8781-373ECEF94A8F} = {B672050B-E515-447D-940F-4741B3994BB0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EDB484EF-311D-4757-ADD0-55B578187B53}
