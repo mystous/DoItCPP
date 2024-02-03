@@ -7,7 +7,7 @@
 ### 문제 1 C++ 표준 입출력
 std::cout과 std::cin을 이용하여 이름을 입력받고, 이름이 포함된 환영 메시지를 출력하는 프로그램을 만들어 보세요.
 
-[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch02/solution_02.md "문제 1번 정답")
+[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch02/solution_01.md "문제 1번 정답")
 <br /><br />
 
 ### 문제 2 데이터 형식
