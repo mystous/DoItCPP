@@ -59,12 +59,12 @@ int main()
   monster monster_in_forest = monster(
     monster_enum::monster_a_type,
     terrain_enum::forest_terrain_type,
-    weapon_enum::gun_type);
+    gun_type);
 
   monster monster_with_arrow = monster(
     monster_enum::monster_b_type,
     terrain_enum::cyber_terrain_type,
-    weapon_enum::arrow_type);
+    arrow_type);
 
   cout << "첫번째 몬스터는 ";
   print_monster_location(monster_in_forest);
