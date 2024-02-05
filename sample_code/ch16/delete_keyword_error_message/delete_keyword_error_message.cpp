@@ -5,7 +5,7 @@ using namespace std;
 class monster {
 public:
   void create_monster() = delete;
-  //void create_monster_() {}; // delete 예약어를 사용하지 않고 제거된 함수
+  //void create_monster_() {}; // delete 키워드를 사용하지 않고 제거
 };
 
 int main() {
