@@ -10,3 +10,5 @@ main.cpp와 logic.cpp 두 개의 소스 파일을 사용하여 하나의 프로�
 ![](compile_and_link.png)
 ##### 설명
 소스코드인 main.cpp와 logic.cpp는 필요한 전처리 후 컴파일을 진행합니다. 각 소스 코드에서 main.o, logic.o 두 개의 오브젝트 파일이 만들어 집니다. 라이브러리 good_utility.lib와 컴파일로 만들어진 오브젝트 파일 두개를 링크하여 실행파일인 run이 생성됩니다.
+
+[문제로 돌아 가기](README.md "문제로 돌아 가기")
