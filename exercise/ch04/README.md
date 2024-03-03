@@ -8,7 +8,7 @@
 ### 문제 1 if 문 활용하기
 if문을 활용해서, 사용자로부터 입력 받은 숫자가 ‘양수’ 인지 ‘음수’ 인지를 판별하는 프로그램을 만들어보세요.(0은 양수로 취급)
 
-[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch04/solution_02.md "문제 1번 정답")
+[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch04/solution_01.md "문제 1번 정답")
 <br /><br />
 
 ### 문제 2 switch 문 활용하기
