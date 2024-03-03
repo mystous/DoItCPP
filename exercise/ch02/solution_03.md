@@ -1,27 +1,27 @@
 #### 모범 답안 과 설명
 ##### 답안
+컴파일 에러가 발생하는 부분
 ```cpp
-#include <iostream>
-
-using namespace std;
-
-int main() {
-  // 0.5f에 어울리는 변수
-  float float_num = 0.5f;
-  cout << "float_num: " << float_num << endl;
-
-  // 5u에 어울리는 변수
-  unsigned int unsigned_num = 5u;
-  cout << "unsigned_num: " << unsigned_num << endl;
-
-  // 5L에 어울리는 변수
-  long int long_num = 5L;
-  cout << "long_num: " << long_num << endl;
-
-  return 0;
-}
+std::cout << "Inner Variable: " << inner_variable << std::endl;
 ```
+변수 inner_variable은 {} 블록 내에서만 유효합니다.
+{} 블록 밖에서 inner_variable을 사용하려고 하면 컴파일 에러가 발생합니다.
+</br>
+해결방법
+```cpp
+int outer_variable = 10;
+{
+	int inner_variable = 5;
+	std::cout << "Inner Variable: " << inner_variable << std::endl;
+	std::cout << "Outer Variable: " << outer_variable << std::endl;
+}
+
+// inner_variable을 블록 밖에서 다시 선언
+int inner_variable = 100;
+
+std::cout << "Inner Variable: " << inner_variable << std::endl;
+```
+
 ##### 설명
-<li>0.5f는 부동소수점 숫자입니다. float 타입 변수에 저장할 수 있습니다.</li>
-<li>5u는 부호 없는 정수입니다. unsigned int 타입 변수에 저장할 수 있습니다.</li>
-<li>5L는 긴 정수입니다. long int 타입 변수에 저장할 수 있습니다.</li>
+inner_variable을 {} 블록 밖에서 사용하려면 블록 밖에서 다시 선언해야 합니다.
+C++에서 변수의 유효 범위는 선언된 블록 안에만 국한됩니다.
