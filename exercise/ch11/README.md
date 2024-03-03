@@ -1,50 +1,36 @@
 ![](../../images/exercise_title.png "되새김문제")
 
-이번 장에서는 C++ 프로그래밍의 기본 문법인 변수와 연산자에 대해 알아보았습니다. 프로그래밍에서
-변수는 데이터를 저장하고 처리하는 데 사용되며, 연산자는 다양한 작업을 수행하는 데 도움이 됩니다.
+이번 장에서는 C++ 언어의 표준 라이브러리를 살펴보았습니다.
+표준 라이브러리는 이미 충분히 검증된 코드이므로 적극 활용하면 신뢰성은 물론 개발 시간을 단축할 수도 있어 매우 유용합니다.
+표준 라이브러리에서 제공하는 헤더는 워낙 방대하므로 웬만한 기능은 거의 다 있다고 보아도 무방합니다.
+따라서 프로그래밍을 하다가 어떤 기능이 필요하면 먼저 표준 라이브러리의 헤더를 살펴보기 바랍니다. 
 되새김 문제를 풀며 이번 장에서 배운 내용을 정리해 보세요.
 
-### 문제 1 C++ 표준 입출력
-std::cout과 std::cin을 이용하여 이름을 입력받고, 이름이 포함된 환영 메시지를 출력하는 프로그램을 만들어 보세요.
+### 문제 1 표준 문자열 라이브러리 활용
+어떤 문자열이든지 문장 안에 있는 ‘고양이’를 ‘강아지’로 바꾸는 함수를 만들어 보세요.
+그리고 해당 함수가 잘 동작하는지 메인 함수에서 확인하는 코드도 작성해 보세요.
 
-[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch02/solution_02.md "문제 1번 정답")
+[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch11/solution_01.md "문제 1번 정답")
 <br /><br />
 
-### 문제 2 데이터 형식
-정수형과 부동 소수점 형 변수를 선언하고 각각의 최댓값을 출력해 보세요.
+### 문제 2 파일 시스템: 디렉터리 생성, 파일 생성 및 쓰기
+실행 파일이 있는 곳의 하위 디렉터리에 my_folder/_test.txt 파일을 생성해 보세요.
+_test.txt 파일에는 여러분의 영문 이름을 기록해 보세요.
 
-[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch02/solution_02.md "문제 2번 정답")
+[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch11/solution_02.md "문제 2번 정답")
 <br /><br />
 
-### 문제 3 변수의 유효 범위와 형식 변환
-다음 코드에서 컴파일 오류가 발생하는 부분이 있습니다. 위치와 원인을 설명해 보세요.
+### 문제 3 파일 시스템: 디렉터리 탐색
+특정 디렉터리에 위치한 모든 텍스트 파일의 이름과 파일 크기를 출력하는 C++ 프로그램을 작성하세요.
+각 파일의 정보를 filesystem::file_size 함수를 이용하여 얻을 수 있습니다.
 
-```cpp
-int outer_variable = 10;
-{
-  int inner_variable = 5;
-  std::cout << "Inner Variable: " << inner_variable << std::endl;
-  std::cout << "Outer Variable: " << outer_variable << std::endl;
-}
-std::cout << "Inner Variable: " << inner_variable << std::endl;
-```
-
-[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch02/solution_03.md "문제 3번 정답")
+[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch11/solution_03.md "문제 3번 정답")
 <br /><br />
 
-### 문제 4 키워드와 리터럴
-다음처럼 이름이 있는 심볼릭 상수는 L-value일까요? 답과 그 이유를 간단하게 설명해 보세요.
-```cpp
-const double PI = 3.14159;
-```
+### 문제 4 난수 함수 활용
+두 개의 주사위를 던지는 시뮬레이션을 하도록 C++ 프로그램을 작성하세요.
+사용자로부터 몇 번 던질지 입력 받고, 각 던지기마다 나온 두 개의 주사위 눈의 합을 출력하세요. 
 
-[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch02/solution_04.md "문제 4번 정답")
+[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch11/solution_04.md "문제 4번 정답")
 <br /><br />
 
-### 문제 5 표현식과 연산자
-다음 코드에서 문제가 발생할 수 있는 부분을 찾고 개선된 코드로 만들어 보세요.
-```cpp
-int a = 10, b = 3;
-float result_1 = a / b;
-```
-[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch02/solution_05.md "문제 5번 정답")
