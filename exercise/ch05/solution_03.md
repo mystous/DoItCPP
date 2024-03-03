@@ -1,26 +1,21 @@
 #### 모범 답안 과 설명
 ##### 답안
 ```cpp
-#include <iostream>
+void divide(int a, int b) {
+  // b가 0인 경우 어설션을 이용하여 예외 처리
+  assert(b != 0, "b는 0이 될 수 없습니다!");
 
-using namespace std;
+  int result = a / b;
+  std::cout << "결과: " << result << std::endl;
+}
 
 int main() {
-  int number = 1;
-
-  // while 반복문을 이용하여 1부터 10까지 짝수만 출력
-  while (number <= 10) {
-    if (number % 2 == 0) {
-      cout << number << " ";
-    }
-    number++;
-  }
-
-  cout << endl;
-
+  divide(10, 2); // 결과: 5 출력
+  divide(5, 0); // 프로그램 종료, "b는 0이 될 수 없습니다!" 메시지 출력
   return 0;
 }
 ```
 ##### 설명
-<li>while 반복문을 사용하여 number 변수가 10보다 작거나 같을 때까지 반복합니다.</li>
-<li>if 문을 사용하여 number 변수가 2로 나누어 떨어지는 짝수인지 판단합니다. 짝수인 경우 number 변수를 출력합니다.</li>
+<li>assert는 디버깅 도구이며, 릴리스 버전에서는 제거됩니다.</li>
+<li>assert는 예외 처리보다 간단하지만, 예외 정보를 제공하지 못하고 프로그램을 종료하기 때문에 주의해야 합니다.</li>
+
