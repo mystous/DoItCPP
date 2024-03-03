@@ -1,13 +1,13 @@
 #### 모범 답안 과 설명
 ##### 답안
-컴파일 에러가 발생하는 부분
+[컴파일 에러가 발생하는 부분]
 ```cpp
 std::cout << "Inner Variable: " << inner_variable << std::endl;
 ```
 변수 inner_variable은 {} 블록 내에서만 유효합니다.
 {} 블록 밖에서 inner_variable을 사용하려고 하면 컴파일 에러가 발생합니다.
-</br>
-해결방법
+</br></br>
+[해결방법]
 ```cpp
 int outer_variable = 10;
 {
