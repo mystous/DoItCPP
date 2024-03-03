@@ -1,27 +1,53 @@
 #### 모범 답안 과 설명
 ##### 답안
-[컴파일 에러가 발생하는 부분]
 ```cpp
-std::cout << "Inner Variable: " << inner_variable << std::endl;
-```
-변수 inner_variable은 {} 블록 내에서만 유효합니다.
-{} 블록 밖에서 inner_variable을 사용하려고 하면 컴파일 에러가 발생합니다.
-</br></br>
-[해결방법]
-```cpp
-int outer_variable = 10;
-{
-	int inner_variable = 5;
-	std::cout << "Inner Variable: " << inner_variable << std::endl;
-	std::cout << "Outer Variable: " << outer_variable << std::endl;
+#include <iostream>
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+
+int main() {
+  vector<int> numbers = { 3, 8, 1, 6, 2, 7, 5, 4, 9 };
+
+  int userInput;
+  cout << "찾고자 하는 숫자를 입력하세요: ";
+  cin >> userInput;
+
+  // 사용자 입력값이 벡터에 포함되어 있는지 확인
+  bool isFound = false;
+  for (int num : numbers) {
+    if (num == userInput) {
+      isFound = true;
+      break;
+    }
+  }
+
+  // 결과 출력
+  if (isFound) {
+    cout << "입력한 숫자 " << userInput << "는 벡터에 포함되어 있습니다." << endl;
+  }
+  else {
+    cout << "입력한 숫자 " << userInput << "는 벡터에 포함되어 있지 않습니다." << endl;
+  }
+
+  return 0;
 }
-
-// inner_variable을 블록 밖에서 다시 선언
-int inner_variable = 100;
-
-std::cout << "Inner Variable: " << inner_variable << std::endl;
 ```
 
 ##### 설명
-inner_variable을 {} 블록 밖에서 사용하려면 블록 밖에서 다시 선언해야 합니다.
-C++에서 변수의 유효 범위는 선언된 블록 안에만 국한됩니다.
+실행결과
+```cpp
+찾고자 하는 숫자를 입력하세요: 5
+입력한 숫자 5는 벡터에 포함되어 있습니다.
+```
+
+```cpp
+찾고자 하는 숫자를 입력하세요: 0
+입력한 숫자 0는 벡터에 포함되어 있지 않습니다.
+```
+
+isFound 변수를 사용하여 사용자 입력값이 벡터에 포함되어 있는지 여부를 추적합니다.
+벡터를 순회하며 각 숫자를 사용자 입력값과 비교합니다.
+일치하는 값을 찾으면 isFound 변수를 true로 설정하고 루프를 종료합니다.
+루프가 종료된 후 isFound 변수를 확인하여 결과를 출력합니다.

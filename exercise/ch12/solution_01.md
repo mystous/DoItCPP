@@ -2,34 +2,27 @@
 ##### 답안
 ```cpp
 #include <iostream>
-#include <string>
+#include <vector>
+#include <algorithm>
 
 using namespace std;
 
-string replace_cat_with_dog(string sentence) {
-  // '고양이'를 찾을 위치
-  size_t pos = 0;
-  string str_cat = "고양이";
-  size_t str_len = str_cat.length();
+int main() {
+  vector<int> numbers = { 2, 7, 1, 8, 3, 6, 4, 5, 9 };
 
-  // '고양이'를 찾을 때까지 반복
-  while ((pos = sentence.find("고양이", pos)) != string::npos) {
-    // '고양이'를 '강아지'로 바꿈
-    sentence.replace(pos, str_len, "강아지");
-    // 다음 '고양이'를 찾을 위치를 갱신
-    pos += str_len;
+  // 홀수를 제거하고 짝수만 남은 벡터 생성
+  vector<int> evenNumbers;
+  for (int num : numbers) {
+    if (num % 2 == 0) {
+      evenNumbers.push_back(num);
+    }
   }
 
-  return sentence;
-}
-
-int main() {
-  string sentence1 = "오늘 고양이가 생선을 먹었다. 배가 부른 고양이는 기분이 좋다.";
-  string sentence2 = "나는 고양이를 좋아한다. 하지만 우리집 고양이는 내가 간식줄 때만 찾아온다.";
-
-  // '고양이'를 '강아지'로 바꾼 문장 출력
-  cout << replace_cat_with_dog(sentence1) << endl;
-  cout << replace_cat_with_dog(sentence2) << endl;
+  // 결과 출력
+  for (int num : evenNumbers) {
+    cout << num << " ";
+  }
+  cout << endl;
 
   return 0;
 }
@@ -38,9 +31,18 @@ int main() {
 ##### 설명
 실행결과
 ```cpp
-오늘 강아지가 생선을 먹었다. 배가 부른 강아지는 기분이 좋다.
-나는 강아지를 좋아한다. 하지만 우리집 강아지는 내가 간식줄 때만 찾아온다.
+2 8 6 4
 ```
 
-<li>replace_cat_with_dog 함수는 문자열을 입력받아 '고양이'를 '강아지'로 바꾸고 변경된 문자열을 반환합니다.</li>
-<li>find 함수를 사용하여 '고양이'를 찾고 replace 함수를 사용하여 '강아지'로 바꿉니다.</li>
+<li>vector<int> numbers = {2, 7, 1, 8, 3, 6, 4, 5, 9};
+numbers라는 이름의 정수 벡터를 선언하고 초기화합니다. 초기값은 {2, 7, 1, 8, 3, 6, 4, 5, 9}입니다.</li>
+<li>vector<int> evenNumbers;
+evenNumbers라는 이름의 정수 벡터를 선언합니다. 홀수를 제거하고 짝수만 남은 값을 저장할 벡터입니다.</li>
+<li>for (int num : numbers)
+numbers 벡터를 순회하며 각 숫자를 num 변수에 저장합니다.</li>
+<li>if (num % 2 == 0)
+num 변수가 짝수인지 검사합니다. 짝수는 2로 나눈 나머지가 0입니다.</li>
+<li>evenNumbers.push_back(num)
+num 변수가 짝수라면 evenNumbers 벡터에 추가합니다.</li>
+<li>for (int num : evenNumbers)
+evenNumbers 벡터를 순회하며 각 숫자를 num 변수에 저장합니다.</li>
