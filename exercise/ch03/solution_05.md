@@ -1,14 +1,31 @@
 #### 모범 답안 과 설명
 ##### 답안
-a / b 연산의 결과는 int 타입입니다.
-float 타입 변수 result_1에 저장할 때 정보 손실이 발생할 수 있습니다.
+1. 값에 의한 호출: 함수 호출 시 인자의 값을 복사하여 함수 내에서 사용합니다.
+2. 참조에 의한 호출: 함수 호출 시 인자의 주소를 복사하여 함수 내에서 사용합니다.
+3. 주소에 의한 호출: 값에 의한 호출과 비슷하지만, 인자 값을 복사하는 대신 포인터를 사용하여 직접 값을 변경합니다.
 </br>
 
-해결방법
-```cpp
-int a = 10, b = 3;
-float result_2 = (float)a / b;
-```
-
 ##### 설명
-(float)a 형태로 캐스팅하여 a를 float 타입으로 변환합니다.
+코드 예시
+```cpp
+// 값에 의한 호출
+void swap_value(int a, int b) {
+  int temp = a;
+  a = b;
+  b = temp;
+}
+
+// 참조에 의한 호출
+void swap_reference(int &a, int &b) {
+  int temp = a;
+  a = b;
+  b = temp;
+}
+
+// 주소에 의한 호출 (C 언어)
+void swap_address(int *a, int *b) {
+  int temp = *a;
+  *a = *b;
+  *b = temp;
+}
+```
