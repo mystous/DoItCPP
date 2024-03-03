@@ -5,23 +5,35 @@
 
 using namespace std;
 
+// 몬스터 구조체
+struct monster {
+  string name; // 이름
+  int hp; // 체력
+  int attack; // 공격력
+  int defense; // 방어력
+  int speed; // 속도
+};
+
+// 몬스터 정보 출력 함수
+void print_monster(monster monster) {
+  cout << "---- 몬스터 정보 ----" << endl;
+  cout << "이름: " << monster.name << endl;
+  cout << "체력: " << monster.hp << endl;
+  cout << "공격력: " << monster.attack << endl;
+  cout << "방어력: " << monster.defense << endl;
+  cout << "속도: " << monster.speed << endl;
+}
+
 int main() {
-  // 0.5f에 어울리는 변수
-  float float_num = 0.5f;
-  cout << "float_num: " << float_num << endl;
+  // 몬스터 변수 생성
+  monster slime = { "슬라임", 100, 10, 5, 10 };
 
-  // 5u에 어울리는 변수
-  unsigned int unsigned_num = 5u;
-  cout << "unsigned_num: " << unsigned_num << endl;
-
-  // 5L에 어울리는 변수
-  long int long_num = 5L;
-  cout << "long_num: " << long_num << endl;
+  // 몬스터 정보 출력
+  print_monster(slime);
 
   return 0;
 }
 ```
 ##### 설명
-<li>0.5f는 부동소수점 숫자입니다. float 타입 변수에 저장할 수 있습니다.</li>
-<li>5u는 부호 없는 정수입니다. unsigned int 타입 변수에 저장할 수 있습니다.</li>
-<li>5L는 긴 정수입니다. long int 타입 변수에 저장할 수 있습니다.</li>
+<li>monster 구조체는 name, hp, attack, defense, speed 5가지 속성을 가집니다.</li>
+<li>print_monster 함수는 monster 구조체 형식의 변수를 인자로 받아 각 속성의 값을 출력합니다.</li>
