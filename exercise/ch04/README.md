@@ -1,50 +1,38 @@
 ![](../../images/exercise_title.png "되새김문제")
 
-이번 장에서는 C++ 프로그래밍의 기본 문법인 변수와 연산자에 대해 알아보았습니다. 프로그래밍에서
-변수는 데이터를 저장하고 처리하는 데 사용되며, 연산자는 다양한 작업을 수행하는 데 도움이 됩니다.
-되새김 문제를 풀며 이번 장에서 배운 내용을 정리해 보세요.
+프로그래밍에서 실행 흐름을 제어하는 것은 중요한 개념 중 하나입니다. 
+이번 장에서는 if 문, switch 문, 그리고 while, for 문을 사용하여 프로그램의 흐름을 유연하게 조절하는 방법에 대해 살펴보았습니다.
+마지막으로는 표현식과 구문의 차이에 대해서도 알아보았지요. 이번에는 제어문을 활용한 몇 가지 문제를 풀어보고자 합니다.
+문제의 프로그램을 직접 만들면서 각 제어 구조의 특징을 익히고, 실행 흐름을 효과적으로 다루는 방법을 익힐 수 있을 것입니다. 
 
-### 문제 1 C++ 표준 입출력
-std::cout과 std::cin을 이용하여 이름을 입력받고, 이름이 포함된 환영 메시지를 출력하는 프로그램을 만들어 보세요.
+### 문제 1 if 문 활용하기
+if문을 활용해서, 사용자로부터 입력 받은 숫자가 ‘양수’ 인지 ‘음수’ 인지를 판별하는 프로그램을 만들어보세요.(0은 양수로 취급)
 
-[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch02/solution_02.md "문제 1번 정답")
+[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch04/solution_02.md "문제 1번 정답")
 <br /><br />
 
-### 문제 2 데이터 형식
-정수형과 부동 소수점 형 변수를 선언하고 각각의 최댓값을 출력해 보세요.
+### 문제 2 switch 문 활용하기
+switch 문을 활용하여, 사용자에게 1부터 7까지의 숫자 중 하나를 입력 받아, 해당 숫자에 해당하는 요일을 출력하는 프로그램을 만들어보세요.
 
-[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch02/solution_02.md "문제 2번 정답")
+[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch04/solution_02.md "문제 2번 정답")
 <br /><br />
 
-### 문제 3 변수의 유효 범위와 형식 변환
-다음 코드에서 컴파일 오류가 발생하는 부분이 있습니다. 위치와 원인을 설명해 보세요.
+### 문제 3 while 반복문 만들기
+while 반복문을 활용해서, 1부터 10까지의 숫자 중에서 짝수만 출력하는 프로그램을 만들어보세요.
 
+[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch04/solution_03.md "문제 3번 정답")
+<br /><br />
+
+### 문제 4 for 문으로 반복하기
+for 반복문을 활용하여, 사용자에게 정수를 입력받고, 해당 정수가 포함된 구구단을 출력하는 프로그램을 만들어보세요. (사용자는 1~9 정수 입력만 가능)
+
+[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch04/solution_04.md "문제 4번 정답")
+<br /><br />
+
+### 문제 5 표현식과 구문 개념 복습하기
 ```cpp
-int outer_variable = 10;
-{
-  int inner_variable = 5;
-  std::cout << "Inner Variable: " << inner_variable << std::endl;
-  std::cout << "Outer Variable: " << outer_variable << std::endl;
-}
-std::cout << "Inner Variable: " << inner_variable << std::endl;
+int result = a + b;
 ```
+위의 코드는 표현식과 구문 모두 포함되어 있습니다. 어느 부분이 표현식이고 구문인지 표시해보세요.
 
-[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch02/solution_03.md "문제 3번 정답")
-<br /><br />
-
-### 문제 4 키워드와 리터럴
-다음처럼 이름이 있는 심볼릭 상수는 L-value일까요? 답과 그 이유를 간단하게 설명해 보세요.
-```cpp
-const double PI = 3.14159;
-```
-
-[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch02/solution_04.md "문제 4번 정답")
-<br /><br />
-
-### 문제 5 표현식과 연산자
-다음 코드에서 문제가 발생할 수 있는 부분을 찾고 개선된 코드로 만들어 보세요.
-```cpp
-int a = 10, b = 3;
-float result_1 = a / b;
-```
-[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch02/solution_05.md "문제 5번 정답")
+[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch04/solution_05.md "문제 5번 정답")
