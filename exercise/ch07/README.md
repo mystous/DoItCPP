@@ -5,7 +5,7 @@
 ### 문제 1 객체지향 프로그래밍 4가지 특징
 객체지향 프로그래밍은 추상화, 캡슐화, 상속성, 다형성 등 4가지 특징이 있습니다. 각 특징의 핵심을 요약해서 설명해 보세요.
 
-[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch07/solution_02.md "문제 1번 정답")
+[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch07/solution_01.md "문제 1번 정답")
 <br /><br />
 
 ### 문제 2 객체지향 설계 #1
