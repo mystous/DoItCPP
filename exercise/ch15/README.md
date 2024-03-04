@@ -1,50 +1,41 @@
 ![](../../images/exercise_title.png "되새김문제")
 
-이번 장에서는 C++ 프로그래밍의 기본 문법인 변수와 연산자에 대해 알아보았습니다. 프로그래밍에서
-변수는 데이터를 저장하고 처리하는 데 사용되며, 연산자는 다양한 작업을 수행하는 데 도움이 됩니다.
-되새김 문제를 풀며 이번 장에서 배운 내용을 정리해 보세요.
+이번 장에서는 모던 C++에 새로 추가된 튜플과 구조적 바인딩, 범위 기반 for 문, 람다 표현식 등을 알아보 았습니다. 다음 문제를 풀며 이번 장에서 배운 내용을 되새겨 보세요.
 
-### 문제 1 C++ 표준 입출력
-std::cout과 std::cin을 이용하여 이름을 입력받고, 이름이 포함된 환영 메시지를 출력하는 프로그램을 만들어 보세요.
+### 문제 1 도서 관리 프로그램
+다음 요구 사항을 만족하는 도서 관리 프로그램을 만들어 보세요.
+1) 도서는 제목, 저자, 지은이, 출판 연도, ISBN 정보로 저장됩니다.
+2) 도서 목록은 이미 저장되어 있습니다. 추가 기능은 구현하지 않습니다.
+3) 도서 목록의 처음 5개를 가져와서 화면에 보여 주는 기능이 있습니다.
+4) 이때 구조체나 참조에 의한 호출을 사용하지 않고 튜플과 구조적 바인딩을 이용해 도서 정보를 가져와
+화면에 출력합니다.
+5) 도서 목록을 가져오는 기능은 함수로 구현해야 합니다. 도서의 순서(0, 1, 2, 3, 4)를 매개변수로 받고
+도서 정보를 반환합니다.
 
-[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch02/solution_02.md "문제 1번 정답")
+[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch15/solution_01.md "문제 1번 정답")
 <br /><br />
 
-### 문제 2 데이터 형식
-정수형과 부동 소수점 형 변수를 선언하고 각각의 최댓값을 출력해 보세요.
+### 문제 2 도서 관리 프로그램 업그레이드하기
+[문제 1]의 도서 관리 프로그램을 업그레이드합니다. 홀수 인덱스를(1, 3) 가진 책의 제목만 출력하는 함수를 만들려고 합니다. 이때 책 제목은 바로 앞 인덱스의 책 제목과 함께 출력되게 만들어 보세요. 예시) 0번째 책 제목 ‘국어’, 1번째 책 제목 ‘수학’인 경우, 1번째 책 제목을 ‘국어책 다음 수학책’으로 출력합니다.
 
-[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch02/solution_02.md "문제 2번 정답")
+[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch15/solution_02.md "문제 2번 정답")
 <br /><br />
 
-### 문제 3 변수의 유효 범위와 형식 변환
-다음 코드에서 컴파일 오류가 발생하는 부분이 있습니다. 위치와 원인을 설명해 보세요.
+### 문제 3 도서 목록 갱신하기
+[문제 1]의 도서 관리 프로그램을 운영하다가 ISBN 체계가 바뀌었다는 소식을 접했습니다. ISBN에 ‘C++’ 이라는 접두어를 붙여야 합니다. 모든 도서 목록을 읽어서 ISBN을 변경하는 for 문을 작성해 보세요.
 
-```cpp
-int outer_variable = 10;
-{
-  int inner_variable = 5;
-  std::cout << "Inner Variable: " << inner_variable << std::endl;
-  std::cout << "Outer Variable: " << outer_variable << std::endl;
-}
-std::cout << "Inner Variable: " << inner_variable << std::endl;
-```
-
-[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch02/solution_03.md "문제 3번 정답")
+[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch15/solution_03.md "문제 3번 정답")
 <br /><br />
 
-### 문제 4 키워드와 리터럴
-다음처럼 이름이 있는 심볼릭 상수는 L-value일까요? 답과 그 이유를 간단하게 설명해 보세요.
-```cpp
-const double PI = 3.14159;
-```
+### 문제 4 람다 표현식 활용
+여러분은 한 기관의 입시 성적을 처리 중입니다. 시험은 국어, 영어, 수학, 과학 4과목이고 모두 체점이 완료되어 응시자 숫자만큼의 구조체에 저장되어 있습니다. 여러분은 총 10,000명의 합격자 숫자를 계산해야 합니다.
+* 4과목 평균이 80점 이상이면 합격, 65점 이하면 과락입니다.
+* 학생별 합격 여부는 저장하지 않고 조건을 만족하는 합격자 숫자만 계산합니다.
 
-[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch02/solution_04.md "문제 4번 정답")
+[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch15/solution_04.md "문제 4번 정답")
 <br /><br />
 
-### 문제 5 표현식과 연산자
-다음 코드에서 문제가 발생할 수 있는 부분을 찾고 개선된 코드로 만들어 보세요.
-```cpp
-int a = 10, b = 3;
-float result_1 = a / b;
-```
-[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch02/solution_05.md "문제 5번 정답")
+### 문제 5 범위 기반 for 문 초기화
+범위 기반 for 문의 다양한 초기화 방법 중 R-value 참조를 사용하는 예를 직접 만들고, 예에서 R-value 참조를 사용해야 하는 이유를 설명해 보세요.
+
+[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch15/solution_05.md "문제 5번 정답")
