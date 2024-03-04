@@ -1,50 +1,32 @@
 ![](../../images/exercise_title.png "되새김문제")
 
-이번 장에서는 C++ 프로그래밍의 기본 문법인 변수와 연산자에 대해 알아보았습니다. 프로그래밍에서
-변수는 데이터를 저장하고 처리하는 데 사용되며, 연산자는 다양한 작업을 수행하는 데 도움이 됩니다.
-되새김 문제를 풀며 이번 장에서 배운 내용을 정리해 보세요.
+이 장에서는 모던 C++의 개요와 변경 사항을 간략하게 알아보았습니다. C++ 언어는 변화하는 컴퓨팅 환경에 맞춰 발전하고 있습니다. 되새김 문제를 풀며 모던 C++의 주요 변경 사항을 되짚어 보세요.
 
-### 문제 1 C++ 표준 입출력
-std::cout과 std::cin을 이용하여 이름을 입력받고, 이름이 포함된 환영 메시지를 출력하는 프로그램을 만들어 보세요.
+### 문제 1 C++11/14
+범위 기반 for 문은 데이터의 크기에 맞춰 반복되는 for 문입니다. 자료형을 추론하는 auto와 함께 사용하면 생산성을 높일 수 있습니다. 그동안 for 문을 사용하던 코드를 범위 기반 for 문으로 바꿀 수 있는지 살펴보세요.
 
-[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch02/solution_02.md "문제 1번 정답")
+[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch13/solution_01.md "문제 1번 정답")
 <br /><br />
 
-### 문제 2 데이터 형식
-정수형과 부동 소수점 형 변수를 선언하고 각각의 최댓값을 출력해 보세요.
+### 문제 2 C++17
+C++17에서 새로 도입된 파일 시스템 라이브러리에 관한 자료를 찾아보세요.
 
-[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch02/solution_02.md "문제 2번 정답")
+[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch13/solution_02.md "문제 2번 정답")
 <br /><br />
 
-### 문제 3 변수의 유효 범위와 형식 변환
-다음 코드에서 컴파일 오류가 발생하는 부분이 있습니다. 위치와 원인을 설명해 보세요.
+### 문제 3 C++20
+#include 대신 모듈을 사용해야 하는 이유를 설명해 보세요.
 
-```cpp
-int outer_variable = 10;
-{
-  int inner_variable = 5;
-  std::cout << "Inner Variable: " << inner_variable << std::endl;
-  std::cout << "Outer Variable: " << outer_variable << std::endl;
-}
-std::cout << "Inner Variable: " << inner_variable << std::endl;
-```
-
-[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch02/solution_03.md "문제 3번 정답")
+[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch13/solution_03.md "문제 3번 정답")
 <br /><br />
 
-### 문제 4 키워드와 리터럴
-다음처럼 이름이 있는 심볼릭 상수는 L-value일까요? 답과 그 이유를 간단하게 설명해 보세요.
-```cpp
-const double PI = 3.14159;
-```
+### 문제 4 C++23
+std::format에 대해 조사해 보세요.
 
-[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch02/solution_04.md "문제 4번 정답")
+[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch13/solution_04.md "문제 4번 정답")
 <br /><br />
 
-### 문제 5 표현식과 연산자
-다음 코드에서 문제가 발생할 수 있는 부분을 찾고 개선된 코드로 만들어 보세요.
-```cpp
-int a = 10, b = 3;
-float result_1 = a / b;
-```
-[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch02/solution_05.md "문제 5번 정답")
+### 문제 5 모던 C++
+C++98 이후 모던 C++에서는 많은 변화가 있었습니다. 여러분이 생각하는 C++98 이전과 이후 모던 C++의 가장 큰 차이점은 무엇인지 설명해 보세요.
+
+[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch13/solution_05.md "문제 5번 정답")
