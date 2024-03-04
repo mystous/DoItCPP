@@ -1,50 +1,34 @@
 ![](../../images/exercise_title.png "되새김문제")
 
-이번 장에서는 C++ 프로그래밍의 기본 문법인 변수와 연산자에 대해 알아보았습니다. 프로그래밍에서
-변수는 데이터를 저장하고 처리하는 데 사용되며, 연산자는 다양한 작업을 수행하는 데 도움이 됩니다.
-되새김 문제를 풀며 이번 장에서 배운 내용을 정리해 보세요.
+이번 장에서는 템플릿을 살펴보았습니다. 템플릿은 C++에서 활용도가 매우 높은 문법입니다. 익숙해 질때까지 시간이 조금 걸릴 수 있으므로 많은 연습이 필요합니다. 되새김 문제를 풀며 이번 장에서 배운 내용을 정리해 보세요.
 
-### 문제 1 C++ 표준 입출력
-std::cout과 std::cin을 이용하여 이름을 입력받고, 이름이 포함된 환영 메시지를 출력하는 프로그램을 만들어 보세요.
+### 문제 1 함수 템플릿 #1
+템플릿을 사용해 다양한 데이터 형식의 값을 출력하는 함수를 만들어 보세요. print_data(T data) 형식으로 함수 템플릿을 만들어서 cout으로 “입력받은 값은 :”이라는 문장과 함께 입력받은 값을 출력하는 함수를 만들어 보세요.
 
-[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch02/solution_02.md "문제 1번 정답")
+[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch10/solution_01.md "문제 1번 정답")
 <br /><br />
 
-### 문제 2 데이터 형식
-정수형과 부동 소수점 형 변수를 선언하고 각각의 최댓값을 출력해 보세요.
+### 문제 2 함수 템플릿 #2
+템플릿을 이용해서 is_equal(T data1, T data2) 함수를 만들어 보세요. 이 함수 템플릿은 다음과 같은 규칙으로 data1, data2가 같은 값임을 판단합니다. 이외의 데이터 형식은 false를 반환합니다. is_equal 함수를 호출할 때 data1, data2에는 같은 데이터 형식의 값을 입력한다고 가정합니다.
 
-[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch02/solution_02.md "문제 2번 정답")
+|데이터 형식|같읕 값 판단 기준|
+|:---:|---|
+|bool|data1과 data2의 논릿값이 true나 false로 같을 때|
+|int|data1 == data2 연산이 참일 때|
+|float<br/>double |data1 - data2 연산의 절댓값이 0.000001 이하일 때|
+|string|영문으로만 국한해서 빈칸과 문장 부호는 무시하고 대·소문자 구별 없이 문장 안에 모든 알파벳의 개수와 순서가 같을 때|
+
+[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch10/solution_02.md "문제 2번 정답")
 <br /><br />
 
-### 문제 3 변수의 유효 범위와 형식 변환
-다음 코드에서 컴파일 오류가 발생하는 부분이 있습니다. 위치와 원인을 설명해 보세요.
+### 문제 3 클래스 템플릿
+[문제 2]서 작성한 소스 코드를 활용해 클래스 템플릿을 만들어 보세요. is_equal 함수 대신 operator=를 오버로드해서 만들어 보기 바랍니다.
 
-```cpp
-int outer_variable = 10;
-{
-  int inner_variable = 5;
-  std::cout << "Inner Variable: " << inner_variable << std::endl;
-  std::cout << "Outer Variable: " << outer_variable << std::endl;
-}
-std::cout << "Inner Variable: " << inner_variable << std::endl;
-```
-
-[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch02/solution_03.md "문제 3번 정답")
+[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch10/solution_03.md "문제 3번 정답")
 <br /><br />
 
-### 문제 4 키워드와 리터럴
-다음처럼 이름이 있는 심볼릭 상수는 L-value일까요? 답과 그 이유를 간단하게 설명해 보세요.
-```cpp
-const double PI = 3.14159;
-```
+### 문제 4 프렌드 함수
+[문제 3]에서 만든 클래스에 프렌드 함수를 추가해 보겠습니다. 추가할 프렌드 함수는 [문제 1]에서 만든 함수처럼 입력받은 클래스 템플릿 객체의 멤버 변수를 출력해 주는 기능을 합니다.
 
-[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch02/solution_04.md "문제 4번 정답")
+[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch10/solution_04.md "문제 4번 정답")
 <br /><br />
-
-### 문제 5 표현식과 연산자
-다음 코드에서 문제가 발생할 수 있는 부분을 찾고 개선된 코드로 만들어 보세요.
-```cpp
-int a = 10, b = 3;
-float result_1 = a / b;
-```
-[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch02/solution_05.md "문제 5번 정답")
