@@ -13,7 +13,7 @@
 
 소스 코드로 구현할 때 한 가지 요구 사항이 있습니다. 흡수한 제물의 능력치를 빼앗는 것뿐만 아니라, 제물의 특수 능력을 사용할 수 있어야 합니다. 그런데 몬스터의 특수 능력은 몬스터 A, B, C가 상속받은 부모의 함수를 오버라이딩한 함수입니다. 제물을 흡수한 몬스터는 자신의 특수 능력과 제물의 특수 능력을 모두 사용 가능합니다. 제물은 컴포지션이나 어그리게이션으로 표현합니다.
 
-[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch08/solution_02.md "문제 1번 정답")
+[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch08/solution_01.md "문제 1번 정답")
 <br /><br />
 
 ### 문제 2 다중 상속 개념
