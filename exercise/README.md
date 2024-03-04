@@ -1,41 +1,32 @@
-## 되새김 문제 및 모법 답안 모음
+![](../../images/exercise_title.png "되새김문제")
 
+이번 장에서는 모던 C++에 새로 추가된 폴드 표현식, 3방향 비교 연산자, using 키워드와 함수에서 사용할 수 있는 각종 키워드까지 다양한 주제를 다뤘습니다. 다음 문제를 풀며 이번 장에서 배운 내용을 되새겨 보세요.
 
-### 첫째마당 C++기초
-[01 C++ 시작하기](https://github.com/mystous/DoItCPP/tree/main/exercise/ch01/README.md "1장 정답")
+### 문제 1 동료들에게 필요한 함수 만들기
+여러분이 동료들과 함께 그래픽 처리를 위한 프로그램을 만들고 있습니다. 함께 일하는 동료를 위해 API를 만들고 있습니다. 이번에 만들 함수는 RGB 값 여러 개를 입력받아 R, G, B 각각의 평균값으로 계산해서 반환하는 함수입니다. RGB는 1개부터 무한대로 입력할 수 있습니다. 함수는 폴드 표현식을 사용해서 구현해 보세요.
 
-[02 변수와 연산자](https://github.com/mystous/DoItCPP/tree/main/exercise/ch02/README.md "2장 정답") 
+[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch16/solution_01.md "문제 1번 정답")
+<br /><br />
 
-[03 포인터와 메모리 구조](https://github.com/mystous/DoItCPP/tree/main/exercise/ch03/README.md "3장 정답")
+### 문제 2 그래픽 프로그램 업그레이드
+[문제 1]에서 만든 API를 활용하다 보니 R, G, B 값을 따로 입력받지 않고 #0F0F0F 형태의 문자열로 입력하게 변경해 달라는 요청을 받았습니다. 새로운 요청에 맞는 API를 만들면서 호출하는 모든 소스 코드를 찾아서 고치는 것이 시간이 너무 많이 걸린다는 것을 알았습니다. 신규 API만 남기고 예전 API는 이제 사용 되지 않는다는 것을 컴파일 단계에서 알리고 싶습니다. 여러분의 동료와 자신을 위해서 API를 고쳐 보세요.
 
-[04 실행 흐름 제어](https://github.com/mystous/DoItCPP/tree/main/exercise/ch04/README.md "4장 정답")
+[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch16/solution_02.md "문제 2번 정답")
+<br /><br />
 
-[05 예외 처리하기](https://github.com/mystous/DoItCPP/tree/main/exercise/ch05/README.md "5장 정답")
+### 문제 3 도서 리스트
+간단한 도서 관리 프로그램을 만들기 위해서 도서 목록을 std::vector로 구현했습니다. 컨테이너 내에 각 원소는 ‘책 제목’, ‘작가’, ‘출판 연도’, ‘정가’, ‘ISBN’, ‘대여 횟수’를 저장할 수 있는 도서 클래스 객체입니다. 또한 정렬을 위해 3방항 비교 연산자를 만들려고 합니다. 비교 기준은 1순위 출판 연도, 2순위 ISBN, 3순위 대여 횟수입니다. 오름차순으로 정렬하는 3방항 비교 연산자를 도서 클래스에 포함된 연산자로 오버로딩 해 보세요. 1순위가 같으면 2순위를 비교하고, 2순위가 같으면 3순위를 비교하고 1, 2, 3순위가 모두 같으면 약한 비교로 동등을 반환합니다.
 
+[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch16/solution_03.md "문제 3번 정답")
+<br /><br />
 
+### 문제 4 도서 목록 갱신
+[문제 3]에서 만든 도서 목록을 갱신하고자 합니다. 먼저 클래스에 분류를 추가합니다. 분류는 ‘novel’, ‘fiction’, ‘non-fiction’, ‘sf’, ‘essay’이며, 유지·보수 편의를 위해 클래스 외부에서 열거형으로 정의해서 클래스 내부에서 정의한 것처럼 사용하고자 합니다. 분류 역시 클래스 멤버로 추가합니다.
 
-### 둘째마당 객체지향 프로그래밍
-[06 객체지향과 클래스](https://github.com/mystous/DoItCPP/tree/main/exercise/ch06/README.md "6장 정답")
+[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch16/solution_04.md "문제 4번 정답")
+<br /><br />
 
-[07 객체지향 프로그래밍 특징](https://github.com/mystous/DoItCPP/tree/main/exercise/ch07/README.md "7장 정답")
+### 문제 5 도서 클래스 확장
+앞선 문제에서 만든 도서 클래스를 동료와 함께 협업하기로 했습니다. 동료는 도서 클래스를 상속받아서 개발합니다. 그리고 클래스가 더 이상 상속되지 않도록 막으려고 합니다. 또한 도서 클래스의 멤버 변수를 생성자에서 지정할 수 있게 추가하면서 기본 생성자도 사용하고 싶습니다. 기본 생성자를 사용할 때 멤버 변수 초기화가 되었으면 합니다. 이 외에도 상속 과정에서 발생할 수 있는 여러분의 요구 사항을 추가하여 도서 클래스를 확장해 보세요.
 
-[08 객체지향을 돕는 기능들](https://github.com/mystous/DoItCPP/tree/main/exercise/ch08/README.md "8장 정답")
-
-[09 객체지향 설계 원칙](https://github.com/mystous/DoItCPP/tree/main/exercise/ch09/README.md "9장 정답")
-
-[10 템플릿](https://github.com/mystous/DoItCPP/tree/main/exercise/ch10/README.md "10장 정답")
-
-### 셋째마당 C++언어 활용
-[11 C++ 표준 라이브러리](https://github.com/mystous/DoItCPP/tree/main/exercise/ch11/README.md "11장 정답")
-
-[12 C++ 표준 라이브러리의 핵심 컨테이너](https://github.com/mystous/DoItCPP/tree/main/exercise/ch12/README.md "12장 정답")
-
-### 넷째마당 모던C++ 배우기
-
-[13 모던 C++ 이해하기](https://github.com/mystous/DoItCPP/tree/main/exercise/ch13/README.md "13장 정답")
-
-[14 모던 C++ 신규 데이터 형식과 라이브러리](https://github.com/mystous/DoItCPP/tree/main/exercise/ch14/README.md "14장 정답")
-
-[15 모던 C++ 신규구문 I](https://github.com/mystous/DoItCPP/tree/main/exercise/ch15/README.md "15장 정답")
-
-[16 모던 C++ 신규구문 II](https://github.com/mystous/DoItCPP/tree/main/exercise/ch16/README.md "16장 정답")
+[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch16/solution_05.md "문제 5번 정답")
