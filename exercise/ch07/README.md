@@ -1,50 +1,32 @@
 ![](../../images/exercise_title.png "되새김문제")
 
-이번 장에서는 C++ 프로그래밍의 기본 문법인 변수와 연산자에 대해 알아보았습니다. 프로그래밍에서
-변수는 데이터를 저장하고 처리하는 데 사용되며, 연산자는 다양한 작업을 수행하는 데 도움이 됩니다.
-되새김 문제를 풀며 이번 장에서 배운 내용을 정리해 보세요.
+이번 장에서는 객체지향 프로그래밍의 4가지 특징인 추상화, 캡슐화, 상속성, 다형성에 관해 알아본 후 클래스와 객체로 어떻게 표현하는지 확인했습니다. 되새김 문제를 풀며 이번 장에서 배운 내용을 정리 해 보세요.
 
-### 문제 1 C++ 표준 입출력
-std::cout과 std::cin을 이용하여 이름을 입력받고, 이름이 포함된 환영 메시지를 출력하는 프로그램을 만들어 보세요.
+### 문제 1 객체지향 프로그래밍 4가지 특징
+객체지향 프로그래밍은 추상화, 캡슐화, 상속성, 다형성 등 4가지 특징이 있습니다. 각 특징의 핵심을 요약해서 설명해 보세요.
 
-[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch02/solution_02.md "문제 1번 정답")
+[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch07/solution_02.md "문제 1번 정답")
 <br /><br />
 
-### 문제 2 데이터 형식
-정수형과 부동 소수점 형 변수를 선언하고 각각의 최댓값을 출력해 보세요.
+### 문제 2 객체지향 설계 #1
+객체지향 프로그래밍의 4가지 특징을 활용해 야구팀의 선수와 코치를 설계하고 설계된 내용을 클래스 다이어그램으로 그려 보세요.
 
-[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch02/solution_02.md "문제 2번 정답")
+[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch07/solution_02.md "문제 2번 정답")
 <br /><br />
 
-### 문제 3 변수의 유효 범위와 형식 변환
-다음 코드에서 컴파일 오류가 발생하는 부분이 있습니다. 위치와 원인을 설명해 보세요.
+### 문제 3 객체지향 설계 #2
+객체지향 프로그래밍의 4가지 특징을 활용해 음료수 자판기를 설계하고 설계된 내용을 클래스 다이어그램으로 그려 보세요.
 
-```cpp
-int outer_variable = 10;
-{
-  int inner_variable = 5;
-  std::cout << "Inner Variable: " << inner_variable << std::endl;
-  std::cout << "Outer Variable: " << outer_variable << std::endl;
-}
-std::cout << "Inner Variable: " << inner_variable << std::endl;
-```
-
-[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch02/solution_03.md "문제 3번 정답")
+[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch07/solution_03.md "문제 3번 정답")
 <br /><br />
 
-### 문제 4 키워드와 리터럴
-다음처럼 이름이 있는 심볼릭 상수는 L-value일까요? 답과 그 이유를 간단하게 설명해 보세요.
-```cpp
-const double PI = 3.14159;
-```
+### 문제 4 객체지향 설계 #3
+객체지향 프로그래밍의 4가지 특징을 활용해 슈팅 게임을 설계하고 설계된 내용을 클래스 다이어그램으로 그려 보세요.
 
-[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch02/solution_04.md "문제 4번 정답")
+[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch07/solution_04.md "문제 4번 정답")
 <br /><br />
 
-### 문제 5 표현식과 연산자
-다음 코드에서 문제가 발생할 수 있는 부분을 찾고 개선된 코드로 만들어 보세요.
-```cpp
-int a = 10, b = 3;
-float result_1 = a / b;
-```
-[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch02/solution_05.md "문제 5번 정답")
+### 문제 5 객체지향 프로그래밍
+이번 장에서 배운 내용을 바탕으로 몬스터 C를 프로그래밍해 보세요. 몬스터 C는 무적 타임이 적용되어 1분에 2초씩은 데미지를 입지 않는다고 가정하겠습니다. 몬스터 C의 특별 공격은 플레이어의 체력과 힘에 동시 데미지를 입힙니다. this 포인터를 이용해 멤버 함수 체이닝을 사용하세요.
+
+[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch07/solution_05.md "문제 5번 정답")
