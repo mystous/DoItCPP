@@ -1,50 +1,32 @@
 ![](../../images/exercise_title.png "되새김문제")
 
-이번 장에서는 C++ 프로그래밍의 기본 문법인 변수와 연산자에 대해 알아보았습니다. 프로그래밍에서
-변수는 데이터를 저장하고 처리하는 데 사용되며, 연산자는 다양한 작업을 수행하는 데 도움이 됩니다.
-되새김 문제를 풀며 이번 장에서 배운 내용을 정리해 보세요.
+이번 장에서는 모던 C++에 추가된 데이터 형식과 라이브러리를 알아보았습니다. 다음의 문제를 풀며 이번 장에서 배운 내용을 되새겨 보세요.
 
-### 문제 1 C++ 표준 입출력
-std::cout과 std::cin을 이용하여 이름을 입력받고, 이름이 포함된 환영 메시지를 출력하는 프로그램을 만들어 보세요.
+### 문제 1 자료형을 추론하는 auto
+auto는 모던 C++의 작지만 영향력이 큰 변화 중 한 가지입니다. 도서 목록을 저장하고 불러올 수 있는 C++ 프로그램을 작성하면서 auto와 범위 기반 for 문을 사용해 보세요.
 
-[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch02/solution_02.md "문제 1번 정답")
+[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch14/solution_01.md "문제 1번 정답")
 <br /><br />
 
-### 문제 2 데이터 형식
-정수형과 부동 소수점 형 변수를 선언하고 각각의 최댓값을 출력해 보세요.
+### 문제 2 상수 지정자 constexpr
+constexpr을 사용하는 함수와 일반 함수를 사용하는 코드를 자유롭게 작성해 보세요. 그리고 constexpr 을 사용하지 않는 함수를 작성해서 2개의 함수 호출 시 전체 실행 시간의 차이를 비교해 보세요.
 
-[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch02/solution_02.md "문제 2번 정답")
+[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch14/solution_02.md "문제 2번 정답")
 <br /><br />
 
-### 문제 3 변수의 유효 범위와 형식 변환
-다음 코드에서 컴파일 오류가 발생하는 부분이 있습니다. 위치와 원인을 설명해 보세요.
+### 문제 3 constexpr와 const 비교
+상수를 만드는 방식에는 constexpr과 const 두 가지가 있습니다. 두 방식의 차이를 독자 여러분이 생각하는 중요한 부분을 중심으로 비교해 보세요.
 
-```cpp
-int outer_variable = 10;
-{
-  int inner_variable = 5;
-  std::cout << "Inner Variable: " << inner_variable << std::endl;
-  std::cout << "Outer Variable: " << outer_variable << std::endl;
-}
-std::cout << "Inner Variable: " << inner_variable << std::endl;
-```
-
-[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch02/solution_03.md "문제 3번 정답")
+[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch14/solution_03.md "문제 3번 정답")
 <br /><br />
 
-### 문제 4 키워드와 리터럴
-다음처럼 이름이 있는 심볼릭 상수는 L-value일까요? 답과 그 이유를 간단하게 설명해 보세요.
-```cpp
-const double PI = 3.14159;
-```
+### 문제 4 퀵 정렬 만들어 보기
+표준 라이브러리에서 퀵 정렬을 수행하는 qsort 함수는 데이터를 비교하는 compare 함수를 콜백으로 입력받습니다. 비슷한 형식으로 여러분이 직접 퀵 정렬 알고리즘을 만들어 보세요. 이때 콜백 함수는 std::function을 사용합니다.
 
-[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch02/solution_04.md "문제 4번 정답")
+[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch14/solution_04.md "문제 4번 정답")
 <br /><br />
 
-### 문제 5 표현식과 연산자
-다음 코드에서 문제가 발생할 수 있는 부분을 찾고 개선된 코드로 만들어 보세요.
-```cpp
-int a = 10, b = 3;
-float result_1 = a / b;
-```
-[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch02/solution_05.md "문제 5번 정답")
+### 문제 5 RAII 디자인 패턴
+RAII의 정의와 필요성에 대해서 설명해 보세요. 그리고 가비지 컬렉터와 비교해 어떤 장단점이 있는지 실제 사례를 들어 보세요.
+
+[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch14/solution_05.md "문제 5번 정답")
