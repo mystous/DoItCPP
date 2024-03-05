@@ -1,50 +1,32 @@
 ![](../../images/exercise_title.png "되새김문제")
 
-이번 장에서는 C++ 프로그래밍의 기본 문법인 변수와 연산자에 대해 알아보았습니다. 프로그래밍에서
-변수는 데이터를 저장하고 처리하는 데 사용되며, 연산자는 다양한 작업을 수행하는 데 도움이 됩니다.
-되새김 문제를 풀며 이번 장에서 배운 내용을 정리해 보세요.
+이번 장에서는 모던 C++에 새로 추가된 폴드 표현식, 3방향 비교 연산자, using 키워드와 함수에서 사용할 수 있는 각종 키워드까지 다양한 주제를 다뤘습니다. 다음 문제를 풀며 이번 장에서 배운 내용을 되새겨 보세요.
 
-### 문제 1 C++ 표준 입출력
-std::cout과 std::cin을 이용하여 이름을 입력받고, 이름이 포함된 환영 메시지를 출력하는 프로그램을 만들어 보세요.
+### 문제 1 동료들에게 필요한 함수 만들기
+여러분이 동료들과 함께 그래픽 처리를 위한 프로그램을 만들고 있습니다. 함께 일하는 동료를 위해 API를 만들고 있습니다. 이번에 만들 함수는 RGB 값 여러 개를 입력받아 R, G, B 각각의 평균값으로 계산해서 반환하는 함수입니다. RGB는 1개부터 무한대로 입력할 수 있습니다. 함수는 폴드 표현식을 사용해서 구현해 보세요.
 
-[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch02/solution_02.md "문제 1번 정답")
+[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch16/solution_01.md "문제 1번 정답")
 <br /><br />
 
-### 문제 2 데이터 형식
-정수형과 부동 소수점 형 변수를 선언하고 각각의 최댓값을 출력해 보세요.
+### 문제 2 그래픽 프로그램 업그레이드
+[문제 1]에서 만든 API를 활용하다 보니 R, G, B 값을 따로 입력받지 않고 #0F0F0F 형태의 문자열로 입력하게 변경해 달라는 요청을 받았습니다. 새로운 요청에 맞는 API를 만들면서 호출하는 모든 소스 코드를 찾아서 고치는 것이 시간이 너무 많이 걸린다는 것을 알았습니다. 신규 API만 남기고 예전 API는 이제 사용 되지 않는다는 것을 컴파일 단계에서 알리고 싶습니다. 여러분의 동료와 자신을 위해서 API를 고쳐 보세요.
 
-[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch02/solution_02.md "문제 2번 정답")
+[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch16/solution_02.md "문제 2번 정답")
 <br /><br />
 
-### 문제 3 변수의 유효 범위와 형식 변환
-다음 코드에서 컴파일 오류가 발생하는 부분이 있습니다. 위치와 원인을 설명해 보세요.
+### 문제 3 도서 리스트
+간단한 도서 관리 프로그램을 만들기 위해서 도서 목록을 std::vector로 구현했습니다. 컨테이너 내에 각 원소는 ‘책 제목’, ‘작가’, ‘출판 연도’, ‘정가’, ‘ISBN’, ‘대여 횟수’를 저장할 수 있는 도서 클래스 객체입니다. 또한 정렬을 위해 3방항 비교 연산자를 만들려고 합니다. 비교 기준은 1순위 출판 연도, 2순위 ISBN, 3순위 대여 횟수입니다. 오름차순으로 정렬하는 3방항 비교 연산자를 도서 클래스에 포함된 연산자로 오버로딩 해 보세요. 1순위가 같으면 2순위를 비교하고, 2순위가 같으면 3순위를 비교하고 1, 2, 3순위가 모두 같으면 약한 비교로 동등을 반환합니다.
 
-```cpp
-int outer_variable = 10;
-{
-  int inner_variable = 5;
-  std::cout << "Inner Variable: " << inner_variable << std::endl;
-  std::cout << "Outer Variable: " << outer_variable << std::endl;
-}
-std::cout << "Inner Variable: " << inner_variable << std::endl;
-```
-
-[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch02/solution_03.md "문제 3번 정답")
+[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch16/solution_03.md "문제 3번 정답")
 <br /><br />
 
-### 문제 4 키워드와 리터럴
-다음처럼 이름이 있는 심볼릭 상수는 L-value일까요? 답과 그 이유를 간단하게 설명해 보세요.
-```cpp
-const double PI = 3.14159;
-```
+### 문제 4 도서 목록 갱신
+[문제 3]에서 만든 도서 목록을 갱신하고자 합니다. 먼저 클래스에 분류를 추가합니다. 분류는 ‘novel’, ‘fiction’, ‘non-fiction’, ‘sf’, ‘essay’이며, 유지·보수 편의를 위해 클래스 외부에서 열거형으로 정의해서 클래스 내부에서 정의한 것처럼 사용하고자 합니다. 분류 역시 클래스 멤버로 추가합니다.
 
-[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch02/solution_04.md "문제 4번 정답")
+[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch16/solution_04.md "문제 4번 정답")
 <br /><br />
 
-### 문제 5 표현식과 연산자
-다음 코드에서 문제가 발생할 수 있는 부분을 찾고 개선된 코드로 만들어 보세요.
-```cpp
-int a = 10, b = 3;
-float result_1 = a / b;
-```
-[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch02/solution_05.md "문제 5번 정답")
+### 문제 5 도서 클래스 확장
+앞선 문제에서 만든 도서 클래스를 동료와 함께 협업하기로 했습니다. 동료는 도서 클래스를 상속받아서 개발합니다. 그리고 클래스가 더 이상 상속되지 않도록 막으려고 합니다. 또한 도서 클래스의 멤버 변수를 생성자에서 지정할 수 있게 추가하면서 기본 생성자도 사용하고 싶습니다. 기본 생성자를 사용할 때 멤버 변수 초기화가 되었으면 합니다. 이 외에도 상속 과정에서 발생할 수 있는 여러분의 요구 사항을 추가하여 도서 클래스를 확장해 보세요.
+
+[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch16/solution_05.md "문제 5번 정답")
