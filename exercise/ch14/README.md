@@ -20,8 +20,8 @@ constexpr을 사용하는 함수와 일반 함수를 사용하는 코드를 자�
 [모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch14/solution_03.md "문제 3번 정답")
 <br /><br />
 
-### 문제 4 퀵 정렬 만들어 보기
-표준 라이브러리에서 퀵 정렬을 수행하는 qsort 함수는 데이터를 비교하는 compare 함수를 콜백으로 입력받습니다. 비슷한 형식으로 여러분이 직접 퀵 정렬 알고리즘을 만들어 보세요. 이때 콜백 함수는 std::function을 사용합니다.
+### 문제 4 정렬 만들어 보기
+표준 라이브러리에서 정렬을 수행하는 sort 함수는 데이터를 비교하는 compare 함수를 콜백으로 입력받습니다. 비슷한 형식으로 여러분이 직접 정렬 알고리즘을 만들어 보세요. 이때 콜백 함수는 std::function을 사용합니다.
 
 [모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch14/solution_04.md "문제 4번 정답")
 <br /><br />
