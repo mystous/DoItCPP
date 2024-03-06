@@ -1,23 +1,44 @@
-### 문제 1 C++ 언어의 특징
-C++ 언어의 특징을 장점 위주로 작성해 보세요.
+### 문제 1 자료형을 추론하는 auto
+auto는 모던 C++의 작지만 영향력이 큰 변화 중 한 가지입니다. 도서 목록을 저장하고 불러올 수 있는 C++ 프로그램을 작성하면서 auto와 범위 기반 for 문을 사용해 보세요.
 <br/><br/>
 
 ---
 
 #### 모범 답안
 ##### 답안
-###### (01-1 참조)
-C++는 고수준의 언어 이면서도 메모리 직접 접근이 가능하여 높은 성능을 얻을 수 있는 프로그래밍 언어 입니다. 다양한 특징이 있지만 언어를 창시한 스트롭스트룹
-은 자신의 논문에서 밝힌 주요 특징은 다음과 같습니다.
-<ul>
-  <li><b>낮은 수준 액세스와 추상화</b> C++는 C 언어처럼 시스템에 직접 접근할 수 있고, Simula처럼 데이터를 추상화하여 접근할 수 있도록 했습니다.</li>
-  <li><b>유용한 도구</b> C++는 범용 언어로 애플리케이션 개발은 물론, 시스템에 접근하여 하드웨어를 직접 다룰 수도 있습니다.</li>
-  <li><b>시점</b> C++는 객체지향 프로그래밍을 지원하는 첫 번째 언어는 아니었지만, 언어 특유의 범용성 덕분에 출시부터 실제 문제를 해결하는 유용한 도구로 사용되었습니다.</li>
-  <li><b>비독점</b> AT&T 벨 연구소는 C++ 개발 이후 소유권을 독점하지 않았습니다. C++가 외부에서 개발되는 것을 장려하고 1989년 이후에는 모든 권리를 표준 기구로 이양했습니다.</li>
-  <li><b>안정성</b> 초기 배포부터 C 언어와 호환성, 안정성을 확보했으며 이후에도 높은 호환성과 안정성을 유지하기 위해 표준화 과정을 충실하게 수행했습니다.</li>
-  <li><b>발전</b> 예외 처리, 템플릿, STL 같은 새로운 기능이 C++ 전반에 걸쳐 계속 추가되었습니다.</li>
-</ul>
+```cpp
+#include <iostream>
+#include <vector>
+using namespace std;
 
-_위 답안이 아니더라도 C++언어의 특징을 잘 설명한 답도 괜찮습니다._
+class library {
+public:
+  void print_book_list();
+  void add_book(string title) { book_list.push_back(title); };
+private:
+  vector<string> book_list;
+};
+
+void library::print_book_list() {
+  cout << "책 리스트 출력:" << endl;
+  for (auto&& title : book_list) {
+    cout << title << endl;
+  }
+}
+
+int main()
+{
+  library book_manager;
+
+  book_manager.add_book("내일을 향해 달리다.");
+  book_manager.add_book("바람과 함께 슁슁");
+  book_manager.add_book("성공하는 사람들의 7가지 속삭임");
+  book_manager.add_book("1980년대");
+
+  book_manager.print_book_list();
+
+  return 0;
+}
+```
 
 [문제로 돌아 가기](README.md "문제로 돌아 가기")
