@@ -3,7 +3,7 @@
 ```cpp
 int &ref_invalid_value;
 ```
-<br/><br/>
+<br/>
 
 ---
 
