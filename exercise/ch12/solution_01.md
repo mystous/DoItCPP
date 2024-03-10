@@ -1,3 +1,24 @@
+#### 문제 1 벡터 다루기
+다음 코드처럼 정수로 구성된 벡터가 주어졌을 때 홀수만 모두 제거하고 짝수만 남은 벡터를 출력하는 코드를 작성해 보세요.
+```cpp
+#include <iostream>
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+
+int main() {
+  vector<int> numbers = { 2, 7, 1, 8, 3, 6, 4, 5, 9 };
+
+  // 홀수를 제거하고 짝수만 남은 벡터를 출력하는 코드를 작성해 보세요.
+
+  return 0;
+}
+```
+<br/>
+
+---
+
 #### 모범 답안 과 설명
 ##### 답안
 ```cpp
@@ -45,4 +66,6 @@ num 변수가 짝수인지 검사합니다. 짝수는 2로 나눈 나머지가 0
 <li>evenNumbers.push_back(num)
 num 변수가 짝수라면 evenNumbers 벡터에 추가합니다.</li>
 <li>for (int num : evenNumbers)
-evenNumbers 벡터를 순회하며 각 숫자를 num 변수에 저장합니다.</li>
+evenNumbers 벡터를 순회하며 각 숫자를 num 변수에 저장합니다.</li><br>
+
+[문제로 돌아 가기](README.md "문제로 돌아 가기")
