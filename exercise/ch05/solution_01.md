@@ -1,3 +1,19 @@
+#### 문제 1 try, catch, throw 문 이해하기
+다음 코드를 바탕으로 try, catch, throw 문을 이용해 예외를 처리해 보세요.
+```cpp
+int main() {
+  int divisor = 0;
+
+  // 여기에 예외 처리를 추가해 보세요.
+  int result = 10 / divisor;
+  std::cout << "결과: " << result << std::endl;
+  return 0;
+}
+```
+<br/>
+
+---
+
 #### 모범 답안 과 설명
 ##### 답안
 ```cpp
@@ -25,4 +41,6 @@ int main() {
 <li>throw 키워드: 예외를 발생시킵니다.</li>
 <li>catch 블록: 특정 유형의 예외가 발생했을 때 처리 코드를 담습니다.</li>
 <li>std::runtime_error: 런타임 오류를 나타내는 예외 클래스입니다.</li>
-<li>e.what(): 예외 메시지를 출력합니다.</li>
+<li>e.what(): 예외 메시지를 출력합니다.</li><br>
+
+[문제로 돌아 가기](README.md "문제로 돌아 가기")

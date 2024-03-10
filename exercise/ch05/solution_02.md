@@ -1,3 +1,21 @@
+#### 문제 2 예외 처리 생략과 실패 대응
+다음 코드에서 try, catch 문으로 예외를 처리하고 생략된 예외와 실패에 대응하는 코드를 작성해 보세요.
+```cpp
+void process(int value) {
+  // value가 음수인 경우 예외를 던지도록 처리
+  // 예외가 발생하면 "예외 발생!" 출력, 발생하지 않으면 value 출력
+}
+
+int main() {
+  process(10);
+  process(-5);
+  return 0;
+}
+```
+<br/>
+
+---
+
 #### 모범 답안 과 설명
 ##### 답안
 ```cpp
@@ -30,4 +48,6 @@ int main() {
 <li>process() 함수에서 try-catch 구문을 사용하여 예외를 처리합니다.</li>
 <li>std::runtime_error: 런타임 오류를 나타내는 예외 클래스입니다.</li>
 <li>e.what(): 예외 메시지를 출력합니다.</li>
-<li>catch (...): 마지막 catch 블록은 모든 예외를 처리합니다.</li>
+<li>catch (...): 마지막 catch 블록은 모든 예외를 처리합니다.</li><br>
+
+[문제로 돌아 가기](README.md "문제로 돌아 가기")
