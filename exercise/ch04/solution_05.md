@@ -9,9 +9,15 @@ int result = a + b;
 
 #### 모범 답안 과 설명
 ##### 답안
-- 표현식: a + b
-  a + b는 두 변수 a와 b의 값을 더하는 표현식입니다.
-- 구문: int result = a + b;
+- 표현식
+  ```cpp
+  a + b;
+  ```
+  a + b는 두 변수 a와 b의 값을 더하는 표현식입니다.<br><Br>
+- 구문
+  ```cpp
+  int result = a + b;
+  ```
   int result = a + b;는 a + b 표현식의 결과를 result 변수에 저장하는 구문입니다.
 </br>
 
