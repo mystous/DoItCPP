@@ -6,7 +6,8 @@
 
 
 #### 모범 답안
-##### [답안]
+![](flight.png)
+##### 답안
 ```cpp
 #include <iostream>
 #include <vector>
