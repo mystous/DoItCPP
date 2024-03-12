@@ -12,4 +12,101 @@
 
 다중 상속으로 거대 클래스가 되면 거대 클래스가 된 클래스는 작은 수정이 있을 때도 늘 수정하게 됩니다. 유지보수성을 높이기 위해서는 클래스는 최소한의 역할을 수행해야 하며, 가능한 논리적으로 한 종류의 역할을 해야 합니다.
 
+##### 몬스터 클래스 수정 (ch07/op_overload_different_class/op_overload_different_class.cpp 수정)
+```cpp
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+class character {
+public:
+  character() : hp(100), power(100), location{ 0,0 }, level(1) {
+  };
+  void move(int x, int y) {};
+  void move(int x[], int y[], int spot_count) {}
+  void get_damage(int _damage) {};
+  int get_hp() { return hp; };
+  int get_level() { return level; };
+  void set_level(int lv) { level = lv; };
+  void set_hp(int new_hp) { hp = new_hp; };
+
+protected:
+  int hp;
+  int power;
+  int location[2];
+  int level;
+};
+
+class player : public character {
+public:
+  player() {};
+};
+
+//기본 Monster 클래스
+class monster {
+public:
+  void attack(player target_player) {};
+  virtual void attack_special(player target_player);
+};
+
+void monster::attack_special(player target_player) {
+  cout << "기본 공격 : 데미지 - 10 hp" << endl;
+}
+
+//몬스터 C는 기본 Monster 클래스로부터 상속
+class monster_c : public monster {
+public:
+  //상속받은 함수 오버라이딩
+  void attack_special(player target_player) override;
+  monster_c operator+(monster_c& operand);
+  monster_c operator+(player& operand);
+  void set_level(int level_value) { body.set_level(level_value); };
+  void set_hp(int hp_value) { body.set_hp(hp_value); };
+  int get_level() { return body.get_level(); };
+  int get_hp() { return body.get_hp(); };
+  character body;
+};
+
+monster_c monster_c::operator+(monster_c& operand) {
+  monster_c result_monster;
+  result_monster.set_level(body.get_level() + operand.get_level());
+  return result_monster;
+}
+
+monster_c monster_c::operator+(player& operand) {
+  monster_c result_monster;
+  result_monster.set_hp(body.get_hp() + operand.get_hp());
+  return result_monster;
+}
+
+void monster_c::attack_special(player target_player) {
+  cout << "강력 뇌전 공격 : 데미지 - 100 hp" << endl;
+}
+
+int main() {
+
+  monster_c monster_c_obj1, monster_c_obj2;
+  monster_c_obj2.set_level(2);
+  player player1;
+  monster_c new_monster_c_obj = monster_c_obj1 + monster_c_obj2;
+
+  cout << "Player 합체 전 몬스터C HP[" << new_monster_c_obj.get_hp()
+    << "]" << endl;
+
+  new_monster_c_obj = new_monster_c_obj + player1;
+
+  cout << "Player 합체 후 몬스터C HP[" << new_monster_c_obj.get_hp()
+    << "]" << endl;
+
+  return 0;
+}
+```
+#### 실행결과
+```
+Player 합체 전 몬스터C HP[100]
+Player 합체 후 몬스터C HP[200]
+```
+실행결과가 수정 전과 동일한 것을 알 수 있습니다. monster_c 클래스는 이중 상속을 단일 상속으로 바꾸고 character 클래스를 어그리게이션으로 가지고 포함하었습니다.
+
 [문제로 돌아 가기](README.md "문제로 돌아 가기")
