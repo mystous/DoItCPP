@@ -59,24 +59,28 @@ class monster_c : public monster {
 public:
   //상속받은 함수 오버라이딩
   void attack_special(player target_player) override;
+  void set_body(character* object) { body = object; };
   monster_c operator+(monster_c& operand);
   monster_c operator+(player& operand);
-  void set_level(int level_value) { body.set_level(level_value); };
-  void set_hp(int hp_value) { body.set_hp(hp_value); };
-  int get_level() { return body.get_level(); };
-  int get_hp() { return body.get_hp(); };
-  character body;
+  void set_level(int level_value) { body->set_level(level_value); };
+  void set_hp(int hp_value) { body->set_hp(hp_value); };
+  int get_level() { return body->get_level(); };
+  int get_hp() { return body->get_hp(); };
+  character* return_body() { return body; };
+  character* body = nullptr;
 };
 
 monster_c monster_c::operator+(monster_c& operand) {
   monster_c result_monster;
-  result_monster.set_level(body.get_level() + operand.get_level());
+  result_monster.set_body(body);
+  result_monster.set_level(body->get_level() + operand.get_level());
   return result_monster;
 }
 
 monster_c monster_c::operator+(player& operand) {
   monster_c result_monster;
-  result_monster.set_hp(body.get_hp() + operand.get_hp());
+  result_monster.set_body(body);
+  result_monster.set_hp(body->get_hp() + operand.get_hp());
   return result_monster;
 }
 
@@ -87,6 +91,10 @@ void monster_c::attack_special(player target_player) {
 int main() {
 
   monster_c monster_c_obj1, monster_c_obj2;
+  character body1, body2;
+
+  monster_c_obj1.set_body(&body1);
+  monster_c_obj2.set_body(&body2);
   monster_c_obj2.set_level(2);
   player player1;
   monster_c new_monster_c_obj = monster_c_obj1 + monster_c_obj2;
