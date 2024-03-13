@@ -16,7 +16,7 @@ player, character, monster는 각각 다른 성격의 객체를 추상화한 클
 
 ###### OCP
 ![](ocp.png)
-character는 monster 클래스에 어그리게이션과 컴포지션으로 포함되어 있고, player는 탈것과 무기를 컴포지션으로 포함하고 있습니다.
+character는 monster 클래스에 어그리게이션과 컴포지션으로 포함되어 있고, player는 탈것과 무기를 어그리게이션으로 포함하고 있습니다.
 
 ###### LSP
 ![](lsp.png)
