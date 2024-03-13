@@ -10,15 +10,19 @@
 ![](coffee_shop.png)
 ```cpp
 #include <iostream>
+#include <vector>
 using namespace std;
 
-class coffee_shop{
+class coffee_shop {
 public:
   void order_coffee();
+  void set_name(string shop_name) { name = shop_name; };
+  string get_name() { return name; };
 protected:
   virtual void receiving_order() = 0;
   virtual void making_coffee() = 0;
   virtual void serving() = 0;
+  string name;
 };
 
 void coffee_shop::order_coffee() {
@@ -73,32 +77,40 @@ int main()
   self_serving self_coffee_shop;
   franchise coffee_love;
   small_shop our_coffe;
+  vector<coffee_shop*> coffee_shop_list;
 
-  cout << ">>무인매장<<" << endl;
-  self_coffee_shop.order_coffee();
- 
-  cout << endl << ">>프랜차이즈<<" << endl;
-  coffee_love.order_coffee();
+  self_coffee_shop.set_name("무인매장");
+  coffee_shop_list.push_back(&self_coffee_shop);
 
-  cout << endl << ">>로컬 커피<<" << endl;
-  our_coffe.order_coffee();
+  coffee_love.set_name("프랜차이즈");
+  coffee_shop_list.push_back(&coffee_love);
+
+  our_coffe.set_name("로컬 커피");
+  coffee_shop_list.push_back(&our_coffe);
+
+  for (auto&& shop : coffee_shop_list) {
+    cout << endl << ">> " << shop->get_name() << " << " << endl;
+    shop->order_coffee();
+  }
+
   return 0;
 }
 ```
 
 실행결과
 ```
->>무인매장<<
+
+>> 무인매장 <<
 키오스크로 주문 받기
 기계에서 자동으로 만들기
 기계에서 꺼내가기
 
->>프랜차이즈<<
+>> 프랜차이즈 <<
 점원이 직접 주문 받기
 바리스타의 커피 만들기
 이름 부르면서 커피 전달하기
 
->>로컬 커피<<
+>> 로컬 커피 <<
 자리에서 커피 주문 받기
 카페 주인이 직접 커피 내리기
 자리로 커피 가져다 주기
