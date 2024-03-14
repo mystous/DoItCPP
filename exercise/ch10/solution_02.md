@@ -58,6 +58,25 @@ bool is_equal(T operand1, T operand2) {
 }
 
 template<>
+bool is_equal(bool operand1, bool operand2) {
+  bool result_value = false;
+  switch (operand1) {
+  case true:
+    if (true == operand2) {
+      result_value = true;
+    }
+    break;
+  case false:
+    if (false == operand2) {
+      result_value = true;
+    }
+    break;
+  }
+  return result_value;
+}
+
+
+template<>
 bool is_equal(float operand1, float operand2  ) {
   return compare_floating_point(abs(operand1-operand2));
 }
@@ -94,6 +113,7 @@ int main()
   cout.precision(9);
   cout << "double 비교: " << double1 << " vs " << double2 << " is - " << is_equal(double1, double2) << endl;
   cout << "string 비교: '" << string1 << "' vs '" << string2 << "' is - " << is_equal(string1, string2) << endl;
+
 
   return 0;
 }
