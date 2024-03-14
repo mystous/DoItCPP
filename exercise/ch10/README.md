@@ -11,12 +11,31 @@
 ### 문제 2 함수 템플릿 #2
 템플릿을 이용해서 is_equal(T data1, T data2) 함수를 만들어 보세요. 이 함수 템플릿은 다음과 같은 규칙으로 data1, data2가 같은 값임을 판단합니다. 이외의 데이터 형식은 false를 반환합니다. is_equal 함수를 호출할 때 data1, data2에는 같은 데이터 형식의 값을 입력한다고 가정합니다.
 
-|데이터 형식|같읕 값 판단 기준|
-|:---:|---|
-|bool|data1과 data2의 논릿값이 true나 false로 같을 때|
-|int|data1 == data2 연산이 참일 때|
-|float<br/>double |data1 - data2 연산의 절댓값이 0.000001 이하일 때|
-|string|영문으로만 국한해서 빈칸과 문장 부호는 무시하고 대·소문자 구별 없이 문장 안에 모든 알파벳의 개수와 순서가 같을 때|
+<table>
+  <tr>
+    <td>데이터 형식</td>
+    <td>같읕 값 판단 기준</td>
+  </tr>
+  <tr>
+    <td>bool</td>
+    <td>data1과 data2의 논릿값이 true나 false로 같을 때</td>
+  </tr>
+  <tr>
+    <td>int</td>
+    <td>data1 == data2 연산이 참일 때</td>
+  </tr>
+  <tr>
+    <td>float</td>
+    <td rowspan=2>data1 - data2 연산의 절댓값이 0.000001 이하일 때</td>
+  </tr>
+  <tr>
+    <td>double</td>
+  </tr>
+  <tr>
+    <td>string</td>
+    <td>영문으로만 국한해서 빈칸과 문장 부호는 무시하고 대·소문자 구별 없이 문장 안에 모든 알파벳의 개수와 순서가 같을 때</td>
+  </tr>
+</table>
 
 [모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch10/solution_02.md "문제 2번 정답")
 <br /><br />
