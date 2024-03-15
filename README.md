@@ -1,12 +1,14 @@
-# DoItCPP
+# Do It! C++ 완전 정복
 
 
-이 Git Repository는 이지스퍼블리싱의 __Do It!__ 시리즈인 __Do It! C++입문__ 서적의 Source Code 파일 및 정오표등을 제공하기 위한 Repository 입니다.
+이 Git Repository는 이지스퍼블리싱의 __Do It!__ 시리즈인 __Do It! C++ 완전 정복__ 서적의 Source Code 파일 및 정오표등을 제공하기 위한 Repository 입니다.
 
 <img src="images/cover.png" width="439px" height="600px"></img>
 - [Coding Convention (소스 코드 작성 규칙)](CodingConvention.md)
 
-## 소스코드
+### [예제 소스코드](https://github.com/mystous/DoItCPP/tree/master/sample_code)
+### [정오표](erratum/README.md)
+## 목차
 ### 첫째마당 C++ 프로그래밍 기초
 #### 01장 C++ 프로그래밍 시작하기
 #### 02장 변수와 연산자
