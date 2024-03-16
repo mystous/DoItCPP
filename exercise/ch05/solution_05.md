@@ -149,7 +149,7 @@ int main() {
 12번 만에 맞추셨습니다. :)
 ```
 
-<li>random_device, mt19937, uniform_int_distribution을 사용하여 1부터 100까지의 랜덤 숫자를 생성합니다.
+<li>random_device, mt19937, uniform_int_distribution을 사용하여 1부터 100까지의 랜덤 숫자를 생성합니다.<br>
 관련 부분이 궁금하다면, 11-4 기타 유용한 함수를 난수 부분을 참고해주세요. </li>
 <li>사용자가 입력한 숫자가 1부터 100 사이의 범위에 있는지 확인합니다.
 범위를 벗어나는 경우 out_of_range 예외를 던지도록 하였습니다.</li>
