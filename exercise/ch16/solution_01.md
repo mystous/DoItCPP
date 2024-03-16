@@ -1,23 +1,72 @@
-### 문제 1 C++ 언어의 특징
-C++ 언어의 특징을 장점 위주로 작성해 보세요.
+### 동료들에게 필요한 함수 만들기
+여러분이 동료들과 함께 그래픽 처리를 위한 프로그램을 만들고 있습니다. 함께 일하는 동료를 위해 API를 만들고 있습니다. 이번에 만들 함수는 RGB 값 여러 개를 입력받아 R, G, B 각각의 평균값으로 계산해서 반환하는 함수입니다. RGB는 1개부터 무한대로 입력할 수 있습니다. 함수는 폴드 표현식을 사용해서 구현해 보세요.
 <br/><br/>
 
 ---
 
 #### 모범 답안
 ##### 답안
-###### (01-1 참조)
-C++는 고수준의 언어 이면서도 메모리 직접 접근이 가능하여 높은 성능을 얻을 수 있는 프로그래밍 언어 입니다. 다양한 특징이 있지만 언어를 창시한 스트롭스트룹
-은 자신의 논문에서 밝힌 주요 특징은 다음과 같습니다.
-<ul>
-  <li><b>낮은 수준 액세스와 추상화</b> C++는 C 언어처럼 시스템에 직접 접근할 수 있고, Simula처럼 데이터를 추상화하여 접근할 수 있도록 했습니다.</li>
-  <li><b>유용한 도구</b> C++는 범용 언어로 애플리케이션 개발은 물론, 시스템에 접근하여 하드웨어를 직접 다룰 수도 있습니다.</li>
-  <li><b>시점</b> C++는 객체지향 프로그래밍을 지원하는 첫 번째 언어는 아니었지만, 언어 특유의 범용성 덕분에 출시부터 실제 문제를 해결하는 유용한 도구로 사용되었습니다.</li>
-  <li><b>비독점</b> AT&T 벨 연구소는 C++ 개발 이후 소유권을 독점하지 않았습니다. C++가 외부에서 개발되는 것을 장려하고 1989년 이후에는 모든 권리를 표준 기구로 이양했습니다.</li>
-  <li><b>안정성</b> 초기 배포부터 C 언어와 호환성, 안정성을 확보했으며 이후에도 높은 호환성과 안정성을 유지하기 위해 표준화 과정을 충실하게 수행했습니다.</li>
-  <li><b>발전</b> 예외 처리, 템플릿, STL 같은 새로운 기능이 C++ 전반에 걸쳐 계속 추가되었습니다.</li>
-</ul>
+```cpp
+#include <iostream>
 
-_위 답안이 아니더라도 C++언어의 특징을 잘 설명한 답도 괜찮습니다._
+using namespace std;
+
+class RGB {
+public:
+  RGB(int r_value, int g_value, int b_value) : r(r_value), g(g_value), b(b_value){};
+  void print() { cout << "R(" << r << "), G(" << g << "), B(" << b << ")" << endl; };
+private:
+  int r, g, b;
+  friend class graphic_object;
+};
+
+class graphic_object {
+public:
+  template<typename RGB>
+  void build_rgb(RGB rgb_value) {
+    average_rgb.r += rgb_value.r;
+    average_rgb.g += rgb_value.g;
+    average_rgb.b += rgb_value.b;
+    count++;
+    average_rgb.r /= count;
+    average_rgb.g /= count;
+    average_rgb.b /= count;
+
+  };
+  template<typename RGB, typename... RGBs>
+  void build_rgb(RGB rgb_value, RGBs... rgb_list) {
+    average_rgb.r += rgb_value.r;
+    average_rgb.g += rgb_value.g;
+    average_rgb.b += rgb_value.b;
+    count++;
+    build_rgb(rgb_list...);
+  }
+  RGB get_average_rgb() { return average_rgb; };
+private:
+  RGB average_rgb = RGB(0, 0, 0);
+  int count = 0;
+};
+
+int main()
+{
+  graphic_object graphic;
+  RGB rgb1(127, 231, 23), rgb2(0, 17, 123), rgb3(12, 123, 0), rgb4(7, 31, 230), rgb5(56, 22, 255);
+
+  graphic.build_rgb(rgb1, rgb2, rgb3, rgb4, rgb5);
+  RGB result = graphic.get_average_rgb();
+  result.print();
+
+  return 0;
+}
+```
+* RGB 클래스의 private 멤버를 소스코드 간결성을 위하여 graphic_object를 friend class로 선언하였습니다. 일반적인 코드에서는 꼭 필요한 경우만 friend class로 선언해 주세요.
+###### 실행 결과
+```
+R(40), G(84), B(126)
+```
+##### 설명
+제일 중심이 되는 함수는 build_rgb입니다. 매개변수 팩이 들어 오면 처리 하는 두가지 종류의 함수로 되어 있습니다. 중간 RGB는 평균 값 계산을 위하여 더해 놓고 가장 마지막에 평균을 냅니다.
+
+재귀적으로 호출되는 함수와 말단 함수의 모양을 잘 살펴 보세요.
 
 [문제로 돌아 가기](README.md "문제로 돌아 가기")
