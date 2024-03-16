@@ -54,3 +54,63 @@ int main() {
 
 [모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch05/solution_03.md "문제 3번 정답")
 <br /><br />
+
+### 문제 4 예외 처리 실전 연습 1
+사용자에게 월과 일을 입력받아 해당하는 날짜의 계절을 출력하는 프로그램을 만들어 보세요.
+• 3-5월까지는 봄, 6-8월까지는 여름, 9-11월까지는 가을, 12-2월까지는 겨울
+• 월과 일을 입력받을 때 범위를 벗어나는 경우 std::out_of_range 예외 발생
+
+```cpp
+//출력 예시
+월을 입력하세요: 3
+일을 입력하세요: 20
+입력하신 날짜의 계절은 봄입니다.
+```
+
+[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch05/solution_04.md "문제 4번 정답")
+<br /><br />
+
+### 문제 5 예외 처리 실전 연습 2
+숫자 맞히기 게임을 만들고 있습니다. 게임은 다음과 같은 규칙으로 동작해야 합니다.<br>
+1. 1부터 100까지 무작위 숫자를 생성합니다.
+2. 사용자에게 숫자를 입력하도록 요청합니다.
+3. 사용자가 입력한 숫자가 랜덤 숫자보다 크면 “너무 높아요!”, 작으면 “너무 낮아요!”라고 알려 줍니다.
+4. 사용자가 랜덤 숫자를 맞힐 때까지 2~3번 과정을 반복합니다.
+5. 사용자가 랜덤 숫자를 맞히면 “축하합니다!” 메시지를 출력합니다.  <br>
+
+1번을 포함한 기본 코드는 다음처럼 구현했습니다.
+이제 여러분이 2번부터 5번까지 직접 코드를 작성해 보세요.
+만약 사용자가 범위를 벗어나는 숫자를 입력하면
+“1부터 100 사이의 숫자를 입력해 주세요!”라는 메시지를 출력한 후
+다시 숫자를 입력하도록 요청합니다.
+ 
+
+```cpp
+#include <iostream>
+#include <random>
+
+int main() {
+  // 1부터 100까지 랜덤 숫자 생성
+  std::random_device rd;
+  std::mt19937 gen(rd());
+  std::uniform_int_distribution<> dist(1, 100);
+  int answer = dist(gen);
+
+  // 게임 시작
+  bool is_correct = false;
+  while (!is_correct) {
+    try {
+      // 정답 코드 작성 영역
+    }
+    catch (const std::exception& e) {
+      // 예외 발생 시 메시지 출력
+      std::cerr << e.what() << std::endl;
+    }
+  }
+
+  return 0;
+}
+```
+
+[모범 답안](https://github.com/mystous/DoItCPP/tree/main/exercise/ch05/solution_05.md "문제 5번 정답")
+<br /><br />
