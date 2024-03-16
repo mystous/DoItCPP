@@ -35,4 +35,6 @@ int main() {
   vec.erase(vec.begin() + 3);         // vec[3] 제거
   cout << "erase 결과" << endl;
   print_vector_all(vec);
+
+  return 0;
 }

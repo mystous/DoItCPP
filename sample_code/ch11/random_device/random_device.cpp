@@ -10,4 +10,6 @@ int main() {
     auto result = rng();
     cout << result << endl;
   }
+
+  return 0;
 }

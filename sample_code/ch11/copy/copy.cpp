@@ -66,4 +66,6 @@ int main() {
   cout << "-----to_vector-----" << endl;
   print_person_all(to_vector);
   cout << endl;
+
+  return 0;
 }

@@ -35,4 +35,6 @@ int main() {
   // 문자열 시작 지점부터 'k' 탐색
   n = str.find('k');
   check_found(n);
+
+  return 0;
 }

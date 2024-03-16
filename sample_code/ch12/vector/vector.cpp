@@ -12,4 +12,6 @@ int main() {
   for (int i = 0; i < 3; i++) {
     cout << "vec 의 " << i + 1 << " 번째 원소 : " << vec[i] << endl;
   }
+
+  return 0;
 }

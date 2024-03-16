@@ -20,4 +20,6 @@ int main() {
   const_it = vec.cend();
   --const_it;
   cout << *const_it << endl;
+
+  return 0;
 }
