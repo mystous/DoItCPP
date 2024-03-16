@@ -39,7 +39,7 @@ int main() {
     int pass_numbers = 0;
     for (auto&& score : student_score_list) {
       double average = (score.korean + score.english + score.math + score.science) / 4.0;
-      if (average >= 80) {
+      if (average >= 80 && score.korean >= 65 && score.english >= 65 && score.math >= 65 && score.science >= 65) {
         pass_numbers++;
       }
     }
@@ -53,7 +53,7 @@ int main() {
 ```
 ###### 실행결과
 ```
-합격자 수: 193
+합격자 수: 117
 ```
 * 합격자 수는 점수가 난수로 만들어졌기 때문에 매번 변경 됩니다.
 ##### 설명
