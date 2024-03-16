@@ -57,6 +57,9 @@ int main() {
   mt19937 gen(rd());
   uniform_int_distribution<> dist(1, 100);
   int answer = dist(gen);
+
+  // *문제와는 상관없지만, 게임의 재미를 위해 추가하였습니다.
+  // 몇 번만에 숫자 맞하기를 성공하는지 카운트하기 위해 활용되는 변수입니다. :)
   int count = 0;
 
   // 게임 시작
@@ -70,7 +73,7 @@ int main() {
       cin >> guess;
 
       // *숫자가 아닌 입력이 발생하는지 확인
-      // *문제와는 상관없지만, 좀 더 어드밴스드한 것을 원하는 독자분들을 위해 특별히 추가한 부분입니다. :)
+      // *문제와는 상관없지만, 좀 더 어드밴스한 것을 원하는 독자분들을 위해 특별히 추가한 부분입니다. :)
       if (cin.fail()) {
         cin.clear(); // 입력 스트림의 상태를 초기화
         cin.ignore(numeric_limits<streamsize>::max(), '\n'); // 버퍼 비우기
