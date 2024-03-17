@@ -1,7 +1,8 @@
 # Do It! C++ 완전 정복
 
 
-이 Git Repository는 이지스퍼블리싱의 __Do It!__ 시리즈인 __Do It! C++ 완전 정복__ 서적의 Source Code 파일 및 정오표등을 제공하기 위한 Repository 입니다.
+이 Git Repository는 이지스퍼블리싱의 __Do It!__ 시리즈인 __Do It! C++ 완전 정복__ 서적의 Source Code 파일 및 정오표등을 제공하기 위한 Repository 입니다.<br/>
+본문 관련 질문이나 오류 사항은 [이슈 게시판](https://github.com/mystous/DoItCPP/issues)에 올려 주세요. 본문과 관련이 적은 개인/회사 과제 해결에 대해서는 답변이 늦거나 못 드릴 수 있습니다.
 
 <img src="images/cover.png" width="439px" height="600px"></img>
 - [Coding Convention (소스 코드 작성 규칙)](CodingConvention.md)
