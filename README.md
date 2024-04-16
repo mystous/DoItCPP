@@ -8,7 +8,7 @@
 - [Coding Convention (소스 코드 작성 규칙)](CodingConvention.md)
 
 ### [예제 소스코드](https://github.com/mystous/DoItCPP/tree/master/sample_code)
-### [정오표](erratum/README.md)
+### [정오표](https://github.com/mystous/DoItCPP/blob/master/erratum/erratum.csv)
 ## 목차
 ### 첫째마당 C++ 프로그래밍 기초
 #### 01장 C++ 프로그래밍 시작하기
