@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include <stdlib.h>
 #ifdef _WIN32
 #include <Windows.h>
@@ -40,8 +40,8 @@ class elec_engine : public engine {
 private:
   void acceleration_output() override { increasing_motor_speed(); };
   void reduce_output() override { decreasing_motor_speed(); };
-  void increasing_motor_speed() {};
-  void decreasing_motor_speed() {};
+  void increasing_motor_speed() { cout << "increasing_motor_speed" << endl; };
+  void decreasing_motor_speed() { cout << "decreasing_motro_speed" << endl; };
 };
 
 class break_system {
@@ -82,7 +82,7 @@ class cruise_controller {
 public:
   cruise_controller(sensor& sensor, accelerator& accelerator, break_system& break_system) :
     my_sensor(sensor), my_accelerator(accelerator), my_break_system(break_system) {
-    acceleration_adjusting_preriod = 1;
+    acceleration_adjusting_period = 1;
     user_target_speed = 0;
     keep_cruise = false;
   };
@@ -100,7 +100,7 @@ private:
   break_system& my_break_system;
 
   int user_target_speed;
-  int acceleration_adjusting_preriod;
+  int acceleration_adjusting_period;
   bool keep_cruise;
 };
 
@@ -113,7 +113,11 @@ void cruise_controller::do_cruise() {
     range = my_sensor.inquiring_range();
     current_speed = my_sensor.inquiring_current_speed();
     acceleration_adjusting(calculating_fit_speed(range, current_speed), user_target_speed);
-    Sleep(acceleration_adjusting_preriod);
+#ifdef _WIN32
+    Sleep(acceleration_adjusting_period);
+#else
+    sleep(acceleration_adjusting_period / 1000);
+#endif
     keep_cruise = false;
   }
 }
