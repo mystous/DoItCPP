@@ -5,5 +5,5 @@
 수정,1쇄,109,00000073894FFBA0,000000DFE48FF9E0,반영 전,
 수정,1쇄,477,tpo,top,반영 전,
 수정,1쇄,246,attack_special(palyer),attack_special(player),반영 전,
-조판,1쇄,262,location{0,0} 부분 폰트 불일치,location{0,0} 부분 폰트 통일,반영 전,
-조판,1쇄,267,location{0,0} 부분 폰트 불일치,location{0,0} 부분 폰트 통일,반영 전,
+조판,1쇄,262,'location{0,0} 부분 폰트 불일치','location{0,0} 부분 폰트 통일',반영 전,
+조판,1쇄,267,'location{0,0} 부분 폰트 불일치','location{0,0} 부분 폰트 통일',반영 전,
