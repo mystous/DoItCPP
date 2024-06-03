@@ -18,4 +18,4 @@
 수정,1쇄,86,2-7 그림 '<<' 연산 화살표,한 칸씩 앞으로 연결되도록 수정 필요 (별도 그림으로 편집자에게 전달 예정),반영 전,
 수정,1쇄,177,(맨 아래) after throw 1,after throw -1.0f,반영 전,
 수정,1쇄,181,(중간) after throw 1,after throw -1.0f,반영 전,
-수정,1쇄,70,char value = 'A',char value = 'A';',반영 전,
+수정,1쇄,70,char value = 'A',char value = 'A';,반영 전,
