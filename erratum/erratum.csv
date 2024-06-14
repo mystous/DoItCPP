@@ -20,4 +20,4 @@
 수정,1쇄,181,(중간) after throw 1,after throw -1.0f,반영 전,
 수정,1쇄,70,char value = 'A',char value = 'A';,반영 전,
 수정,1쇄,87,d = 00011010 : 0,d = 00000000 : 0,반영 전,
-수정,1쇄,223,engine class가 accelerator를 참고(사용함),engine class는 accelerator를 참고하지 않음,반영 전,
+수정,1쇄,223,engine class가 accelerator를 참고(사용함),engine class는 accelerator를 참고하지 않음,반영 전,그림 6-12
