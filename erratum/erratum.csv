@@ -22,3 +22,4 @@
 수정,1쇄,87,d = 00011010 : 0,d = 00000000 : 0,반영 전,
 수정,1쇄,223,engine class가 accelerator를 참고(사용함),engine class는 accelerator를 참고하지 않음,반영 전,그림 6-12
 수정,1쇄,217,정의을,정의를,반영 전,
+수정,1쇄,218,delete my_engine_pointer,delete my_engine_pointer;,반영 전,
