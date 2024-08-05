@@ -35,3 +35,4 @@
 수정,1쇄,267,,#include <string> 추가,반영 전,
 수정,1쇄,540,ch14/execution_policy/execution_policy.cpp,ch14/normal_ptr/normal_ptr.cpp,반영 전,
 수정,1쇄,541,ch14/execution_policy/execution_policy.cpp,ch14/unique_ptr/unique_ptr.cpp,반영 전,
+수정,1쇄,312,void attack_special(player target_player) override;,virtual void attack_special(player target_player) override;,반영 전,
