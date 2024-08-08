@@ -37,5 +37,5 @@
 수정,1쇄,541,ch14/execution_policy/execution_policy.cpp,ch14/unique_ptr/unique_ptr.cpp,반영 전,
 수정,1쇄,312,void attack_special(player target_player) override;,virtual void attack_special(player target_player) override;,반영 전,
 수정,1쇄,213,가상 함수 선언 코드에는 반전 없음,가상 함수 선언 코드 반전,반영 전,
-수정,1쇄,315,따라서,하지만, 가상함수를 활용했기 때문에,반영 전,
+수정,1쇄,315,따라서,'하지만, 가상함수를 활용했기 때문에',반영 전,
 수정,1쇄,316,..(생략)..,,반영 전,실행 결과에 생략된 결과가가 없기 때문에 해당 표기 삭제
