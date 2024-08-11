@@ -38,3 +38,4 @@
 수정,1쇄,312,void attack_special(player target_player) override;,virtual void attack_special(player target_player) override;,반영 전,
 수정,1쇄,315,따라서,"하지만, 가상함수를 활용했기 때문에",반영 전,
 수정,1쇄,316,..(생략)..,,반영 전,실행 결과에 생략된 결과가가 없기 때문에 해당 표기 삭제
+수정,1쇄,339,"멤버 변수, 멤버 함수 사용","정적 멤버 변수, "정적 멤버 함수 사용",반영 전,
